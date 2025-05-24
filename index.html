@@ -6,6 +6,15 @@
     <link rel="icon" type="image/svg+xml" href="https://upload.wikimedia.org/wikipedia/commons/0/02/Flag_of_Oregon_%28reverse%29.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Oregon Doom</title>
+
+    <!-- Google Analytics loader only (actual config is done in React hook) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PLACEHOLDER"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){ dataLayer.push(arguments); }
+      gtag('js', new Date());
+      // Don't put gtag('config', ...) here — it's handled in React using environment variable
+    </script>
   </head>
   <body class="bg-black text-doomGreen">
     <div id="root"></div>
