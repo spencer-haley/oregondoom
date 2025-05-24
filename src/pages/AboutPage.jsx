@@ -37,10 +37,7 @@ export default function AboutPage() {
 
         <h2 className="text-2xl text-doomGreen font-bold mt-10 mb-2">Open Source & Community Roots</h2>
         <p className="mb-4">
-          Oregon Doom is open source. All code, data structure, and deployment setup are publicly available here:
-          <br />
-          <a href="https://github.com/spencer-haley/oregondoom" target="_blank" rel="noopener noreferrer" className="underline text-doomGreen">
-            github.com/spencer-haley/oregondoom
+          Oregon Doom is open source. All code, data structure, and deployment setup are publicly available <a href="https://github.com/spencer-haley/oregondoom" target="_blank" rel="noopener noreferrer" className="underline text-doomGreen"> on GitHub.
           </a>
         </p>
 
