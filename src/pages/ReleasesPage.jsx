@@ -72,7 +72,7 @@ export default function ReleasesPage() {
               onChange={() => setDoomChartOnly(!doomChartOnly)}
             />
             <span className="text-sm">
-              <span className="underline text-doomOrange">Doom Charts</span> Featured Releases
+              <span className="underline text-doomGreen">Doom Charts</span> Featured Releases
             </span>
           </label>
         </div>

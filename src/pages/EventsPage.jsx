@@ -52,7 +52,7 @@ export default function EventsPage() {
         <div className="text-center mb-8">
           <h1 className="text-6xl font-metal text-doomGrey">Oregon Doom Events</h1>
           <p className="text-2xl text-doomGreen mt-2">
-            Upcoming doom and doom-adjacent events across Oregon
+            Upcoming doom and doom-adjacent events across or near Oregon
           </p>
         </div>
 
