@@ -4,12 +4,14 @@ import { db } from '../firebase';
 import Navbar from '../components/Navbar';
 
 const CURRENT_YEAR = 2025;
+const ITEMS_PER_PAGE = 12;
 
 export default function ReleasesPage() {
   const [releases, setReleases] = useState([]);
   const [year, setYear] = useState(CURRENT_YEAR);
   const [search, setSearch] = useState('');
   const [doomChartOnly, setDoomChartOnly] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(ITEMS_PER_PAGE);
 
   useEffect(() => {
     async function fetchReleases() {
@@ -32,10 +34,25 @@ export default function ReleasesPage() {
     return matchesYear && matchesSearch && matchesDoomChart;
   });
 
+  useEffect(() => {
+    const handleScroll = () => {
+      if (
+        window.innerHeight + window.scrollY >= document.body.offsetHeight - 500 &&
+        visibleCount < filtered.length
+      ) {
+        setVisibleCount(prev => prev + ITEMS_PER_PAGE);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [visibleCount, filtered.length]);
+
   const clearFilters = () => {
     setYear(CURRENT_YEAR);
     setSearch('');
     setDoomChartOnly(false);
+    setVisibleCount(ITEMS_PER_PAGE);
   };
 
   return (
@@ -96,7 +113,7 @@ export default function ReleasesPage() {
 
         {/* Release Cards */}
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
-          {filtered.map(release => (
+          {filtered.slice(0, visibleCount).map(release => (
             <div
               key={release.id}
               className="bg-black border border-gray-700 rounded-xl p-4 flex flex-col items-center text-center shadow-md"
@@ -123,6 +140,10 @@ export default function ReleasesPage() {
             </div>
           ))}
         </div>
+
+        {visibleCount < filtered.length && (
+          <p className="mt-10 text-center text-gray-500 animate-pulse">Loading more releases…</p>
+        )}
 
         {filtered.length === 0 && (
           <p className="mt-10 text-center text-gray-500">No releases found.</p>
