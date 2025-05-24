@@ -189,7 +189,7 @@ export default function EcosystemPage() {
         <div className="text-center mb-8">
           <h1 className="text-6xl font-metal text-doomGrey">Oregon Doom Ecosystem</h1>
           <p className="text-2xl text-doomGreen mt-2">
-            An interactive network of bands who’ve shared shows together — derived from over two decades of Oregon-based doom lineage.
+            An interactive network of bands who’ve shared shows together — derived from over two decades of Oregon-based doom lineage
           </p>
           <br></br>
           <div className="mb-4">
