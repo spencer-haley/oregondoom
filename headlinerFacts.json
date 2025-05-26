@@ -1,0 +1,7076 @@
+[
+  {
+    "eventId": "GeVXtntreBGoPfsUsvHc",
+    "headliner": "Old Dirty Buzzard",
+    "eventDate": "2025-05-29",
+    "eventCity": "Portland",
+    "eventVenue": "Twilight Cafe",
+    "supportActs": [
+      "Sandkrawler",
+      "Witch Agony"
+    ],
+    "eventNotes": "Sandkrawler & Witch Agony",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2025-05-31",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Old Dirty Buzzard",
+            "Sandkrawler"
+          ]
+        },
+        {
+          "date": "2025-05-30",
+          "venue": "Blast Off Vintage",
+          "city": "Salem",
+          "lineup": [
+            "Old Dirty Buzzard",
+            "Sandkrawler"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "OJQGDL5aH6ouyVZerCnC",
+    "headliner": "Smokey Mirror",
+    "eventDate": "2025-05-29",
+    "eventCity": "Eugene",
+    "eventVenue": "Blairally",
+    "supportActs": [
+      "Creep Creep Janga",
+      "Breath"
+    ],
+    "eventNotes": "Creep Creep Janga & Breath",
+    "stats": {
+      "totalShowsInOregon": 3,
+      "allShows": [
+        {
+          "date": "2025-06-01",
+          "venue": "Polaris Hall",
+          "city": "Portland",
+          "lineup": [
+            "Smokey Mirror",
+            "Danava",
+            "Blade"
+          ]
+        },
+        {
+          "date": "2024-02-29",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Smokey Mirror",
+            "Hog"
+          ]
+        },
+        {
+          "date": "2024-02-28",
+          "venue": "Blairally",
+          "city": "Eugene",
+          "lineup": [
+            "Smokey Mirror",
+            "Creep Creep Janga",
+            "Slow Goat",
+            "Milton"
+          ]
+        }
+      ],
+      "earliestYear": 2024,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": [
+        {
+          "supportAct": "Creep Creep Janga",
+          "date": "2024-02-28",
+          "venue": "Blairally",
+          "city": "Eugene"
+        }
+      ]
+    }
+  },
+  {
+    "eventId": "fGClJqrpjivS3MD3xe42",
+    "headliner": "Dragged Into Sunlight",
+    "eventDate": "2025-05-29",
+    "eventCity": "Portland",
+    "eventVenue": "Star Theater",
+    "supportActs": [
+      "Mizmor"
+    ],
+    "eventNotes": "Mizmor",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "Gm5nfzvhpHJf7VkHpiRk",
+    "headliner": "Vintersea",
+    "eventDate": "2025-05-30",
+    "eventCity": "Portland",
+    "eventVenue": "Star Theater",
+    "supportActs": [
+      "Blighted Eye",
+      "Hard Pill",
+      "These Cursed Hands",
+      "Thrash Course"
+    ],
+    "eventNotes": "Blighted Eye, Hard Pill, These Cursed Hands, & Thrash Course",
+    "stats": {
+      "totalShowsInOregon": 10,
+      "allShows": [
+        {
+          "date": "2025-08-28",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "ANCIIENTS",
+            "Dawn Of Ouroboros",
+            "Nott",
+            "Vintersea"
+          ]
+        },
+        {
+          "date": "2025-04-25",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Vintersea",
+            "Blighted Eye",
+            "Pitch Black Mass",
+            "Von Doom"
+          ]
+        },
+        {
+          "date": "2023-08-10",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Vintersea",
+            "Cyborg Octopus",
+            "Bury Your Burdens",
+            "Pitch Black Mass"
+          ]
+        },
+        {
+          "date": "2022-07-22",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Graveshadow",
+            "Vintersea"
+          ]
+        },
+        {
+          "date": "2022-07-20",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Graveshadow",
+            "Vintersea"
+          ]
+        },
+        {
+          "date": "2021-10-01",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Vintersea",
+            "Dawn Of Ouroboros",
+            "Voices Of Ruin"
+          ]
+        },
+        {
+          "date": "2021-09-13",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Amaranthe",
+            "Battle Beast",
+            "Seven Spires",
+            "Vintersea",
+            "Anynoymia"
+          ]
+        },
+        {
+          "date": "2021-09-13",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "AmaranThe",
+            "Battle Beast",
+            "Seven Spires",
+            "Vintersea",
+            "Anynoymia"
+          ]
+        },
+        {
+          "date": "2021-07-31",
+          "venue": "Bombs Away",
+          "city": "Corvallis",
+          "lineup": [
+            "Vintersea",
+            "Something For An Astronaut"
+          ]
+        },
+        {
+          "date": "2017-03-24",
+          "venue": "Black Forest",
+          "city": "Eugene",
+          "lineup": [
+            "A World Without",
+            "Vintersea",
+            "Pantheon"
+          ]
+        }
+      ],
+      "earliestYear": 2017,
+      "mostRecentRelease": {
+        "title": "Woven Into Ashes",
+        "monthYear": "May 2023",
+        "bandcampURL": "https://vintersea.bandcamp.com/album/woven-into-ashes"
+      },
+      "sharedShowsWithSupportActs": [
+        {
+          "supportAct": "Blighted Eye",
+          "date": "2025-04-25",
+          "venue": "Dante's",
+          "city": "Portland"
+        }
+      ]
+    }
+  },
+  {
+    "eventId": "CJCIDolk8Ye3gjJAGQmC",
+    "headliner": "Three For Silver",
+    "eventDate": "2025-05-30",
+    "eventCity": "Portland",
+    "eventVenue": "Mississippi Pizza",
+    "supportActs": [],
+    "eventNotes": "",
+    "stats": {
+      "totalShowsInOregon": 5,
+      "allShows": [
+        {
+          "date": "2024-10-30",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Three For Silver",
+            "Kendall Luvan",
+            "Presidio"
+          ]
+        },
+        {
+          "date": "2023-12-29",
+          "venue": "Crystal Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Floater",
+            "Three For Silver"
+          ]
+        },
+        {
+          "date": "2021-12-30",
+          "venue": "Azoth",
+          "city": "Portland",
+          "lineup": [
+            "Three For Silver",
+            "Dig Deep",
+            "Smut City Jellyroll Society"
+          ]
+        },
+        {
+          "date": "2018-03-14",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Three For Silver",
+            "Human Ottoman",
+            "Eliza Rickman"
+          ]
+        },
+        {
+          "date": "2017-07-26",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Long Hallways",
+            "Three For Silver",
+            "Yeah Great Fine"
+          ]
+        }
+      ],
+      "earliestYear": 2017,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "UB3F6Aagz7j3c1B4YzZE",
+    "headliner": "Sandkrawler",
+    "eventDate": "2025-05-30",
+    "eventCity": "Salem",
+    "eventVenue": "Blast Off Vintage",
+    "supportActs": [
+      "Old Dirty Buzzard"
+    ],
+    "eventNotes": "Old Dirty Buzzard",
+    "stats": {
+      "totalShowsInOregon": 18,
+      "allShows": [
+        {
+          "date": "2025-06-06",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Black Chvrch",
+            "Sandkrawler",
+            "Smearing",
+            "Slither"
+          ]
+        },
+        {
+          "date": "2025-05-31",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Old Dirty Buzzard",
+            "Sandkrawler"
+          ]
+        },
+        {
+          "date": "2025-05-29",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Old Dirty Buzzard",
+            "Sandkrawler",
+            "Witch Agony"
+          ]
+        },
+        {
+          "date": "2025-05-04",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Cue The Sun",
+            "Back From Death"
+          ]
+        },
+        {
+          "date": "2025-04-16",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Doomboyz",
+            "Sandkrawler",
+            "Luna Negra"
+          ]
+        },
+        {
+          "date": "2025-03-22",
+          "venue": "The Fixin' To",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "From The Ages",
+            "Riastrad"
+          ]
+        },
+        {
+          "date": "2025-02-14",
+          "venue": "The Columbian",
+          "city": "Astoria",
+          "lineup": [
+            "Sandkrawler",
+            "Witch Agony",
+            "Pulsar"
+          ]
+        },
+        {
+          "date": "2025-02-07",
+          "venue": "Silver Moon Brewing",
+          "city": "Bend",
+          "lineup": [
+            "Sandkrawler",
+            "Doombia",
+            "Vacancy Floor"
+          ]
+        },
+        {
+          "date": "2025-02-07",
+          "venue": "Silver Moon Brewing",
+          "city": "Bend",
+          "lineup": [
+            "Sandkrawler",
+            "Doombia",
+            "Vacancy Floor"
+          ]
+        },
+        {
+          "date": "2025-02-05",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Breath",
+            "Unkle Andy And The Fuck Around Gang",
+            "Extolment"
+          ]
+        },
+        {
+          "date": "2025-01-17",
+          "venue": "Shanghai Tunnel Bar",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Battle Cattle",
+            "Teeth For Eyes"
+          ]
+        },
+        {
+          "date": "2024-12-19",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Riastrad",
+            "Luna Negra"
+          ]
+        },
+        {
+          "date": "2024-11-22",
+          "venue": "Lay Low Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Eroder",
+            "1000 Foot Bong"
+          ]
+        },
+        {
+          "date": "2024-10-19",
+          "venue": "Ghost Mountain",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Dysgenia",
+            "1000 Foot Bong",
+            "Doombia"
+          ]
+        },
+        {
+          "date": "2024-10-03",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Doombia",
+            "1000 Foot Bong"
+          ]
+        },
+        {
+          "date": "2024-09-14",
+          "venue": "No Fun Bar",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Gamma Knife",
+            "Amnesia"
+          ]
+        },
+        {
+          "date": "2024-08-02",
+          "venue": "Shanghai Tunnel Bar",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Ravine",
+            "Stunt Drummer"
+          ]
+        },
+        {
+          "date": "2024-05-23",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Seasleeper",
+            "Sandkrawler",
+            "1000 Foot Bong",
+            "The Folly"
+          ]
+        }
+      ],
+      "earliestYear": 2024,
+      "mostRecentRelease": {
+        "title": "Sandkrawler",
+        "monthYear": "September 2024",
+        "bandcampURL": "https://sandkrawler.bandcamp.com/album/sandkrawler"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "Z1z9odDS3md1TDX8EAMD",
+    "headliner": "Old Dirty Buzzard",
+    "eventDate": "2025-05-31",
+    "eventCity": "Eugene",
+    "eventVenue": "John Henry's",
+    "supportActs": [
+      "Sandkrawler"
+    ],
+    "eventNotes": "Sandkrawler",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2025-05-30",
+          "venue": "Blast Off Vintage",
+          "city": "Salem",
+          "lineup": [
+            "Old Dirty Buzzard",
+            "Sandkrawler"
+          ]
+        },
+        {
+          "date": "2025-05-29",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Old Dirty Buzzard",
+            "Sandkrawler",
+            "Witch Agony"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "sDoBOoKIT3ZBBcpz62Pk",
+    "headliner": "Dark Crucible",
+    "eventDate": "2025-05-31",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "Unceremony",
+      "Ion",
+      "Drouth"
+    ],
+    "eventNotes": "Unceremony, Ion, Drouth",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2024-07-19",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Barren Altar",
+            "Roanoke",
+            "Dark Crucible"
+          ]
+        },
+        {
+          "date": "2024-07-19",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Barren Altar",
+            "Roankoke",
+            "Dark Crucible"
+          ]
+        }
+      ],
+      "earliestYear": 2024,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "U5v1qFGxymWFlxoyIevN",
+    "headliner": "Danava",
+    "eventDate": "2025-06-01",
+    "eventCity": "Portland",
+    "eventVenue": "Polaris Hall",
+    "supportActs": [
+      "Blade",
+      "Smokey Mirror"
+    ],
+    "eventNotes": "Blade & Smokey Mirror",
+    "stats": {
+      "totalShowsInOregon": 80,
+      "allShows": [
+        {
+          "date": "2025-03-29",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "StepmoTher",
+            "Long Knife",
+            "Hog"
+          ]
+        },
+        {
+          "date": "2024-08-23",
+          "venue": "The Showdown",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Federale",
+            "TV Viking"
+          ]
+        },
+        {
+          "date": "2024-08-08",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Shadowland",
+            "Blade",
+            "Hadean"
+          ]
+        },
+        {
+          "date": "2024-02-29",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Smokey Mirror",
+            "Hog"
+          ]
+        },
+        {
+          "date": "2023-12-02",
+          "venue": "Star Bar",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Long Knife",
+            "Stainless"
+          ]
+        },
+        {
+          "date": "2023-09-19",
+          "venue": "Black Water Bar",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Rocky Mtn Roller Blade"
+          ]
+        },
+        {
+          "date": "2023-08-19",
+          "venue": "Sandy Hut",
+          "city": "Portland",
+          "lineup": [
+            "High On Fire",
+            "Danava",
+            "Dommengang",
+            "Roselit Bone"
+          ]
+        },
+        {
+          "date": "2023-02-28",
+          "venue": "OMSI",
+          "city": "Portland",
+          "lineup": [
+            "Danava"
+          ]
+        },
+        {
+          "date": "2019-08-24",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Kadavar",
+            "Danava",
+            "Blackwater Holylight"
+          ]
+        },
+        {
+          "date": "2019-06-28",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Lebenden Toten",
+            "Pretty Lethal"
+          ]
+        },
+        {
+          "date": "2019-06-01",
+          "venue": "Lay Low Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Long Knife"
+          ]
+        },
+        {
+          "date": "2018-07-20",
+          "venue": "Enchanted Forest",
+          "city": "Turner",
+          "lineup": [
+            "Danava",
+            "Jenny Don't And The Spurs",
+            "Possibly Irish"
+          ]
+        },
+        {
+          "date": "2018-04-27",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Painted Doll",
+            "Danava",
+            "Pushy"
+          ]
+        },
+        {
+          "date": "2017-11-04",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Warpfire",
+            "Mean Jeans",
+            "Virgil"
+          ]
+        },
+        {
+          "date": "2017-08-23",
+          "venue": "Bossanova Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Diamond Head",
+            "Danava",
+            "Disenchanter"
+          ]
+        },
+        {
+          "date": "2017-07-07",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Destructor",
+            "Antichrist",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2017-04-20",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Maximum Mad",
+            "Acid Wash",
+            "White Manna",
+            "Mammatus",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2017-03-16",
+          "venue": "Revolution Hall",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Danava",
+            "Norska"
+          ]
+        },
+        {
+          "date": "2017-02-17",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Arthur Brown",
+            "Danava",
+            "Electric Citizen"
+          ]
+        },
+        {
+          "date": "2016-11-18",
+          "venue": "The Know",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Dirty Fences",
+            "Mean Jeans",
+            "Andy Place And The Coolheads"
+          ]
+        },
+        {
+          "date": "2016-10-05",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Acid Wash",
+            "Black Death Resurrected"
+          ]
+        },
+        {
+          "date": "2016-09-23",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Uncle Acid And The Deadbeats",
+            "Danava",
+            "Banquet"
+          ]
+        },
+        {
+          "date": "2016-08-08",
+          "venue": "The Panic Room",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Acid Wash",
+            "Warpfire"
+          ]
+        },
+        {
+          "date": "2016-07-23",
+          "venue": "Black Water Bar",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Poison Idea",
+            "Andy Place And The Coolheads"
+          ]
+        },
+        {
+          "date": "2016-07-09",
+          "venue": "Enchanted Forest",
+          "city": "Turner",
+          "lineup": [
+            "Danava",
+            "Thrones",
+            "Susan Vaslev",
+            "Possibly Irish"
+          ]
+        },
+        {
+          "date": "2016-03-27",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Satan",
+            "Danava",
+            "Violation Wounds"
+          ]
+        },
+        {
+          "date": "2015-10-29",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Windhand",
+            "Danava",
+            "Monolord"
+          ]
+        },
+        {
+          "date": "2015-08-08",
+          "venue": "North Kerby",
+          "city": "Portland",
+          "lineup": [
+            "Slough Feg",
+            "Witch Mountain",
+            "Danava",
+            "Lord Dying",
+            "Sons Of Huns",
+            "Holy Grove",
+            "Zirakzigil",
+            "Mane Of The Cur"
+          ]
+        },
+        {
+          "date": "2015-04-23",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Lord Dying",
+            "Lecherous Gaze",
+            "Black Pussy",
+            "Sons Of Huns",
+            "Prize Hog"
+          ]
+        },
+        {
+          "date": "2015-02-02",
+          "venue": "Doug Fir Lounge",
+          "city": "Portland",
+          "lineup": [
+            "The Shrine",
+            "Danava",
+            "Nasalrod"
+          ]
+        },
+        {
+          "date": "2015-01-14",
+          "venue": "The Know",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Fellwoods",
+            "Holy Grove"
+          ]
+        },
+        {
+          "date": "2014-12-12",
+          "venue": "Rose City Strip",
+          "city": "Portland",
+          "lineup": [
+            "Danava"
+          ]
+        },
+        {
+          "date": "2014-10-27",
+          "venue": "Rotture",
+          "city": "Portland",
+          "lineup": [
+            "Satan",
+            "Danava",
+            "Spellcaster",
+            "Magic Circle"
+          ]
+        },
+        {
+          "date": "2014-10-08",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Uncle Acid And The Deadbeats",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2014-09-11",
+          "venue": "Star Bar",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Deathcharge"
+          ]
+        },
+        {
+          "date": "2013-07-19",
+          "venue": "Ash Street Saloon",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Lecherous Gaze",
+            "Long Knife"
+          ]
+        },
+        {
+          "date": "2013-07-04",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Long Knife",
+            "Gaytheist",
+            "Paradise",
+            "The Suicide Notes"
+          ]
+        },
+        {
+          "date": "2013-04-20",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Tweak Bird",
+            "Danava",
+            "Diesto",
+            "Saintan",
+            "Regular Music",
+            "Floor",
+            "Lord Dying",
+            "Norska",
+            "Black Pussy",
+            "Hot Victory"
+          ]
+        },
+        {
+          "date": "2013-04-19",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Tweak Bird",
+            "Danava",
+            "Diesto",
+            "Saintan"
+          ]
+        },
+        {
+          "date": "2013-03-23",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Occultation",
+            "Borrowed Time"
+          ]
+        },
+        {
+          "date": "2012-09-15",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Xinr",
+            "Danava",
+            "DJ Dennis Dread"
+          ]
+        },
+        {
+          "date": "2012-07-08",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Midnight",
+            "Danava",
+            "Witch Mountain",
+            "Lord Dying",
+            "R.I.P.",
+            "NeTher Regions",
+            "Dead Conspiracy",
+            "Norska",
+            "Ripper",
+            "Billions And Billions",
+            "Turboigor",
+            "Lesbian",
+            "Sons Of Huns",
+            "Spellcaster",
+            "Sioux"
+          ]
+        },
+        {
+          "date": "2011-12-08",
+          "venue": "Plan B",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Rabbits",
+            "Lesbian",
+            "Diesto"
+          ]
+        },
+        {
+          "date": "2011-10-08",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Danava"
+          ]
+        },
+        {
+          "date": "2011-08-18",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "White Orange",
+            "Wizard Rifle",
+            "Sons Of Huns"
+          ]
+        },
+        {
+          "date": "2011-07-22",
+          "venue": "Rotture",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Federation X",
+            "Leaders",
+            "Gaytheist"
+          ]
+        },
+        {
+          "date": "2011-07-03",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Danava",
+            "Lord Dying",
+            "Rabbits",
+            "Purple Rhinestone Eagle"
+          ]
+        },
+        {
+          "date": "2011-03-03",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Christian Mistress",
+            "Lecherous Gaze"
+          ]
+        },
+        {
+          "date": "2011-02-10",
+          "venue": "Branx",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "NeTher Regions",
+            "Lord Dying",
+            "Wizard Rifle"
+          ]
+        },
+        {
+          "date": "2011-01-14",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Danava",
+            "NeTher Regions",
+            "Leigh Stephens"
+          ]
+        },
+        {
+          "date": "2010-09-17",
+          "venue": "Someday",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Get Hustle",
+            "Rabbits"
+          ]
+        },
+        {
+          "date": "2009-08-07",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Down",
+            "Melvins",
+            "Weedeater",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2009-07-01",
+          "venue": "Satyricon",
+          "city": "Portland",
+          "lineup": [
+            "Pentagram",
+            "Nachtmystium",
+            "Danava",
+            "Witch Mountain"
+          ]
+        },
+        {
+          "date": "2009-06-25",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Radio Moscow",
+            "Dudelord",
+            "Dark Skies",
+            "Black Skies"
+          ]
+        },
+        {
+          "date": "2008-12-30",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Burning LeaTher"
+          ]
+        },
+        {
+          "date": "2008-09-05",
+          "venue": "Ash Street Saloon",
+          "city": "Portland",
+          "lineup": [
+            "Witchcraft",
+            "Danava",
+            "Akimbo",
+            "Graveyard",
+            "TK Webb And The Visions"
+          ]
+        },
+        {
+          "date": "2008-07-08",
+          "venue": "Doug Fir Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Trouble",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2008-05-23",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Brave Priest",
+            "Vinyl Ritchie"
+          ]
+        },
+        {
+          "date": "2008-04-07",
+          "venue": "Holocene",
+          "city": "Portland",
+          "lineup": [
+            "Acid Mothers Temple",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2008-02-20",
+          "venue": "Lola's Room",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Subarachnoid Space",
+            "Darkblack",
+            "Torn to Pieces",
+            "Moonchild"
+          ]
+        },
+        {
+          "date": "2008-02-14",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Blue Cheer",
+            "Danava",
+            "Red Fang"
+          ]
+        },
+        {
+          "date": "2008-01-25",
+          "venue": "Kelly's Olympian",
+          "city": "Portland",
+          "lineup": [
+            "Rabbits",
+            "Danava",
+            "DJ Wroid Wrage"
+          ]
+        },
+        {
+          "date": "2007-12-06",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "DJ Blackhawk"
+          ]
+        },
+        {
+          "date": "2007-11-12",
+          "venue": "Satyricon",
+          "city": "Portland",
+          "lineup": [
+            "Witchcraft",
+            "Danava",
+            "Magick Daggers"
+          ]
+        },
+        {
+          "date": "2007-08-31",
+          "venue": "Mt. Tabor Legacy",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Pierced Arrows",
+            "Grails"
+          ]
+        },
+        {
+          "date": "2007-07-30",
+          "venue": "Rotture",
+          "city": "Portland",
+          "lineup": [
+            "Titan",
+            "Danava",
+            "Xom"
+          ]
+        },
+        {
+          "date": "2007-04-07",
+          "venue": "Satyricon",
+          "city": "Portland",
+          "lineup": [
+            "Lightning Bolt",
+            "Danava",
+            "SubArachnoid Space",
+            "Bug Sized Mind"
+          ]
+        },
+        {
+          "date": "2007-01-05",
+          "venue": "AudioCinema",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Rabbits",
+            "Scout Niblett",
+            "Yellow Swans",
+            "Ghost to Falco",
+            "Argumentix"
+          ]
+        },
+        {
+          "date": "2006-11-28",
+          "venue": "Rotture",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Pearls And Brass",
+            "Thrones"
+          ]
+        },
+        {
+          "date": "2006-10-24",
+          "venue": "Doug Fir Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Witchcraft"
+          ]
+        },
+        {
+          "date": "2006-07-11",
+          "venue": "Holocene",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Parchman Farm",
+            "Snow Foxxes"
+          ]
+        },
+        {
+          "date": "2006-03-08",
+          "venue": "Towne Lounge",
+          "city": "Portland",
+          "lineup": [
+            "DMBQ",
+            "The King Cobra",
+            "ZZZ",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2006-02-15",
+          "venue": "Ground Kontrol",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "PinBrawl",
+            "Moonchild"
+          ]
+        },
+        {
+          "date": "2006-01-04",
+          "venue": "Holocene",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Snow Foxxes",
+            "History Of The Future"
+          ]
+        },
+        {
+          "date": "2005-11-14",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Federation X",
+            "Black Elk",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2005-11-10",
+          "venue": "Doug Fir Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Diamond Nights",
+            "The Vacation",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2005-10-11",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Green Milk from The Planet Orange",
+            "Grails",
+            "Scuffle And Dustcough",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2005-07-25",
+          "venue": "Dunes",
+          "city": "Portland",
+          "lineup": [
+            "Glass Candy",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2005-04-24",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Hustler White",
+            "Scuffle And Dustcough",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2005-02-04",
+          "venue": "Dunes",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Mannequin Front"
+          ]
+        }
+      ],
+      "earliestYear": 2005,
+      "mostRecentRelease": {
+        "title": "Danava - Live",
+        "monthYear": "June 2024",
+        "bandcampURL": "https://heavypsychsoundsrecords.bandcamp.com/album/danava-live"
+      },
+      "sharedShowsWithSupportActs": [
+        {
+          "supportAct": "Blade",
+          "date": "2024-08-08",
+          "venue": "High Water Mark",
+          "city": "Portland"
+        },
+        {
+          "supportAct": "Smokey Mirror",
+          "date": "2024-02-29",
+          "venue": "High Water Mark",
+          "city": "Portland"
+        }
+      ]
+    }
+  },
+  {
+    "eventId": "sC9dJg5GZ7t2I40siN5H",
+    "headliner": "Conan Neutron and the Secret Friends",
+    "eventDate": "2025-06-02",
+    "eventCity": "Bend",
+    "eventVenue": "The Capitol",
+    "supportActs": [
+      "The Kronk Men",
+      "-ether",
+      "Vacancy Floor"
+    ],
+    "eventNotes": "The Kronk Men, -ether, & Vacancy Floor",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2025-06-04",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Conan Neutron And The Secret Friends",
+            "Club Deluxe"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "kPJj0eS9yZdBj49uU4tS",
+    "headliner": "Melvins",
+    "eventDate": "2025-06-03",
+    "eventCity": "Portland",
+    "eventVenue": "Revolution Hall",
+    "supportActs": [
+      "Napalm Death",
+      "The Hard-Ons w/ Jerry A",
+      "Shane Embury's Dark Sky Burial"
+    ],
+    "eventNotes": "Napalm Death, The Hard-Ons w/ Jerry A & Shane Embury's Dark Sky Burial",
+    "stats": {
+      "totalShowsInOregon": 19,
+      "allShows": [
+        {
+          "date": "2023-08-31",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Boris",
+            "Melvins"
+          ]
+        },
+        {
+          "date": "2022-07-16",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Helms Alee",
+            "Harsh Mellow"
+          ]
+        },
+        {
+          "date": "2019-05-04",
+          "venue": "Crystal Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Khorada",
+            "Wizard Rifle",
+            "Eight Bells",
+            "Year Of The Cobra",
+            "Holy Grove",
+            "Eye Of Nix",
+            "Freebase Hyperspace",
+            "Hound The Wolves"
+          ]
+        },
+        {
+          "date": "2017-07-12",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Spotlights"
+          ]
+        },
+        {
+          "date": "2016-05-04",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Napalm Death",
+            "Melvins",
+            "Melt Banana"
+          ]
+        },
+        {
+          "date": "2016-05-03",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Napalm Death",
+            "Melvins"
+          ]
+        },
+        {
+          "date": "2015-09-07",
+          "venue": "Wonder Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Big Business"
+          ]
+        },
+        {
+          "date": "2014-10-19",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Le Butcherettes"
+          ]
+        },
+        {
+          "date": "2010-09-24",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Totimoshi"
+          ]
+        },
+        {
+          "date": "2009-08-07",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Down",
+            "Melvins",
+            "Weedeater",
+            "Danava"
+          ]
+        },
+        {
+          "date": "2009-05-24",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Melvins"
+          ]
+        },
+        {
+          "date": "2008-07-25",
+          "venue": "Wonder Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Big Business"
+          ]
+        },
+        {
+          "date": "2007-09-19",
+          "venue": "Wonder Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Big Business"
+          ]
+        },
+        {
+          "date": "2006-12-29",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Big Business",
+            "Men Of Porn",
+            "Red Fang"
+          ]
+        },
+        {
+          "date": "2006-09-09",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Big Business"
+          ]
+        },
+        {
+          "date": "2006-09-08",
+          "venue": "WOW Hall",
+          "city": "Eugene",
+          "lineup": [
+            "Melvins",
+            "Big Business"
+          ]
+        },
+        {
+          "date": "2005-11-03",
+          "venue": "Crystal Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Jello Biafra",
+            "Melvins",
+            "Altamont",
+            "The Hunches"
+          ]
+        },
+        {
+          "date": "2004-03-05",
+          "venue": "Crystal Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Mudhoney"
+          ]
+        },
+        {
+          "date": "2001-05-11",
+          "venue": "Pine Street Theater",
+          "city": "Portland",
+          "lineup": [
+            "Melvins",
+            "Hank Williams III"
+          ]
+        }
+      ],
+      "earliestYear": 2001,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": [
+        {
+          "supportAct": "Napalm Death",
+          "date": "2016-05-04",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene"
+        },
+        {
+          "supportAct": "Napalm Death",
+          "date": "2016-05-03",
+          "venue": "Roseland Theater",
+          "city": "Portland"
+        }
+      ]
+    }
+  },
+  {
+    "eventId": "4WaMbjlxrAXpoltpUlnh",
+    "headliner": "Gaytheist",
+    "eventDate": "2025-06-04",
+    "eventCity": "Portland",
+    "eventVenue": "World Famous Kenton Club",
+    "supportActs": [
+      "Conan Neutron"
+    ],
+    "eventNotes": "Conan Neutron",
+    "stats": {
+      "totalShowsInOregon": 38,
+      "allShows": [
+        {
+          "date": "2025-02-27",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Inny",
+            "Semuta"
+          ]
+        },
+        {
+          "date": "2024-09-28",
+          "venue": "Polaris Hall",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Nasalrod",
+            "Sea Moss"
+          ]
+        },
+        {
+          "date": "2024-08-18",
+          "venue": "Rontoms",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Tacos!"
+          ]
+        },
+        {
+          "date": "2024-07-12",
+          "venue": "The Fixin' To",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "The Mistons",
+            "High Glow"
+          ]
+        },
+        {
+          "date": "2022-03-31",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Zeta",
+            "Gaytheist",
+            "Semuta"
+          ]
+        },
+        {
+          "date": "2021-10-23",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Shelter Red",
+            "Gaytheist",
+            "Maximum Mad"
+          ]
+        },
+        {
+          "date": "2019-12-27",
+          "venue": "Wonder Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Thunderpussy",
+            "Gaytheist"
+          ]
+        },
+        {
+          "date": "2018-12-27",
+          "venue": "Wonder Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Gaytheist",
+            "Thunderpussy"
+          ]
+        },
+        {
+          "date": "2018-10-14",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Sweet Reaper",
+            "Milk Bath",
+            "BoThers"
+          ]
+        },
+        {
+          "date": "2018-07-20",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Rubella",
+            "Graves"
+          ]
+        },
+        {
+          "date": "2017-07-01",
+          "venue": "The Know",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Nasalrod",
+            "Drunk Dad"
+          ]
+        },
+        {
+          "date": "2016-10-01",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Drunk Dad",
+            "Dispossessed",
+            "Hands Of Thieves"
+          ]
+        },
+        {
+          "date": "2016-07-16",
+          "venue": "The Know",
+          "city": "Portland",
+          "lineup": [
+            "Teeph",
+            "Gaytheist",
+            "Sol"
+          ]
+        },
+        {
+          "date": "2016-06-25",
+          "venue": "Bunside Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Big Business",
+            "Helms Alee",
+            "Rabbits",
+            "Cougar",
+            "Gaytheist",
+            "Thornes",
+            "Fruit Of The Legion Of Loom",
+            "Full Creature"
+          ]
+        },
+        {
+          "date": "2016-06-24",
+          "venue": "Doug Fir Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "The Pack A.D."
+          ]
+        },
+        {
+          "date": "2016-05-07",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Phantom Family",
+            "Dead Tropics",
+            "Woven Tongues"
+          ]
+        },
+        {
+          "date": "2016-05-03",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Kvelertak",
+            "Wild Throne",
+            "Gaytheist"
+          ]
+        },
+        {
+          "date": "2016-04-21",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Torche",
+            "Thrones",
+            "Gaytheist",
+            "House Of Lightning",
+            "Humours"
+          ]
+        },
+        {
+          "date": "2016-02-12",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Greenriver Thrillers",
+            "Full Creature"
+          ]
+        },
+        {
+          "date": "2015-12-17",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Sons Of Huns",
+            "Wax Edison"
+          ]
+        },
+        {
+          "date": "2015-07-31",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Rabbits",
+            "Left Blank",
+            "Bobby Peru"
+          ]
+        },
+        {
+          "date": "2015-01-11",
+          "venue": "The Know",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Gaytheist",
+            "Drunk Dad"
+          ]
+        },
+        {
+          "date": "2015-01-03",
+          "venue": "Rontoms",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Divers"
+          ]
+        },
+        {
+          "date": "2014-06-04",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Helms Alee",
+            "Kowloon",
+            "Walled City",
+            "Gaytheist",
+            "Rabbits"
+          ]
+        },
+        {
+          "date": "2014-05-06",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Russian Circles",
+            "Witch Mountain",
+            "Gaytheist"
+          ]
+        },
+        {
+          "date": "2014-04-03",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Tartufi",
+            "Humours"
+          ]
+        },
+        {
+          "date": "2014-01-10",
+          "venue": "Slabtown",
+          "city": "Portland",
+          "lineup": [
+            "Rabbits",
+            "Gaytheist",
+            "Jonny X And The Groadies",
+            "Polst",
+            "The Gout"
+          ]
+        },
+        {
+          "date": "2013-11-22",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Sons Of Huns",
+            "Monogamy Party",
+            "Vultures in The Sky"
+          ]
+        },
+        {
+          "date": "2013-07-04",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Long Knife",
+            "Gaytheist",
+            "Paradise",
+            "The Suicide Notes"
+          ]
+        },
+        {
+          "date": "2013-05-22",
+          "venue": "White Owl",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Gaytheist"
+          ]
+        },
+        {
+          "date": "2013-04-20",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Rabbits",
+            "Sons Of Huns",
+            "Humours"
+          ]
+        },
+        {
+          "date": "2013-03-24",
+          "venue": "Ash Street Saloon",
+          "city": "Portland",
+          "lineup": [
+            "Federation X",
+            "Rabbits",
+            "Gaytheist",
+            "Nasalrod"
+          ]
+        },
+        {
+          "date": "2013-03-07",
+          "venue": "Branx",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Atriarch",
+            "NeTher Regions",
+            "Gaytheist"
+          ]
+        },
+        {
+          "date": "2012-12-15",
+          "venue": "Rontoms",
+          "city": "Portland",
+          "lineup": [
+            "Sons Of Huns",
+            "Gaytheist"
+          ]
+        },
+        {
+          "date": "2012-09-14",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Minoton",
+            "Cougar"
+          ]
+        },
+        {
+          "date": "2012-01-13",
+          "venue": "Plan B",
+          "city": "Portland",
+          "lineup": [
+            "Sandrider",
+            "Gaytheist",
+            "Brokaw",
+            "Mongoloid Village"
+          ]
+        },
+        {
+          "date": "2011-07-22",
+          "venue": "Rotture",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Federation X",
+            "Leaders",
+            "Gaytheist"
+          ]
+        },
+        {
+          "date": "2011-04-15",
+          "venue": "Mudai Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Wax Edison",
+            "Chair Project"
+          ]
+        }
+      ],
+      "earliestYear": 2011,
+      "mostRecentRelease": {
+        "title": "The Mustache Stays",
+        "monthYear": "February 2025",
+        "bandcampURL": "https://hexrecords.bandcamp.com/album/gaytheist-the-mustache-stays"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "kFxUUa5fZShIlbkWiorp",
+    "headliner": "Rivers of Nihil",
+    "eventDate": "2025-06-05",
+    "eventCity": "Portland",
+    "eventVenue": "Dante's",
+    "supportActs": [
+      "Holy Fawn",
+      "Inter Arma",
+      "Glacial Tomb"
+    ],
+    "eventNotes": "Holy Fawn, Inter Arma, & Glacial Tomb",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "ygiDKnMkCDfPWm1TocO1",
+    "headliner": "Mordbear",
+    "eventDate": "2025-06-05",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "Cabfighter",
+      "Life in the Ground"
+    ],
+    "eventNotes": "Cabfighter & Life in the Ground",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": {
+        "title": "EP",
+        "monthYear": "June 2025",
+        "bandcampURL": "https://mordbear.bandcamp.com/album/ep"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "R3W3x56HUkjKm337E1nm",
+    "headliner": "Cue the Sun",
+    "eventDate": "2025-06-06",
+    "eventCity": "Portland",
+    "eventVenue": "The Snug",
+    "supportActs": [
+      "Damien's Dumpster Fire",
+      "Power Switch",
+      "Dismantled"
+    ],
+    "eventNotes": "Damien's Dumpster Fire, Power Switch, Dismantled",
+    "stats": {
+      "totalShowsInOregon": 5,
+      "allShows": [
+        {
+          "date": "2025-05-24",
+          "venue": "Hawthorne Hideaway",
+          "city": "Portland",
+          "lineup": [
+            "Cue The Sun",
+            "Burial Clouds",
+            "1000 Foot Bong",
+            "Slow-Up"
+          ]
+        },
+        {
+          "date": "2025-05-04",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Cue The Sun",
+            "Back From Death"
+          ]
+        },
+        {
+          "date": "2025-03-28",
+          "venue": "The Dungeon",
+          "city": "Portland",
+          "lineup": [
+            "Percolator",
+            "Defiant Body",
+            "Cue The Sun",
+            "Necroplasm"
+          ]
+        },
+        {
+          "date": "2025-03-07",
+          "venue": "Gil's Speakeasy",
+          "city": "Portland",
+          "lineup": [
+            "Cue The Sun",
+            "Meat Patrol",
+            "Impermanence"
+          ]
+        },
+        {
+          "date": "2025-01-03",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Felsenmirror",
+            "Burial Clouds",
+            "Cue The Sun"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": {
+        "title": "Green Man EP",
+        "monthYear": "April 2025",
+        "bandcampURL": "https://cuethesunpdx.bandcamp.com/album/green-man-ep"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "jusWpz6jOmo6kgmRinUC",
+    "headliner": "Fluid Druid ",
+    "eventDate": "2025-06-06",
+    "eventCity": "Portland ",
+    "eventVenue": "Six Below Midnight",
+    "supportActs": [
+      "Planet of Little Green Men",
+      "Lucid Aisle"
+    ],
+    "eventNotes": "Planet of Little Green Men and Lucid Aisle",
+    "stats": {
+      "totalShowsInOregon": 9,
+      "allShows": [
+        {
+          "date": "2025-06-07",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Bending Strings",
+            "Spirit Mother",
+            "Batwave",
+            "Fluid Druid"
+          ]
+        },
+        {
+          "date": "2025-04-11",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Fluid Druid",
+            "Object Unto Earth",
+            "Missionary Girls",
+            "John Othic"
+          ]
+        },
+        {
+          "date": "2025-03-29",
+          "venue": "John Henry's",
+          "city": "Portland",
+          "lineup": [
+            "Common Koi",
+            "Fluid Druid",
+            "Kid Ferris",
+            "Hearing Loss"
+          ]
+        },
+        {
+          "date": "2024-05-31",
+          "venue": "Crystal Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Frankie And The Witch Fingers",
+            "Black Mountain",
+            "Death Valley Girls",
+            "Fluid Druid"
+          ]
+        },
+        {
+          "date": "2023-05-06",
+          "venue": "Six Below",
+          "city": "Portland",
+          "lineup": [
+            "Fluid Druid",
+            "Atomic Momma",
+            "Night Creatures"
+          ]
+        },
+        {
+          "date": "2023-01-04",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Ape Machine",
+            "Greenseeker",
+            "Fluid Druid"
+          ]
+        },
+        {
+          "date": "2022-08-19",
+          "venue": "Turn Turn Turn",
+          "city": "Portland",
+          "lineup": [
+            "Fluid Druid",
+            "Twin Ultra",
+            "Asteroid Witch"
+          ]
+        },
+        {
+          "date": "2022-06-18",
+          "venue": "Firkin Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Under Utopia",
+            "Fluid Druid",
+            "Stoner"
+          ]
+        },
+        {
+          "date": "2022-01-04",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Ape Machine",
+            "Greenseeker",
+            "Fluid Druid"
+          ]
+        }
+      ],
+      "earliestYear": 2022,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "q1X8hTNOLqu54vyY6mOd",
+    "headliner": "Black Chvrch",
+    "eventDate": "2025-06-06",
+    "eventCity": "Portland",
+    "eventVenue": "Twilight Cafe",
+    "supportActs": [
+      "Sandkrawler",
+      "Smearing",
+      "Slither"
+    ],
+    "eventNotes": "Sandkrawler, Smearing, Slither",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "yaAUdtfACzOHosdR93OM",
+    "headliner": "Kinghorn",
+    "eventDate": "2025-06-06",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "Yellfire",
+      "Museum Of Light",
+      "Year of the Coyote"
+    ],
+    "eventNotes": "Yellfire, Museum Of Light, Year of the Coyote",
+    "stats": {
+      "totalShowsInOregon": 9,
+      "allShows": [
+        {
+          "date": "2025-06-28",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "1876",
+            "Berzerk",
+            "Under Exile",
+            "Kinghorn",
+            "Lesser Animal"
+          ]
+        },
+        {
+          "date": "2025-04-26",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Serial Hawk",
+            "Unhallowed Earth",
+            "Kinghorn"
+          ]
+        },
+        {
+          "date": "2024-05-18",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Leafminer",
+            "No Year",
+            "Kinghorn"
+          ]
+        },
+        {
+          "date": "2023-06-23",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Helens",
+            "Kinghorn",
+            "The Mighty Missoula",
+            "Dearth Of Earth",
+            "Jenny Haniver"
+          ]
+        },
+        {
+          "date": "2023-05-22",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Nerver",
+            "Still/Form",
+            "Kinghorn"
+          ]
+        },
+        {
+          "date": "2023-04-21",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "High On Fire",
+            "Drunk Horse",
+            "Lord Dying",
+            "Mike Scheidt",
+            "Kinghorn"
+          ]
+        },
+        {
+          "date": "2022-07-30",
+          "venue": "Starday Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Cobra Thief",
+            "Universal Monster",
+            "Kinghorn"
+          ]
+        },
+        {
+          "date": "2022-02-26",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Stoner",
+            "Kinghorn",
+            "Mario Lalli And The Rubber Snake Charmers"
+          ]
+        },
+        {
+          "date": "2021-12-17",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Kinghorn",
+            "Apres Moi le Deluge",
+            "Still/Form"
+          ]
+        }
+      ],
+      "earliestYear": 2021,
+      "mostRecentRelease": {
+        "title": "Empty Handed",
+        "monthYear": "April 2024",
+        "bandcampURL": "https://kinghorn.bandcamp.com/album/empty-handed"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "kKiPh74sXMRKH7ohPfUl",
+    "headliner": "Silver Talon",
+    "eventDate": "2025-06-07",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "Slow Goat"
+    ],
+    "eventNotes": "Slow Goat",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2025-04-25",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Blood Star",
+            "Time Rift",
+            "Silver Talon"
+          ]
+        },
+        {
+          "date": "2019-10-31",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Savage Master",
+            "Silver Talon",
+            "Troll",
+            "Bewitcher"
+          ]
+        }
+      ],
+      "earliestYear": 2019,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "JRjnOl5SMYb0tnAQGXkd",
+    "headliner": "Bending Strings",
+    "eventDate": "2025-06-07",
+    "eventCity": "Bend",
+    "eventVenue": "Volcanic Theater Pub",
+    "supportActs": [
+      "Spirit Mother",
+      "Batwave",
+      "Fluid Druid"
+    ],
+    "eventNotes": "Spirit Mother, Batwave, Fluid Druid",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "IBv3DJCMEFAgqMkDXsmY",
+    "headliner": "Tomarum",
+    "eventDate": "2025-06-12",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "Saidan",
+      "Blut Auf Dem Eis",
+      "Ember Vale"
+    ],
+    "eventNotes": "Saidan, Blut Auf Dem Eis, Ember Vale",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "WrwWahjkWUqaORfXVUuD",
+    "headliner": "Slumbering Sun",
+    "eventDate": "2025-06-12",
+    "eventCity": "Eugene",
+    "eventVenue": "Sparrow and Serpent",
+    "supportActs": [
+      "Slow Goat",
+      "Smoker"
+    ],
+    "eventNotes": "Slow Goat & Smoker",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2025-06-13",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Ninth Moon Black",
+            "Bering Sea",
+            "Slumbering Sun",
+            "Ealdor Bealu",
+            "Violetera"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "XblvXBIMkfkZH7sHdfBJ",
+    "headliner": "Soundcastle 2025 Night 1",
+    "eventDate": "2025-06-13",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "Ninth Moon Black",
+      "Bering Sea",
+      "Slumbering Sun",
+      "Ealdor Bealu",
+      "Violetera"
+    ],
+    "eventNotes": "Ninth Moon Black, Bering Sea, Slumbering Sun, Ealdor Bealu, Violetera",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "bAr3tNTBcDMhwjWLjoKV",
+    "headliner": "Hog",
+    "eventDate": "2025-06-13",
+    "eventCity": "Portland",
+    "eventVenue": "Six Below Midnight",
+    "supportActs": [
+      "Glowing Brain",
+      "Blade"
+    ],
+    "eventNotes": "Glowing Brain and Blade",
+    "stats": {
+      "totalShowsInOregon": 8,
+      "allShows": [
+        {
+          "date": "2025-04-12",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Early Moods",
+            "Magick Potion",
+            "Hog"
+          ]
+        },
+        {
+          "date": "2025-03-29",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "StepmoTher",
+            "Long Knife",
+            "Hog"
+          ]
+        },
+        {
+          "date": "2024-09-12",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Spoon Benders",
+            "Hog",
+            "Thin Veil"
+          ]
+        },
+        {
+          "date": "2024-02-29",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Smokey Mirror",
+            "Hog"
+          ]
+        },
+        {
+          "date": "2023-05-18",
+          "venue": "The Six",
+          "city": "Portland",
+          "lineup": [
+            "Hog",
+            "Glowing Brain",
+            "Robots Of The Ancient World"
+          ]
+        },
+        {
+          "date": "2023-04-03",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Deathchant",
+            "Hog",
+            "Creep Creep Janga"
+          ]
+        },
+        {
+          "date": "2022-08-21",
+          "venue": "The Fixin' To",
+          "city": "Portland",
+          "lineup": [
+            "Kadabra",
+            "Hog",
+            "Veradas"
+          ]
+        },
+        {
+          "date": "2022-05-18",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Solar Haze",
+            "LaGoon",
+            "Hog"
+          ]
+        }
+      ],
+      "earliestYear": 2022,
+      "mostRecentRelease": {
+        "title": "HÖG",
+        "monthYear": "September 2022",
+        "bandcampURL": "https://hogpdx.bandcamp.com/album/h-g"
+      },
+      "sharedShowsWithSupportActs": [
+        {
+          "supportAct": "Glowing Brain",
+          "date": "2023-05-18",
+          "venue": "The Six",
+          "city": "Portland"
+        }
+      ]
+    }
+  },
+  {
+    "eventId": "I3DFALNm701fPUZk4hws",
+    "headliner": "SONNAM",
+    "eventDate": "2025-06-13",
+    "eventCity": "Portland",
+    "eventVenue": "Shanghai Tunnel",
+    "supportActs": [
+      "Universal Monster",
+      "Unga Dunga"
+    ],
+    "eventNotes": "Universal Monster & Unga Dunga",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2025-05-10",
+          "venue": "The Alleyway",
+          "city": "Portland",
+          "lineup": [
+            "SONNAM",
+            "Puzzle Teeth",
+            "Cicatrice"
+          ]
+        },
+        {
+          "date": "2025-01-24",
+          "venue": "The Snug",
+          "city": "Portland",
+          "lineup": [
+            "Universal Monster",
+            "Doombia",
+            "Sonnam"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": {
+        "title": "The First Aether",
+        "monthYear": "February 2025",
+        "bandcampURL": "https://sonnam.bandcamp.com/album/the-first-aethyr"
+      },
+      "sharedShowsWithSupportActs": [
+        {
+          "supportAct": "Universal Monster",
+          "date": "2025-01-24",
+          "venue": "The Snug",
+          "city": "Portland"
+        }
+      ]
+    }
+  },
+  {
+    "eventId": "INYfq3jaMVJmXcbgveFw",
+    "headliner": "Tigers On Opium",
+    "eventDate": "2025-06-13",
+    "eventCity": "Eugene",
+    "eventVenue": "John Henry's",
+    "supportActs": [],
+    "eventNotes": "",
+    "stats": {
+      "totalShowsInOregon": 52,
+      "allShows": [
+        {
+          "date": "2025-06-20",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2025-04-29",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Truckfighters",
+            "The Well",
+            "Restless Spirit",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2025-03-28",
+          "venue": "Bombs Away",
+          "city": "Corvallis",
+          "lineup": [
+            "Tigers On Opium",
+            "Felitare"
+          ]
+        },
+        {
+          "date": "2025-02-05",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Pentagram",
+            "Tigers On Opium",
+            "Slow Goat"
+          ]
+        },
+        {
+          "date": "2024-12-30",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Tigers On Opium",
+            "Scarlett And The Tramps",
+            "Dear Assassin"
+          ]
+        },
+        {
+          "date": "2024-12-06",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Tigers On Opium",
+            "Zorb",
+            "Rarefaction"
+          ]
+        },
+        {
+          "date": "2024-11-08",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Kadabra",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2024-09-10",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Mars Red Sky",
+            "Howling Giant",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2024-08-10",
+          "venue": "Sound Lounge",
+          "city": "Grants Pass",
+          "lineup": [
+            "Sorcia",
+            "Tigers On Opium",
+            "Witch Ripper"
+          ]
+        },
+        {
+          "date": "2024-08-09",
+          "venue": "The Fixin' To",
+          "city": "Portland",
+          "lineup": [
+            "Sorcia",
+            "Tigers On Opium",
+            "Witch Ripper"
+          ]
+        },
+        {
+          "date": "2024-05-14",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Lords Of Altamont",
+            "Tigers On Opium",
+            "River City Ruin",
+            "Dagger Points"
+          ]
+        },
+        {
+          "date": "2024-04-05",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Pike vs The Automaton",
+            "Wizzerd",
+            "LaGoon",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2023-12-29",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Zeke",
+            "Dwarves",
+            "Pike vs The Automaton",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2023-09-01",
+          "venue": "Devils Point",
+          "city": "Portland",
+          "lineup": [
+            "Tigers On Opium",
+            "Serpentfoot",
+            "Mother Lucifer"
+          ]
+        },
+        {
+          "date": "2023-07-28",
+          "venue": "Eugene",
+          "city": "Portland",
+          "lineup": [
+            "Belzebong",
+            "Greenbeard",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2023-07-20",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Slow Goat",
+            "Tigers On Opium",
+            "Daemones"
+          ]
+        },
+        {
+          "date": "2023-03-18",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Draggernaut"
+          ]
+        },
+        {
+          "date": "2023-03-17",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Deadfeather"
+          ]
+        },
+        {
+          "date": "2023-03-09",
+          "venue": "River City Saloon",
+          "city": "Hood River",
+          "lineup": [
+            "Tigers On Opium",
+            "Hired Hounds",
+            "No One to Follow"
+          ]
+        },
+        {
+          "date": "2023-02-17",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Mickey Avalon",
+            "Tigers On Opium",
+            "Blank Banks"
+          ]
+        },
+        {
+          "date": "2023-01-06",
+          "venue": "Local 31 Pub",
+          "city": "Ashland",
+          "lineup": [
+            "Tigers On Opium",
+            "Elk Witch"
+          ]
+        },
+        {
+          "date": "2022-12-29",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Dwarves",
+            "Zeke",
+            "Pike vs The Automaton",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2022-11-17",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Tigers On Opium",
+            "Slow Goat",
+            "Greenseeker"
+          ]
+        },
+        {
+          "date": "2022-11-14",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Souls Extolled",
+            "House Of Dorothy Gale",
+            "Red Cloud",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2022-10-06",
+          "venue": "Polaris Hall",
+          "city": "Portland",
+          "lineup": [
+            "Jared James Nichols",
+            "Ape Machine",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2022-08-23",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Kadabra",
+            "Tigers On Opium",
+            "Egotones"
+          ]
+        },
+        {
+          "date": "2022-07-16",
+          "venue": "Lay Low Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Tigers On Opium",
+            "Phantom High",
+            "LaGoon"
+          ]
+        },
+        {
+          "date": "2022-07-16",
+          "venue": "Lay Low Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Phantom High",
+            "Tigers On Opium",
+            "LaGoon"
+          ]
+        },
+        {
+          "date": "2022-07-15",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Hippie Death Cult",
+            "Spirit Mother",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2022-06-19",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "El Perro",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2022-05-26",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Tigers On Opium",
+            "Kadabra",
+            "Deadfeather"
+          ]
+        },
+        {
+          "date": "2022-05-15",
+          "venue": "Sessions",
+          "city": "Eugene",
+          "lineup": [
+            "Tigers On Opium",
+            "Seven Second Circle",
+            "Slow Goat"
+          ]
+        },
+        {
+          "date": "2022-04-23",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Red Cloud",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2022-04-22",
+          "venue": "Bombs Away",
+          "city": "Corvallis",
+          "lineup": [
+            "Red Cloud",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2022-01-14",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Tigers On Opium",
+            "Young Hunter",
+            "Sorcia",
+            "Freebase Hyperspace"
+          ]
+        },
+        {
+          "date": "2021-10-15",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2021-09-18",
+          "venue": "Hawthorne Hideaway",
+          "city": "Portland",
+          "lineup": [
+            "LaGoon",
+            "Tigers On Opium",
+            "Ghost Frog"
+          ]
+        },
+        {
+          "date": "2020-03-26",
+          "venue": "Killingsworth Dynasty",
+          "city": "Portland",
+          "lineup": [
+            "Tigers On Opium",
+            "Freebase Hyperspace"
+          ]
+        },
+        {
+          "date": "2020-02-06",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Head The Hive"
+          ]
+        },
+        {
+          "date": "2020-01-02",
+          "venue": "Turn Turn Turn",
+          "city": "Portland",
+          "lineup": [
+            "Tigers On Opium",
+            "From The Ages"
+          ]
+        },
+        {
+          "date": "2019-11-07",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Salems Bend",
+            "Ethereal Sea",
+            "Head The Hive",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2019-05-05",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Gramrojo"
+          ]
+        },
+        {
+          "date": "2019-04-05",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Granrojo"
+          ]
+        },
+        {
+          "date": "2019-03-26",
+          "venue": "Charlie's Chop House",
+          "city": "Astoria",
+          "lineup": [
+            "Superunknown",
+            "Deephaven",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2019-03-15",
+          "venue": "Hawthorne Hideaway",
+          "city": "Portland",
+          "lineup": [
+            "LaGoon",
+            "Tigers On Opium",
+            "Ash Eater"
+          ]
+        },
+        {
+          "date": "2019-01-17",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Disenchanter",
+            "Young Hunter",
+            "Tigers On Opium",
+            "Cobra Thief"
+          ]
+        },
+        {
+          "date": "2018-11-16",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Tigers On Opium",
+            "Red Cloud",
+            "Hot Won't Quit"
+          ]
+        },
+        {
+          "date": "2018-10-05",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Moondrake",
+            "Tigers On Opium",
+            "Head The Hive"
+          ]
+        },
+        {
+          "date": "2018-06-12",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Disenchanter",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2018-03-30",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Tigers On Opium",
+            "Law Boss",
+            "Dad Works Hard"
+          ]
+        },
+        {
+          "date": "2017-08-18",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Humours",
+            "Die Like Gentlemen",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2016-02-27",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "We The Wild",
+            "Gladiators Eat Fire",
+            "Tigers On Opium"
+          ]
+        }
+      ],
+      "earliestYear": 2016,
+      "mostRecentRelease": {
+        "title": "Psychodrama",
+        "monthYear": "February 2024",
+        "bandcampURL": "https://tigersonopium.bandcamp.com/album/psychodrama"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "fbR3HHVCJ5raTZrajpB2",
+    "headliner": "Hippie Death Cult",
+    "eventDate": "2025-06-13",
+    "eventCity": "Portland",
+    "eventVenue": "The Get Down",
+    "supportActs": [
+      "Soriah"
+    ],
+    "eventNotes": "Soriah",
+    "stats": {
+      "totalShowsInOregon": 39,
+      "allShows": [
+        {
+          "date": "2025-06-14",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Hippie Death Cult",
+            "Ether"
+          ]
+        },
+        {
+          "date": "2024-11-08",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Kadabra",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2024-11-07",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Hippie Death Cult",
+            "Kadabra",
+            "Slow Goat"
+          ]
+        },
+        {
+          "date": "2024-06-14",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Hippie Death Cult",
+            "Sun Blood Stories",
+            "Milton"
+          ]
+        },
+        {
+          "date": "2024-05-25",
+          "venue": "Coffin Club",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Sun Blood Stories"
+          ]
+        },
+        {
+          "date": "2024-02-16",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Hippie Death Cult",
+            "Dead Nettle"
+          ]
+        },
+        {
+          "date": "2024-01-11",
+          "venue": "Polaris Hall",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Simple Forms"
+          ]
+        },
+        {
+          "date": "2023-09-08",
+          "venue": "Swan Dive",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Spirit Mother",
+            "R.I.P.",
+            "Robots Of The Ancient World",
+            "Black Shelton"
+          ]
+        },
+        {
+          "date": "2023-03-18",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Draggernaut"
+          ]
+        },
+        {
+          "date": "2023-03-17",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Deadfeather"
+          ]
+        },
+        {
+          "date": "2022-08-27",
+          "venue": "Bossanova Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Head The Hive",
+            "Slow Goat"
+          ]
+        },
+        {
+          "date": "2022-07-15",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Hippie Death Cult",
+            "Spirit Mother",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2021-10-15",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2021-09-19",
+          "venue": "Lola's Room",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "King Buffalo"
+          ]
+        },
+        {
+          "date": "2021-06-25",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Robots Of The Ancient World"
+          ]
+        },
+        {
+          "date": "2021-01-06",
+          "venue": "WOW Hall",
+          "city": "Eugene",
+          "lineup": [
+            "Hippie Death Cult",
+            "Egotones",
+            "Fashion Dirt"
+          ]
+        },
+        {
+          "date": "2020-02-06",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Head The Hive"
+          ]
+        },
+        {
+          "date": "2020-01-10",
+          "venue": "Bunk Bar",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Ice Princess"
+          ]
+        },
+        {
+          "date": "2019-11-08",
+          "venue": "Charlie's Chop House",
+          "city": "Astoria",
+          "lineup": [
+            "Hippie Death Cult",
+            "Kvasir",
+            "Something with Teeth"
+          ]
+        },
+        {
+          "date": "2019-10-05",
+          "venue": "Sawmill Studios",
+          "city": "Portland",
+          "lineup": [
+            "Dream Wulf",
+            "Hippie Death Cult",
+            "Ethereal Sea",
+            "Great Electric Quest"
+          ]
+        },
+        {
+          "date": "2019-09-07",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Hippie Death Cult",
+            "Granrojo",
+            "Children Of Atom"
+          ]
+        },
+        {
+          "date": "2019-08-24",
+          "venue": "Music Millennium",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult"
+          ]
+        },
+        {
+          "date": "2019-07-27",
+          "venue": "***Unknown***",
+          "city": "Portland",
+          "lineup": [
+            "Robots Of The Ancient World",
+            "Weehawk",
+            "Ethereal Sea",
+            "Snake Dance",
+            "Caleb And The Monsters",
+            "Fools",
+            "David Pollack",
+            "New World Aviation Committee",
+            "Beggars Canyon",
+            "The Jupiter Swuite",
+            "Rainbow Electric",
+            "Hippie Death Cult",
+            "Head The Hive",
+            "Red Cloud",
+            "The Living Skins",
+            "Gumtooth",
+            "New Dew",
+            "Dream Wulf",
+            "Freebase Hyperspace",
+            "Milk Bandits",
+            "Alex Toast",
+            "She"
+          ]
+        },
+        {
+          "date": "2019-07-26",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Psyclops",
+            "Hippie Death Cult",
+            "Ethereal Sea",
+            "LaGoon"
+          ]
+        },
+        {
+          "date": "2019-07-16",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Wolflaut"
+          ]
+        },
+        {
+          "date": "2019-05-05",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Gramrojo"
+          ]
+        },
+        {
+          "date": "2019-04-05",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Granrojo"
+          ]
+        },
+        {
+          "date": "2019-03-30",
+          "venue": "Turn Turn Turn",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Young Hunter",
+            "The Deadrones"
+          ]
+        },
+        {
+          "date": "2019-02-15",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Phantom High",
+            "War Cloud",
+            "Hippie Death Cult"
+          ]
+        },
+        {
+          "date": "2019-01-25",
+          "venue": "Gil's Speakeasy",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Freebase Hyperspace",
+            "Sacred Trees"
+          ]
+        },
+        {
+          "date": "2019-01-04",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "LaGoon",
+            "Dirty Princess"
+          ]
+        },
+        {
+          "date": "2018-12-20",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Disenchanter",
+            "Robots Of The Ancient World"
+          ]
+        },
+        {
+          "date": "2018-11-09",
+          "venue": "Johnny B's",
+          "city": "Medford",
+          "lineup": [
+            "Hippie Death Cult",
+            "Death Plant",
+            "Greenstone Trio"
+          ]
+        },
+        {
+          "date": "2018-11-08",
+          "venue": "Old Nick's Pub",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Egotones",
+            "Granrojo",
+            "Breaker Breaker"
+          ]
+        },
+        {
+          "date": "2018-11-07",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Aseitas",
+            "Metts Ryan Collins"
+          ]
+        },
+        {
+          "date": "2018-10-13",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Mos Generator",
+            "Holy Grove",
+            "Pushy",
+            "Hippie Death Cult"
+          ]
+        },
+        {
+          "date": "2018-08-24",
+          "venue": "Lombard Pub",
+          "city": "Portland",
+          "lineup": [
+            "Disenchanter",
+            "Hippie Death Cult",
+            "Something with Teeth",
+            "Skulldozer"
+          ]
+        },
+        {
+          "date": "2018-07-21",
+          "venue": "Kelly's Olympian",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Breaker Breaker",
+            "The Wilder"
+          ]
+        },
+        {
+          "date": "2018-05-28",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Ape Machine",
+            "Salem's Bend",
+            "High Priestess",
+            "Hippie Death Cult"
+          ]
+        }
+      ],
+      "earliestYear": 2018,
+      "mostRecentRelease": {
+        "title": "Live at the Star Theater",
+        "monthYear": "May 2025",
+        "bandcampURL": "https://heavypsychsoundsrecords.bandcamp.com/album/hippie-death-cult-live-at-the-star-theater"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "I6uprzQeesiAHNK9Zlry",
+    "headliner": "Soundcastle 2025 Night 2",
+    "eventDate": "2025-06-14",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "Young Hunter",
+      "Death Parade",
+      "Dysgenia",
+      "Contranistas",
+      "Wave Mosaic"
+    ],
+    "eventNotes": "Young Hunter, Death Parade, Dysgenia, Contranistas, Wave Mosaic",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "F76Q8MtcvxciZGiqq8Me",
+    "headliner": "Hippie Death Cult",
+    "eventDate": "2025-06-14",
+    "eventCity": "Bend",
+    "eventVenue": "Volcanic Theatre",
+    "supportActs": [
+      "-ether"
+    ],
+    "eventNotes": "-ether",
+    "stats": {
+      "totalShowsInOregon": 39,
+      "allShows": [
+        {
+          "date": "2025-06-13",
+          "venue": "The Get Down",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Soriah"
+          ]
+        },
+        {
+          "date": "2024-11-08",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Kadabra",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2024-11-07",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Hippie Death Cult",
+            "Kadabra",
+            "Slow Goat"
+          ]
+        },
+        {
+          "date": "2024-06-14",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Hippie Death Cult",
+            "Sun Blood Stories",
+            "Milton"
+          ]
+        },
+        {
+          "date": "2024-05-25",
+          "venue": "Coffin Club",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Sun Blood Stories"
+          ]
+        },
+        {
+          "date": "2024-02-16",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Hippie Death Cult",
+            "Dead Nettle"
+          ]
+        },
+        {
+          "date": "2024-01-11",
+          "venue": "Polaris Hall",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Simple Forms"
+          ]
+        },
+        {
+          "date": "2023-09-08",
+          "venue": "Swan Dive",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Spirit Mother",
+            "R.I.P.",
+            "Robots Of The Ancient World",
+            "Black Shelton"
+          ]
+        },
+        {
+          "date": "2023-03-18",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Draggernaut"
+          ]
+        },
+        {
+          "date": "2023-03-17",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Deadfeather"
+          ]
+        },
+        {
+          "date": "2022-08-27",
+          "venue": "Bossanova Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Head The Hive",
+            "Slow Goat"
+          ]
+        },
+        {
+          "date": "2022-07-15",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Hippie Death Cult",
+            "Spirit Mother",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2021-10-15",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium"
+          ]
+        },
+        {
+          "date": "2021-09-19",
+          "venue": "Lola's Room",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "King Buffalo"
+          ]
+        },
+        {
+          "date": "2021-06-25",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Robots Of The Ancient World"
+          ]
+        },
+        {
+          "date": "2021-01-06",
+          "venue": "WOW Hall",
+          "city": "Eugene",
+          "lineup": [
+            "Hippie Death Cult",
+            "Egotones",
+            "Fashion Dirt"
+          ]
+        },
+        {
+          "date": "2020-02-06",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Head The Hive"
+          ]
+        },
+        {
+          "date": "2020-01-10",
+          "venue": "Bunk Bar",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Ice Princess"
+          ]
+        },
+        {
+          "date": "2019-11-08",
+          "venue": "Charlie's Chop House",
+          "city": "Astoria",
+          "lineup": [
+            "Hippie Death Cult",
+            "Kvasir",
+            "Something with Teeth"
+          ]
+        },
+        {
+          "date": "2019-10-05",
+          "venue": "Sawmill Studios",
+          "city": "Portland",
+          "lineup": [
+            "Dream Wulf",
+            "Hippie Death Cult",
+            "Ethereal Sea",
+            "Great Electric Quest"
+          ]
+        },
+        {
+          "date": "2019-09-07",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Hippie Death Cult",
+            "Granrojo",
+            "Children Of Atom"
+          ]
+        },
+        {
+          "date": "2019-08-24",
+          "venue": "Music Millennium",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult"
+          ]
+        },
+        {
+          "date": "2019-07-27",
+          "venue": "***Unknown***",
+          "city": "Portland",
+          "lineup": [
+            "Robots Of The Ancient World",
+            "Weehawk",
+            "Ethereal Sea",
+            "Snake Dance",
+            "Caleb And The Monsters",
+            "Fools",
+            "David Pollack",
+            "New World Aviation Committee",
+            "Beggars Canyon",
+            "The Jupiter Swuite",
+            "Rainbow Electric",
+            "Hippie Death Cult",
+            "Head The Hive",
+            "Red Cloud",
+            "The Living Skins",
+            "Gumtooth",
+            "New Dew",
+            "Dream Wulf",
+            "Freebase Hyperspace",
+            "Milk Bandits",
+            "Alex Toast",
+            "She"
+          ]
+        },
+        {
+          "date": "2019-07-26",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Psyclops",
+            "Hippie Death Cult",
+            "Ethereal Sea",
+            "LaGoon"
+          ]
+        },
+        {
+          "date": "2019-07-16",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Wolflaut"
+          ]
+        },
+        {
+          "date": "2019-05-05",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Gramrojo"
+          ]
+        },
+        {
+          "date": "2019-04-05",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Tigers On Opium",
+            "Granrojo"
+          ]
+        },
+        {
+          "date": "2019-03-30",
+          "venue": "Turn Turn Turn",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Young Hunter",
+            "The Deadrones"
+          ]
+        },
+        {
+          "date": "2019-02-15",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Phantom High",
+            "War Cloud",
+            "Hippie Death Cult"
+          ]
+        },
+        {
+          "date": "2019-01-25",
+          "venue": "Gil's Speakeasy",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Freebase Hyperspace",
+            "Sacred Trees"
+          ]
+        },
+        {
+          "date": "2019-01-04",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "LaGoon",
+            "Dirty Princess"
+          ]
+        },
+        {
+          "date": "2018-12-20",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Disenchanter",
+            "Robots Of The Ancient World"
+          ]
+        },
+        {
+          "date": "2018-11-09",
+          "venue": "Johnny B's",
+          "city": "Medford",
+          "lineup": [
+            "Hippie Death Cult",
+            "Death Plant",
+            "Greenstone Trio"
+          ]
+        },
+        {
+          "date": "2018-11-08",
+          "venue": "Old Nick's Pub",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Egotones",
+            "Granrojo",
+            "Breaker Breaker"
+          ]
+        },
+        {
+          "date": "2018-11-07",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Aseitas",
+            "Metts Ryan Collins"
+          ]
+        },
+        {
+          "date": "2018-10-13",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Mos Generator",
+            "Holy Grove",
+            "Pushy",
+            "Hippie Death Cult"
+          ]
+        },
+        {
+          "date": "2018-08-24",
+          "venue": "Lombard Pub",
+          "city": "Portland",
+          "lineup": [
+            "Disenchanter",
+            "Hippie Death Cult",
+            "Something with Teeth",
+            "Skulldozer"
+          ]
+        },
+        {
+          "date": "2018-07-21",
+          "venue": "Kelly's Olympian",
+          "city": "Portland",
+          "lineup": [
+            "Hippie Death Cult",
+            "Breaker Breaker",
+            "The Wilder"
+          ]
+        },
+        {
+          "date": "2018-05-28",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Ape Machine",
+            "Salem's Bend",
+            "High Priestess",
+            "Hippie Death Cult"
+          ]
+        }
+      ],
+      "earliestYear": 2018,
+      "mostRecentRelease": {
+        "title": "Live at the Star Theater",
+        "monthYear": "May 2025",
+        "bandcampURL": "https://heavypsychsoundsrecords.bandcamp.com/album/hippie-death-cult-live-at-the-star-theater"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "cgVhkdYnYLCgHCWaLhsb",
+    "headliner": "Wonderstump",
+    "eventDate": "2025-06-15",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "Moon Letters",
+      "Wavicle"
+    ],
+    "eventNotes": "Moon Letters & Wavicle",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2024-08-10",
+          "venue": "Oregon City Records",
+          "city": "Oregon City",
+          "lineup": [
+            "Stoned Phoenix",
+            "JadeDust",
+            "Teeth For Eyes",
+            "Wonderstump"
+          ]
+        }
+      ],
+      "earliestYear": 2024,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "K4T2Ek3gkt3bROLN0JCB",
+    "headliner": "Die Right",
+    "eventDate": "2025-06-18",
+    "eventCity": "Portland",
+    "eventVenue": "Holocene",
+    "supportActs": [
+      "Object Unto Earth",
+      "Trauma Club"
+    ],
+    "eventNotes": "Object Unto Earth, Trauma Club",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "Llk10jxcdJFtyLuHgIT6",
+    "headliner": "Cascadian Midsummer 2025",
+    "eventDate": "2025-06-20",
+    "eventCity": "Ell, WA",
+    "eventVenue": "Red Hawk Avalon",
+    "supportActs": [
+      "Hulder",
+      "Ragana",
+      "Cinder Well",
+      "more"
+    ],
+    "eventNotes": "Hulder, Ragana, Cinder Well, & more",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "1k8RKBi0i7XYAhYjWCa0",
+    "headliner": "Fu Manchu",
+    "eventDate": "2025-06-20",
+    "eventCity": "Portland",
+    "eventVenue": "Hawthorne Theatre",
+    "supportActs": [
+      "Tigers On Opium"
+    ],
+    "eventNotes": "Tigers On Opium",
+    "stats": {
+      "totalShowsInOregon": 10,
+      "allShows": [
+        {
+          "date": "2024-08-23",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu",
+            "Mos Generator"
+          ]
+        },
+        {
+          "date": "2022-11-12",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu"
+          ]
+        },
+        {
+          "date": "2015-07-17",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu"
+          ]
+        },
+        {
+          "date": "2014-05-03",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu",
+            "Electric Citizen",
+            "Satyress"
+          ]
+        },
+        {
+          "date": "2012-01-12",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu",
+            "Lord Dying",
+            "Witchburn"
+          ]
+        },
+        {
+          "date": "2008-02-28",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu",
+            "Saviours",
+            "ASG",
+            "Prize Country"
+          ]
+        },
+        {
+          "date": "2007-03-01",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu",
+            "Valient Thorr",
+            "Artimus Pyledriver",
+            "Black Elk"
+          ]
+        },
+        {
+          "date": "2005-07-12",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Corrosion Of Conformity",
+            "Fu Manchu",
+            "Alabama Thunderpussy",
+            "Weedeater"
+          ]
+        },
+        {
+          "date": "2002-07-05",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu",
+            "Speed Dealer",
+            "Brand New Sin"
+          ]
+        },
+        {
+          "date": "2002-01-31",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu",
+            "Loaded",
+            "Injected"
+          ]
+        }
+      ],
+      "earliestYear": 2002,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "PtfLKDV8qBQnFQvY6Ham",
+    "headliner": "Arkham Sunset",
+    "eventDate": "2025-06-20",
+    "eventCity": "Eugene",
+    "eventVenue": "John Henry's",
+    "supportActs": [
+      "Doomed Romantics"
+    ],
+    "eventNotes": "Doomed Romantics",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2024-01-25",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Arkham Sunset",
+            "Masonique",
+            "Rise FM"
+          ]
+        },
+        {
+          "date": "2023-08-11",
+          "venue": "Six Below",
+          "city": "Portland",
+          "lineup": [
+            "Lies We Were Told",
+            "Arkham Sunset",
+            "Ceremony Shadows"
+          ]
+        }
+      ],
+      "earliestYear": 2023,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "5BNCKgGwCHQbUudletGW",
+    "headliner": "Planning for Burial",
+    "eventDate": "2025-06-24",
+    "eventCity": "Portland",
+    "eventVenue": "Twilight Cafe",
+    "supportActs": [
+      "Drowse",
+      "Death Parade"
+    ],
+    "eventNotes": "Drowse & Death Parade",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2015-06-27",
+          "venue": "Holocene",
+          "city": "Portland",
+          "lineup": [
+            "Sannhet",
+            "King Woman",
+            "Planning For Burial"
+          ]
+        },
+        {
+          "date": "2014-06-21",
+          "venue": "Slabtown",
+          "city": "Portland",
+          "lineup": [
+            "Troubled by Insects",
+            "Planning For Burial",
+            "The Binary Marketing Show",
+            "Muscle And Marrow"
+          ]
+        }
+      ],
+      "earliestYear": 2014,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "Dik5VcbtKgLZCNCG23BZ",
+    "headliner": "Daikaiju",
+    "eventDate": "2025-06-26",
+    "eventCity": "Eugene",
+    "eventVenue": "John Henry's",
+    "supportActs": [
+      "Egotones"
+    ],
+    "eventNotes": "Egotones",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2016-06-13",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Daikaiju",
+            "Audios Amigos",
+            "Pushy"
+          ]
+        }
+      ],
+      "earliestYear": 2016,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "hGopBFuCJxsw97oRmCtF",
+    "headliner": "Like Mang",
+    "eventDate": "2025-06-27",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "A Collective Subconscious",
+      "Childspeak"
+    ],
+    "eventNotes": "A Collective Subconscious & Childspeak",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "K0sqCvHSilhpODecnR7U",
+    "headliner": "Faun",
+    "eventDate": "2025-06-27",
+    "eventCity": "Portland",
+    "eventVenue": "Aladdin Theater",
+    "supportActs": [],
+    "eventNotes": "",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "NsGeet1Tt91et3oVCawp",
+    "headliner": "40 Watt Sun",
+    "eventDate": "2025-06-28",
+    "eventCity": "Portland",
+    "eventVenue": "Star Theater",
+    "supportActs": [
+      "Serpentent",
+      "The Keening"
+    ],
+    "eventNotes": "Serpentent & The Keening",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2025-08-04",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Serpentent",
+            "40 Watt Sun",
+            "Maulrat"
+          ]
+        },
+        {
+          "date": "2025-08-04",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "40 Watt Sun",
+            "Serpentent",
+            "Maulrat"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "tA04wUT5BNnxbgFpUvcz",
+    "headliner": "Victory Day Fest",
+    "eventDate": "2025-06-28",
+    "eventCity": "Portland",
+    "eventVenue": "Twilight Cafe",
+    "supportActs": [
+      "1876",
+      "Berzerk",
+      "Under Exile",
+      "Kinghorn",
+      "Lesser Animal"
+    ],
+    "eventNotes": "1876, Berzerk, Under Exile, Kinghorn, Lesser Animal",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "zk3gMZAKJwfKqYazSkW4",
+    "headliner": "Deschutes River Rock Fest 2025",
+    "eventDate": "2025-06-28",
+    "eventCity": "Bend",
+    "eventVenue": "Silver Moon Brewing",
+    "supportActs": [
+      "The Kronk Men",
+      "Gravewitch",
+      "More"
+    ],
+    "eventNotes": "The Kronk Men, Gravewitch, & More",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "BCZ4yPl8DDipa535J4YW",
+    "headliner": "DOMKRAFT",
+    "eventDate": "2025-07-03",
+    "eventCity": "Eugene",
+    "eventVenue": "John Henry's",
+    "supportActs": [
+      "Howling Giant"
+    ],
+    "eventNotes": "Howling Giant",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2025-07-04",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "DOMKRAFT",
+            "Howling Giant",
+            "Old Kingdom"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "dkh8rkKOz05XDRROjObF",
+    "headliner": "DOMKRAFT",
+    "eventDate": "2025-07-04",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "Howling Giant",
+      "Old Kingdom"
+    ],
+    "eventNotes": "Howling Giant & Old Kingdom",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2025-07-03",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "DOMKRAFT",
+            "Howling Giant"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "OxFYwB5wURFyVNnaGUC1",
+    "headliner": "This Will Destroy You",
+    "eventDate": "2025-07-13",
+    "eventCity": "Portland",
+    "eventVenue": "Mississippi Studios",
+    "supportActs": [],
+    "eventNotes": "",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2011-05-20",
+          "venue": "Ted's",
+          "city": "Portland",
+          "lineup": [
+            "This Will Destroy You",
+            "Sleep ∞ Over",
+            "Pure X"
+          ]
+        }
+      ],
+      "earliestYear": 2011,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "EN9SmMHZJqWYLjLJmKiq",
+    "headliner": "Haunted Mound",
+    "eventDate": "2025-07-18",
+    "eventCity": "Portland",
+    "eventVenue": "Hawthorne Theatre",
+    "supportActs": [
+      "Sematary",
+      "Ghost Mountain",
+      "Hackle",
+      "Anvil"
+    ],
+    "eventNotes": "Sematary, Ghost Mountain, Hackle, & Anvil",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "0Tavbc7KuWEFAExfFb4l",
+    "headliner": "Frankie and the Witch Fingers",
+    "eventDate": "2025-07-19",
+    "eventCity": "Portland",
+    "eventVenue": "The Den",
+    "supportActs": [
+      "TBA"
+    ],
+    "eventNotes": "TBA",
+    "stats": {
+      "totalShowsInOregon": 5,
+      "allShows": [
+        {
+          "date": "2024-10-27",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Frankie And The Witch Fingers",
+            "The Spoon Benders"
+          ]
+        },
+        {
+          "date": "2024-05-31",
+          "venue": "Crystal Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Frankie And The Witch Fingers",
+            "Black Mountain",
+            "Death Valley Girls",
+            "Fluid Druid"
+          ]
+        },
+        {
+          "date": "2023-01-31",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Frankie And The Witch Fingers",
+            "Monsterwatch"
+          ]
+        },
+        {
+          "date": "2017-10-20",
+          "venue": "The North Warehouse",
+          "city": "Portland",
+          "lineup": [
+            "Wand",
+            "Chastity Belt",
+            "The Ghost Ease",
+            "Lithics",
+            "Frankie And The Witch Fingers"
+          ]
+        },
+        {
+          "date": "2016-03-25",
+          "venue": "The Know",
+          "city": "Portland",
+          "lineup": [
+            "Frankie And The Witch Fingers",
+            "Coma Serfs",
+            "The Dyslexics"
+          ]
+        }
+      ],
+      "earliestYear": 2016,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "8pbSdrzmg8NgRmc8TnyP",
+    "headliner": "Torpedo",
+    "eventDate": "2025-07-20",
+    "eventCity": "Eugene",
+    "eventVenue": "John Henry's",
+    "supportActs": [],
+    "eventNotes": "",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2025-07-23",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Hexvessel",
+            "Nightfell",
+            "Torpedo",
+            "Felsenmirror"
+          ]
+        },
+        {
+          "date": "2024-04-08",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Torpedo",
+            "C.I.A. Hippie Mind Control"
+          ]
+        }
+      ],
+      "earliestYear": 2024,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "fMzph8wHQCGQdNt5Kqbd",
+    "headliner": "HEXVESSEL",
+    "eventDate": "2025-07-23",
+    "eventCity": "Portland",
+    "eventVenue": "High Water Mark Lounge",
+    "supportActs": [
+      "Nightfell",
+      "Torpedo",
+      "Felsenmirror"
+    ],
+    "eventNotes": "Nightfell, Torpedo, & Felsenmirror",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "9va46JXNLy4lrwR8XqNE",
+    "headliner": "Mizmor",
+    "eventDate": "2025-07-26",
+    "eventCity": "Bend",
+    "eventVenue": "Silver Moon Brewing",
+    "supportActs": [
+      "Vacancy Floor"
+    ],
+    "eventNotes": "Vacancy Floor",
+    "stats": {
+      "totalShowsInOregon": 15,
+      "allShows": [
+        {
+          "date": "2025-05-29",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Dragged Into Sunlight",
+            "Mizmor"
+          ]
+        },
+        {
+          "date": "2024-11-21",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Mizmor",
+            "Great Falls",
+            "Glasghote",
+            "Asphalt",
+            "Pre Party"
+          ]
+        },
+        {
+          "date": "2024-07-07",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Mizmor",
+            "Tithe",
+            "Disposessed"
+          ]
+        },
+        {
+          "date": "2023-10-20",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Mizmor",
+            "Last",
+            "Besotten"
+          ]
+        },
+        {
+          "date": "2023-07-28",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Mizmor",
+            "Usnea",
+            "Unreqvited"
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "venue": "Red Hawk Avalon",
+          "city": "Chehalis (WA)",
+          "lineup": [
+            "Osi And The Jupiter",
+            "Mizmor",
+            "Bell Witch",
+            "Panopticon",
+            "Aerial Ruin",
+            "Usnea",
+            "Drouth",
+            "Felsenmirror",
+            "Solace",
+            "Oldest Sea",
+            "Goblin Town"
+          ]
+        },
+        {
+          "date": "2023-02-24",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Mizmor",
+            "Stygian Bough",
+            "Simple Forms"
+          ]
+        },
+        {
+          "date": "2022-08-14",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Mizmor",
+            "Felsenmirror"
+          ]
+        },
+        {
+          "date": "2022-08-13",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Mizmor",
+            "Felsenmirror"
+          ]
+        },
+        {
+          "date": "2022-04-16",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Mizmor",
+            "Vouna",
+            "Glasghote"
+          ]
+        },
+        {
+          "date": "2019-09-25",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Mizmor",
+            "HELL",
+            "An Empty Room"
+          ]
+        },
+        {
+          "date": "2019-09-24",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "HELL",
+            "Mizmor",
+            "Bedlamite"
+          ]
+        },
+        {
+          "date": "2019-05-16",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Shape of Despair",
+            "Anatomia",
+            "Mizmor",
+            "Caustic Wound",
+            "Fauna",
+            "Vanum",
+            "Zoloa",
+            "Worm Ouroboros"
+          ]
+        },
+        {
+          "date": "2019-01-10",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Mizmor",
+            "Forn",
+            "Worm Ouroboros"
+          ]
+        },
+        {
+          "date": "2018-04-14",
+          "venue": "The Space Concert Club",
+          "city": "Salem",
+          "lineup": [
+            "HELL",
+            "Mizmor",
+            "Mania"
+          ]
+        }
+      ],
+      "earliestYear": 2018,
+      "mostRecentRelease": {
+        "title": "Mnemonic: Ambient Mosaic",
+        "monthYear": "June 2025",
+        "bandcampURL": "https://mizmor.bandcamp.com/album/mnemonic-ambient-mosaic-2"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "yptgWh3oOvKWkbnz9eEm",
+    "headliner": "Femme Fatale Festival 2025 - Night 1",
+    "eventDate": "2025-08-01",
+    "eventCity": "Portland",
+    "eventVenue": "Twilight Cafe",
+    "supportActs": [
+      "High Glow",
+      "Altar Girl",
+      "Paradigm Shyft",
+      "Thrash Course"
+    ],
+    "eventNotes": "High Glow, Altar Girl, Paradigm Shyft, Thrash Course",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "CoLfUFgGzI9qklNIERZ9",
+    "headliner": "Spina",
+    "eventDate": "2025-08-02",
+    "eventCity": "Bend",
+    "eventVenue": "Evil Sister Saloon Reunion",
+    "supportActs": [
+      "It's Chaos",
+      "My New Vice",
+      "The Slappy's",
+      "Magnitudes"
+    ],
+    "eventNotes": "It's Chaos, My New Vice, The Slappy's, Magnitudes",
+    "stats": {
+      "totalShowsInOregon": 3,
+      "allShows": [
+        {
+          "date": "2025-04-11",
+          "venue": "Silver Moon Brewing",
+          "city": "Bend",
+          "lineup": [
+            "Sorcia",
+            "Mother Root",
+            "Elk Witch",
+            "Spina"
+          ]
+        },
+        {
+          "date": "2024-12-10",
+          "venue": "The Capitol",
+          "city": "Bend",
+          "lineup": [
+            "Vacancy Floor",
+            "Spina",
+            "It's Chaos"
+          ]
+        },
+        {
+          "date": "2024-02-29",
+          "venue": "Volcanic Theatre Pub",
+          "city": "Bend",
+          "lineup": [
+            "Slow Goat",
+            "Dead Nettle",
+            "Vacancy Floor",
+            "Spina"
+          ]
+        }
+      ],
+      "earliestYear": 2024,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": [
+        {
+          "supportAct": "It's Chaos",
+          "date": "2024-12-10",
+          "venue": "The Capitol",
+          "city": "Bend"
+        }
+      ]
+    }
+  },
+  {
+    "eventId": "kPHnq5IurDX8cJ0xsfhR",
+    "headliner": "Femme Fatale Festival 2025 - Night 2",
+    "eventDate": "2025-08-02",
+    "eventCity": "Portland",
+    "eventVenue": "Twilight Cafe",
+    "supportActs": [
+      "Burial Clouds",
+      "Someone's Daughter",
+      "Not Your Ex Lover",
+      "Here's to Hoping"
+    ],
+    "eventNotes": "Burial Clouds, Someone's Daughter, Not Your Ex Lover, Here's to Hoping",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "dlX7wNXraAPEknbZnEUa",
+    "headliner": "Steve Von Till",
+    "eventDate": "2025-08-03",
+    "eventCity": "Portland",
+    "eventVenue": "Mississippi Studios",
+    "supportActs": [
+      "Mike Scheidt"
+    ],
+    "eventNotes": "Mike Scheidt",
+    "stats": {
+      "totalShowsInOregon": 3,
+      "allShows": [
+        {
+          "date": "2024-06-21",
+          "venue": "Red Hawk Avalon",
+          "city": "Chehalis (WA)",
+          "lineup": [
+            "Wolves in The Throne Room",
+            "Earth",
+            "Steve Von Till",
+            "Usnea",
+            "Chrome Ghost",
+            "Eight Bells",
+            "Tithe"
+          ]
+        },
+        {
+          "date": "2004-05-15",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Tarentel",
+            "Grails",
+            "Steve Von Till"
+          ]
+        },
+        {
+          "date": "2003-11-08",
+          "venue": "PS What?",
+          "city": "Portland",
+          "lineup": [
+            "Steve Von Till",
+            "Grails"
+          ]
+        }
+      ],
+      "earliestYear": 2003,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "rz3g1rM8Epfhpc65v20v",
+    "headliner": "Blood Incantation",
+    "eventDate": "2025-08-03",
+    "eventCity": "Portland",
+    "eventVenue": "Roseland Theater",
+    "supportActs": [
+      "Krallice"
+    ],
+    "eventNotes": "Krallice",
+    "stats": {
+      "totalShowsInOregon": 11,
+      "allShows": [
+        {
+          "date": "2024-11-06",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Blood Incantation",
+            "Midwife"
+          ]
+        },
+        {
+          "date": "2023-05-16",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Obituary",
+            "Blood Incantation",
+            "Immolation",
+            "Ingrown"
+          ]
+        },
+        {
+          "date": "2022-09-16",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Blood Incantation",
+            "Full Of Hell",
+            "Mortuous",
+            "God Is War",
+            "Vermin Womb"
+          ]
+        },
+        {
+          "date": "2019-10-13",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Immolation",
+            "Blood Incantation",
+            "Vitriol"
+          ]
+        },
+        {
+          "date": "2019-02-24",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Cannibal Corpse",
+            "Morbid Angel",
+            "Necrot",
+            "Blood Incantation"
+          ]
+        },
+        {
+          "date": "2017-06-13",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Blood Incantation",
+            "Qrixkuor",
+            "Crurifragium",
+            "Dagger Lust"
+          ]
+        },
+        {
+          "date": "2016-09-09",
+          "venue": "Bossanova Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Ash Borer",
+            "Blood Incantation",
+            "HELL",
+            "R.I.P.",
+            "Aelter"
+          ]
+        },
+        {
+          "date": "2016-06-14",
+          "venue": "TBA",
+          "city": "Salem",
+          "lineup": [
+            "Spectral Voice",
+            "Blood Incantation",
+            "Triumvir Foul",
+            "Sempiternal Dusk"
+          ]
+        },
+        {
+          "date": "2015-10-26",
+          "venue": "TBA",
+          "city": "Eugene",
+          "lineup": [
+            "Blood Incantation"
+          ]
+        },
+        {
+          "date": "2015-10-24",
+          "venue": "Panic Room",
+          "city": "Portland",
+          "lineup": [
+            "Blood Incantation"
+          ]
+        },
+        {
+          "date": "2015-10-23",
+          "venue": "Oregon Tattoo",
+          "city": "Salem",
+          "lineup": [
+            "Thou",
+            "The Body",
+            "Blood Incantation",
+            "HELL",
+            "Heat Dust"
+          ]
+        }
+      ],
+      "earliestYear": 2015,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "Q9kInzs2ZrsQ0BD0mPtA",
+    "headliner": "40 Watt Sun",
+    "eventDate": "2025-08-04",
+    "eventCity": "Eugene",
+    "eventVenue": "John Henry's",
+    "supportActs": [
+      "Serpentent",
+      "Maulrat"
+    ],
+    "eventNotes": "Serpentent & Maulrat",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2025-06-28",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "40 Watt Sun",
+            "Serpentent",
+            "The Keening"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "FhYXFlE7yWmLRgm8Mn0x",
+    "headliner": "Dozer",
+    "eventDate": "2025-08-14",
+    "eventCity": "Eugene",
+    "eventVenue": "John Henry's",
+    "supportActs": [
+      "Moon Destroys",
+      "Abrams"
+    ],
+    "eventNotes": "Moon Destroys & Abrams",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2025-08-15",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Dozer",
+            "Moon Destroys",
+            "Abrams",
+            "Ravine"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "uz5aLiYcTewJOGYT5KWX",
+    "headliner": "Dozer",
+    "eventDate": "2025-08-15",
+    "eventCity": "Portland",
+    "eventVenue": "Dante's ",
+    "supportActs": [
+      "Moon Destroys",
+      "Ravine"
+    ],
+    "eventNotes": "Moon Destroys & Ravine",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2025-08-14",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Dozer",
+            "Moon Destroys",
+            "Abrams"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "bnEEvRJBroFRVUq0hK36",
+    "headliner": "Agalloch",
+    "eventDate": "2025-08-16",
+    "eventCity": "Portland",
+    "eventVenue": "Revolution Hall",
+    "supportActs": [
+      "Dry Wedding",
+      "John Haughm"
+    ],
+    "eventNotes": "Dry Wedding & John Haughm",
+    "stats": {
+      "totalShowsInOregon": 14,
+      "allShows": [
+        {
+          "date": "2015-06-05",
+          "venue": "WOW Hall",
+          "city": "Eugene",
+          "lineup": [
+            "Agalloch",
+            "YOB",
+            "Ufomammut"
+          ]
+        },
+        {
+          "date": "2014-05-16",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Agalloch",
+            "Lasher Keen",
+            "Sedan"
+          ]
+        },
+        {
+          "date": "2013-10-12",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Agalloch",
+            "Behold… The Arctopus",
+            "Botanist",
+            "Eight Bells"
+          ]
+        },
+        {
+          "date": "2013-04-14",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Agalloch",
+            "Sutekh Hexen"
+          ]
+        },
+        {
+          "date": "2012-07-14",
+          "venue": "Branx",
+          "city": "Portland",
+          "lineup": [
+            "Agalloch",
+            "Eight Bells",
+            "Taurus"
+          ]
+        },
+        {
+          "date": "2012-07-11",
+          "venue": "Branx",
+          "city": "Portland",
+          "lineup": [
+            "Agalloch",
+            "Taurus",
+            "Eight Bells"
+          ]
+        },
+        {
+          "date": "2010-12-16",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Agalloch",
+            "Allerseelen",
+            "Aerial Ruin"
+          ]
+        },
+        {
+          "date": "2009-10-30",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Agalloch",
+            "Amber Asylum",
+            "Soriah",
+            "Fauna"
+          ]
+        },
+        {
+          "date": "2008-03-22",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Agalloch",
+            "Red Sparowes",
+            "Grayceon",
+            "Russian Circles"
+          ]
+        },
+        {
+          "date": "2006-11-02",
+          "venue": "Gravity Room",
+          "city": "Portland",
+          "lineup": [
+            "Moonspell",
+            "Katatonia",
+            "Daylight Dies",
+            "Agalloch"
+          ]
+        },
+        {
+          "date": "2006-07-29",
+          "venue": "Sabala's Mt Tabor",
+          "city": "Portland",
+          "lineup": [
+            "Agalloch",
+            "Waldteufel",
+            "Wolves in The Throne Room",
+            "Giant Squid"
+          ]
+        },
+        {
+          "date": "2003-05-18",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Virgin Black",
+            "Agalloch",
+            "Anti-Matter"
+          ]
+        },
+        {
+          "date": "2003-03-25",
+          "venue": "Satyricon",
+          "city": "Portland",
+          "lineup": [
+            "Agalloch",
+            "In Memorium",
+            "Soul Negro",
+            "Serpeant’s Ann"
+          ]
+        },
+        {
+          "date": "2003-03-05",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "YOB",
+            "Witch Mountain",
+            "Agalloch"
+          ]
+        }
+      ],
+      "earliestYear": 2003,
+      "mostRecentRelease": {
+        "title": "Faustian Echoes",
+        "monthYear": "August 2016",
+        "bandcampURL": "https://agalloch.bandcamp.com/album/faustian-echoes"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "RN6iOkQBeBgqhvqNjuUa",
+    "headliner": "Pigs Pigs Pigs Pigs Pigs Pigs Pigs",
+    "eventDate": "2025-08-18",
+    "eventCity": "Portland",
+    "eventVenue": "Mississippi Studios",
+    "supportActs": [
+      "Slaughterhouse"
+    ],
+    "eventNotes": "Slaughterhouse",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2023-03-24",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Pigs Pigs Pigs Pigs Pigs Pigs Pigs",
+            "Glacial Fall"
+          ]
+        }
+      ],
+      "earliestYear": 2023,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "EbEdpw1TrzQli49OeBcU",
+    "headliner": "Oregon Death Fest III",
+    "eventDate": "2025-08-23",
+    "eventCity": "Portland",
+    "eventVenue": "Twilight Cafe",
+    "supportActs": [
+      "Six Million Dead (AZ)",
+      "Within Caskets (OR)",
+      "Cursed (CA)",
+      "Violent Insurrection (WA)",
+      "Dead Nexus (OR)",
+      "These Cursed Hands (OR)",
+      "Worm Chewer (OR)",
+      "Sea Sleeper (OR)",
+      "Bloodscript (OR)",
+      "Conjuring Up Monsterz (WA)",
+      "Aphotic Genesis (OR)"
+    ],
+    "eventNotes": "Six Million Dead (AZ), Within Caskets (OR), Cursed (CA), Violent Insurrection (WA), Dead Nexus (OR), These Cursed Hands (OR), Worm Chewer (OR), Sea Sleeper (OR), Bloodscript (OR), Conjuring Up Monsterz (WA), Aphotic Genesis (OR)",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "btHN4N4DxlIgKVzEO3Iu",
+    "headliner": "Windhand",
+    "eventDate": "2025-08-23",
+    "eventCity": "Portland",
+    "eventVenue": "Aladdin Theater",
+    "supportActs": [
+      "Luna Negra"
+    ],
+    "eventNotes": "Luna Negra",
+    "stats": {
+      "totalShowsInOregon": 5,
+      "allShows": [
+        {
+          "date": "2018-04-20",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Windhand",
+            "Ruby The Hatchet",
+            "Emma Ruth Rundle",
+            "Holy Grove",
+            "Black Mare"
+          ]
+        },
+        {
+          "date": "2017-04-21",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Dark Castle",
+            "R.I.P.",
+            "Lord Dying",
+            "Bell Witch",
+            "Windhand"
+          ]
+        },
+        {
+          "date": "2015-10-29",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Windhand",
+            "Danava",
+            "Monolord"
+          ]
+        },
+        {
+          "date": "2013-12-08",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "High On Fire",
+            "Kvelertak",
+            "Windhand"
+          ]
+        },
+        {
+          "date": "2013-09-18",
+          "venue": "Ash Street Saloon",
+          "city": "Portland",
+          "lineup": [
+            "Windhand",
+            "Bell Witch",
+            "Ionophore",
+            "Stoneburner"
+          ]
+        }
+      ],
+      "earliestYear": 2013,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "58dcWWTSxzaUuYqMUJ2y",
+    "headliner": "The Sword",
+    "eventDate": "2025-08-24",
+    "eventCity": "Portland",
+    "eventVenue": "Hawthorne Theatre",
+    "supportActs": [],
+    "eventNotes": "",
+    "stats": {
+      "totalShowsInOregon": 14,
+      "allShows": [
+        {
+          "date": "2017-07-24",
+          "venue": "Wonder Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Big Jesus"
+          ]
+        },
+        {
+          "date": "2016-10-24",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Opeth",
+            "The Sword"
+          ]
+        },
+        {
+          "date": "2015-10-29",
+          "venue": "Wonder Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Kadavar",
+            "All Them Witches"
+          ]
+        },
+        {
+          "date": "2015-03-17",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Big Business",
+            "O'BroTher"
+          ]
+        },
+        {
+          "date": "2014-03-17",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Big Business",
+            "O’BroTher"
+          ]
+        },
+        {
+          "date": "2013-08-05",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Castle",
+            "American Sharks"
+          ]
+        },
+        {
+          "date": "2012-12-06",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Gypsyhawk",
+            "American Sharks"
+          ]
+        },
+        {
+          "date": "2011-11-20",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Kyuss",
+            "The Sword",
+            "Black Cobra",
+            "YOB"
+          ]
+        },
+        {
+          "date": "2010-10-03",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Karma to Burn",
+            "Mount Carmel"
+          ]
+        },
+        {
+          "date": "2008-04-21",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Slough Feg",
+            "Children"
+          ]
+        },
+        {
+          "date": "2007-03-15",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Priestbird",
+            "Year Long Disaster"
+          ]
+        },
+        {
+          "date": "2006-10-23",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Trivium",
+            "The Sword",
+            "Protest The Hero",
+            "Seemless"
+          ]
+        },
+        {
+          "date": "2006-07-14",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Saviours",
+            "Akimbo",
+            "Red Fang"
+          ]
+        },
+        {
+          "date": "2006-02-22",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "The Sword",
+            "Early Man",
+            "Priestess",
+            "Ditchliquor"
+          ]
+        }
+      ],
+      "earliestYear": 2006,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "XR6OHBttzC2YRnRKRWR3",
+    "headliner": "Young Widows ",
+    "eventDate": "2025-08-24",
+    "eventCity": "Portland",
+    "eventVenue": "Star Theater",
+    "supportActs": [
+      "Helms Alee"
+    ],
+    "eventNotes": "Helms Alee",
+    "stats": {
+      "totalShowsInOregon": 3,
+      "allShows": [
+        {
+          "date": "2024-04-11",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Pallbearer",
+            "Helms Alee",
+            "young Widows",
+            "Simple Forms",
+            "Eagle Claw"
+          ]
+        },
+        {
+          "date": "2009-11-16",
+          "venue": "Doug Fir Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Russian Circles",
+            "Young Widows",
+            "Helms Alee"
+          ]
+        },
+        {
+          "date": "2008-06-10",
+          "venue": "Doug Fir Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Russian Circles",
+            "Daughters",
+            "Young Widows"
+          ]
+        }
+      ],
+      "earliestYear": 2008,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": [
+        {
+          "supportAct": "Helms Alee",
+          "date": "2024-04-11",
+          "venue": "Mississippi Studios",
+          "city": "Portland"
+        },
+        {
+          "supportAct": "Helms Alee",
+          "date": "2009-11-16",
+          "venue": "Doug Fir Lounge",
+          "city": "Portland"
+        }
+      ]
+    }
+  },
+  {
+    "eventId": "jIGmgqheSxmMUHZucEvT",
+    "headliner": "Lord Dying",
+    "eventDate": "2025-08-28",
+    "eventCity": "Portland",
+    "eventVenue": "Dante's",
+    "supportActs": [
+      "ANCIIENTS with Dawn Of Ouroboros",
+      "Nott",
+      "Vintersea"
+    ],
+    "eventNotes": "ANCIIENTS with Dawn Of Ouroboros, Nott, & Vintersea",
+    "stats": {
+      "totalShowsInOregon": 64,
+      "allShows": [
+        {
+          "date": "2024-09-28",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Simple Forms",
+            "Ils"
+          ]
+        },
+        {
+          "date": "2024-01-26",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Bewitcher",
+            "Glasghote"
+          ]
+        },
+        {
+          "date": "2023-09-29",
+          "venue": "Lay Low Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2023-04-21",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "High On Fire",
+            "Drunk Horse",
+            "Lord Dying",
+            "Mike Scheidt",
+            "Kinghorn"
+          ]
+        },
+        {
+          "date": "2022-06-03",
+          "venue": "Bossanova Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Bongzilla",
+            "Zeke",
+            "Lord Dying",
+            "Glacial Fall"
+          ]
+        },
+        {
+          "date": "2022-02-24",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Maximum Mad",
+            "Glasghote",
+            "Ils"
+          ]
+        },
+        {
+          "date": "2020-03-01",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Lord Dying",
+            "Alltar",
+            "Intent//Purpose"
+          ]
+        },
+        {
+          "date": "2019-11-21",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Ils",
+            "Stoller"
+          ]
+        },
+        {
+          "date": "2019-09-21",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Fat Tony",
+            "Necrot",
+            "Lord Dying",
+            "Eagle Claw",
+            "Zig Zags"
+          ]
+        },
+        {
+          "date": "2019-06-08",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Year Of The Cobra",
+            "Glory in The Shadows"
+          ]
+        },
+        {
+          "date": "2017-07-04",
+          "venue": "Slow Bar",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "R.I.P.",
+            "Pushy",
+            "The Lucky Thirteens",
+            "Maximum Mad",
+            "The Savage Family Band",
+            "Captagon"
+          ]
+        },
+        {
+          "date": "2017-04-21",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Dark Castle",
+            "R.I.P.",
+            "Lord Dying",
+            "Bell Witch",
+            "Windhand"
+          ]
+        },
+        {
+          "date": "2016-09-28",
+          "venue": "Third Street Pub",
+          "city": "Bend",
+          "lineup": [
+            "Lord Dying",
+            "Black Fast",
+            "Child Bite"
+          ]
+        },
+        {
+          "date": "2016-08-19",
+          "venue": "The Panic Room",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Black Fast",
+            "Child Bite",
+            "Joel Grind"
+          ]
+        },
+        {
+          "date": "2016-03-27",
+          "venue": "Ash Street Saloon",
+          "city": "Portland",
+          "lineup": [
+            "Weedeater",
+            "Author And Punisher",
+            "Today is The Day",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2015-11-21",
+          "venue": "Eagles Lodge",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Usnea",
+            "R.I.P.",
+            "Hound The Wolves"
+          ]
+        },
+        {
+          "date": "2015-08-08",
+          "venue": "North Kerby",
+          "city": "Portland",
+          "lineup": [
+            "Slough Feg",
+            "Witch Mountain",
+            "Danava",
+            "Lord Dying",
+            "Sons Of Huns",
+            "Holy Grove",
+            "Zirakzigil",
+            "Mane Of The Cur"
+          ]
+        },
+        {
+          "date": "2015-07-10",
+          "venue": "White Owl",
+          "city": "Portland",
+          "lineup": [
+            "YOB",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2015-06-08",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Crowbar",
+            "Disenchanter",
+            "Lord Dying",
+            "Proven"
+          ]
+        },
+        {
+          "date": "2015-04-23",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Lord Dying",
+            "Lecherous Gaze",
+            "Black Pussy",
+            "Sons Of Huns",
+            "Prize Hog"
+          ]
+        },
+        {
+          "date": "2015-03-19",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Anvil",
+            "Lord Dying",
+            "Weresquatch",
+            "Sunlord"
+          ]
+        },
+        {
+          "date": "2015-01-30",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Sons Of Huns",
+            "Graves At Sea"
+          ]
+        },
+        {
+          "date": "2014-12-12",
+          "venue": "White Owl",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Usnea",
+            "Cold Blue Mountain"
+          ]
+        },
+        {
+          "date": "2014-11-25",
+          "venue": "Ash Street Saloon",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Castle",
+            "Norska",
+            "Holy Grove"
+          ]
+        },
+        {
+          "date": "2014-11-23",
+          "venue": "3rd Street",
+          "city": "Bend",
+          "lineup": [
+            "Lord Dying",
+            "Castle"
+          ]
+        },
+        {
+          "date": "2014-08-30",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Corrosion Of Conformity",
+            "BL'AST",
+            "Brant Bjork",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2014-05-03",
+          "venue": "Rotture",
+          "city": "Portland",
+          "lineup": [
+            "C-Average",
+            "Lord Dying",
+            "Vanguard"
+          ]
+        },
+        {
+          "date": "2014-04-25",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Lord Dying",
+            "Norska",
+            "Black Pussy",
+            "Ancient Warlocks",
+            "Chron Goblin"
+          ]
+        },
+        {
+          "date": "2014-03-08",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Sons Of Huns",
+            "Paralyzer"
+          ]
+        },
+        {
+          "date": "2014-02-10",
+          "venue": "Rotture",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Pallbearer",
+            "The Body"
+          ]
+        },
+        {
+          "date": "2013-11-28",
+          "venue": "The Analog Café",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Anciients",
+            "NeTher Regions",
+            "Sioux"
+          ]
+        },
+        {
+          "date": "2013-10-11",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Holy Grail",
+            "Orange Goblin",
+            "Lazer Wulf"
+          ]
+        },
+        {
+          "date": "2013-09-15",
+          "venue": "Rotture",
+          "city": "Portland",
+          "lineup": [
+            "Valient Thorr",
+            "Lord Dying",
+            "Ramming Speed"
+          ]
+        },
+        {
+          "date": "2013-08-17",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Howl",
+            "Lord Dying",
+            "Sons Of Huns"
+          ]
+        },
+        {
+          "date": "2013-07-09",
+          "venue": "White Owl",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Norska"
+          ]
+        },
+        {
+          "date": "2013-05-18",
+          "venue": "Plan B",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Wizard Rifle",
+            "Bell Witch",
+            "Sioux"
+          ]
+        },
+        {
+          "date": "2013-04-26",
+          "venue": "Wonder Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Ghost B.C.",
+            "Ides Of Gemini",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2013-04-20",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Tweak Bird",
+            "Danava",
+            "Diesto",
+            "Saintan",
+            "Regular Music",
+            "Floor",
+            "Lord Dying",
+            "Norska",
+            "Black Pussy",
+            "Hot Victory"
+          ]
+        },
+        {
+          "date": "2013-03-07",
+          "venue": "Branx",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Atriarch",
+            "NeTher Regions",
+            "Gaytheist"
+          ]
+        },
+        {
+          "date": "2013-01-22",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Down",
+            "Warbeast",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2013-01-17",
+          "venue": "White Owl",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Diesto"
+          ]
+        },
+        {
+          "date": "2012-12-30",
+          "venue": "Star Bar",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Long Knife",
+            "Bi-Marks",
+            "I Need Lunch"
+          ]
+        },
+        {
+          "date": "2012-10-24",
+          "venue": "Plan B",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Black Tusk",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2012-09-02",
+          "venue": "Plan B",
+          "city": "Portland",
+          "lineup": [
+            "Rabbits",
+            "Thrones",
+            "Weird Fear",
+            "Party Foul",
+            "DRC3",
+            "Lord Dying",
+            "YOB",
+            "Taurus",
+            "Redneck",
+            "Billions And Billions"
+          ]
+        },
+        {
+          "date": "2012-08-26",
+          "venue": "The Know",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Serpent Crown",
+            "Spellcaster"
+          ]
+        },
+        {
+          "date": "2012-07-13",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Ghoul",
+            "Witchaven",
+            "Wehrmacht",
+            "Speedwolf",
+            "Weregoat",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2012-07-13",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Ghoul",
+            "Witchaven",
+            "Wehrmacht",
+            "Speed Wolf",
+            "Weregoat",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2012-07-08",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Midnight",
+            "Danava",
+            "Witch Mountain",
+            "Lord Dying",
+            "R.I.P.",
+            "NeTher Regions",
+            "Dead Conspiracy",
+            "Norska",
+            "Ripper",
+            "Billions And Billions",
+            "Turboigor",
+            "Lesbian",
+            "Sons Of Huns",
+            "Spellcaster",
+            "Sioux"
+          ]
+        },
+        {
+          "date": "2012-06-23",
+          "venue": "Backspace",
+          "city": "Portland",
+          "lineup": [
+            "Witch Mountain",
+            "Lord Dying",
+            "Spellcaster"
+          ]
+        },
+        {
+          "date": "2012-01-12",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Fu Manchu",
+            "Lord Dying",
+            "Witchburn"
+          ]
+        },
+        {
+          "date": "2011-12-30",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Rabbits",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2011-10-13",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Hazzards Cure",
+            "Ubik",
+            "Winter in The Blood"
+          ]
+        },
+        {
+          "date": "2011-09-26",
+          "venue": "Tube",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "400 Blows"
+          ]
+        },
+        {
+          "date": "2011-08-03",
+          "venue": "The Know",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Owl"
+          ]
+        },
+        {
+          "date": "2011-07-18",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "NeTher Regions",
+            "Lord Dying",
+            "The Guild"
+          ]
+        },
+        {
+          "date": "2011-07-03",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Danava",
+            "Lord Dying",
+            "Rabbits",
+            "Purple Rhinestone Eagle"
+          ]
+        },
+        {
+          "date": "2011-06-14",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Miasmac",
+            "Bone Sickness",
+            "Lord Dying",
+            "Terokal"
+          ]
+        },
+        {
+          "date": "2011-04-30",
+          "venue": "Branx",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Mongoloid Village",
+            "Lord Dying",
+            "Drunk Ladies"
+          ]
+        },
+        {
+          "date": "2011-02-27",
+          "venue": "East End",
+          "city": "Portland",
+          "lineup": [
+            "Thrones",
+            "Witch Mountain",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2011-02-10",
+          "venue": "Branx",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "NeTher Regions",
+            "Lord Dying",
+            "Wizard Rifle"
+          ]
+        },
+        {
+          "date": "2010-12-02",
+          "venue": "Plan B",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Fist Fite",
+            "AOR",
+            "Suicide Forest",
+            "Labyrinth And The Desert"
+          ]
+        },
+        {
+          "date": "2010-11-18",
+          "venue": "Plan B",
+          "city": "Portland",
+          "lineup": [
+            "Rabbits",
+            "Diesto",
+            "Salvador",
+            "Lord Dying"
+          ]
+        },
+        {
+          "date": "2010-11-05",
+          "venue": "Plan B",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Wolvserpent",
+            "Story Of Rats",
+            "Rye Wolves",
+            "Wizard Rifle"
+          ]
+        },
+        {
+          "date": "2010-08-20",
+          "venue": "Plan B",
+          "city": "Portland",
+          "lineup": [
+            "Red Fang",
+            "Lord Dying"
+          ]
+        }
+      ],
+      "earliestYear": 2010,
+      "mostRecentRelease": {
+        "title": "Clandestine Transcendence",
+        "monthYear": "January 2024",
+        "bandcampURL": "https://lorddying.bandcamp.com/album/clandestine-transcendence"
+      },
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "fBg0TSXafJL8T1lnMBcU",
+    "headliner": "Wardruna",
+    "eventDate": "2025-09-11",
+    "eventCity": "Portland",
+    "eventVenue": "Keller Auditorium",
+    "supportActs": [
+      "Chelsea Wolfe"
+    ],
+    "eventNotes": "Chelsea Wolfe",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "DdsFC3GmnZyaJM5DSAo4",
+    "headliner": "Castle Rat",
+    "eventDate": "2025-09-17",
+    "eventCity": "Portland",
+    "eventVenue": "Star Theater",
+    "supportActs": [
+      "Stainless"
+    ],
+    "eventNotes": "Stainless",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2024-11-09",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Early Moods",
+            "Castle Rat",
+            "Under The Clothesline"
+          ]
+        },
+        {
+          "date": "2024-11-07",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Witch Mountain",
+            "Early Moods",
+            "Castle Rat"
+          ]
+        }
+      ],
+      "earliestYear": 2024,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "SpABuwr3HTAYLVOMadu8",
+    "headliner": "Conan",
+    "eventDate": "2025-09-17",
+    "eventCity": "Eugene",
+    "eventVenue": "John Henry's",
+    "supportActs": [
+      "Mares of Thrace"
+    ],
+    "eventNotes": "Mares of Thrace",
+    "stats": {
+      "totalShowsInOregon": 10,
+      "allShows": [
+        {
+          "date": "2025-09-18",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "Mares Of Thrace"
+          ]
+        },
+        {
+          "date": "2024-04-18",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "Psychic Trash",
+            "Semuta"
+          ]
+        },
+        {
+          "date": "2024-04-17",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Conan",
+            "Psychic Trash"
+          ]
+        },
+        {
+          "date": "2023-05-24",
+          "venue": "Polaris Hall",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "Thra",
+            "Usnea"
+          ]
+        },
+        {
+          "date": "2019-03-02",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Conan",
+            "Sixes"
+          ]
+        },
+        {
+          "date": "2019-03-01",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "Eight Bells",
+            "Sixes"
+          ]
+        },
+        {
+          "date": "2018-02-16",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Conan",
+            "The Ditch And The Delta"
+          ]
+        },
+        {
+          "date": "2018-02-15",
+          "venue": "Crystal Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Coven",
+            "YOB",
+            "Conan",
+            "Pillorian"
+          ]
+        },
+        {
+          "date": "2017-05-12",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "North"
+          ]
+        },
+        {
+          "date": "2016-03-24",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "Serial Hawk",
+            "Usnea",
+            "WILL"
+          ]
+        }
+      ],
+      "earliestYear": 2016,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "N28dZivSuSynFGCxDhvi",
+    "headliner": "Anciients",
+    "eventDate": "2025-09-18",
+    "eventCity": "Eugene",
+    "eventVenue": "John Henry's",
+    "supportActs": [],
+    "eventNotes": "",
+    "stats": {
+      "totalShowsInOregon": 3,
+      "allShows": [
+        {
+          "date": "2025-08-28",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "ANCIIENTS",
+            "Dawn Of Ouroboros",
+            "Nott",
+            "Vintersea"
+          ]
+        },
+        {
+          "date": "2014-11-07",
+          "venue": "Branx",
+          "city": "Portland",
+          "lineup": [
+            "Intronaut",
+            "Anciients",
+            "Graves At Sea",
+            "Wayfarer",
+            "Sioux"
+          ]
+        },
+        {
+          "date": "2013-11-28",
+          "venue": "The Analog Café",
+          "city": "Portland",
+          "lineup": [
+            "Lord Dying",
+            "Anciients",
+            "NeTher Regions",
+            "Sioux"
+          ]
+        }
+      ],
+      "earliestYear": 2013,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "CG1YoRgNLNSBZFw7E9tB",
+    "headliner": "Conan",
+    "eventDate": "2025-09-18",
+    "eventCity": "Portland",
+    "eventVenue": "Mississippi Studios",
+    "supportActs": [
+      "Mares of Thrace"
+    ],
+    "eventNotes": "Mares of Thrace",
+    "stats": {
+      "totalShowsInOregon": 10,
+      "allShows": [
+        {
+          "date": "2025-09-17",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Conan",
+            "Mares Of Thrace"
+          ]
+        },
+        {
+          "date": "2024-04-18",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "Psychic Trash",
+            "Semuta"
+          ]
+        },
+        {
+          "date": "2024-04-17",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Conan",
+            "Psychic Trash"
+          ]
+        },
+        {
+          "date": "2023-05-24",
+          "venue": "Polaris Hall",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "Thra",
+            "Usnea"
+          ]
+        },
+        {
+          "date": "2019-03-02",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Conan",
+            "Sixes"
+          ]
+        },
+        {
+          "date": "2019-03-01",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "Eight Bells",
+            "Sixes"
+          ]
+        },
+        {
+          "date": "2018-02-16",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Conan",
+            "The Ditch And The Delta"
+          ]
+        },
+        {
+          "date": "2018-02-15",
+          "venue": "Crystal Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Coven",
+            "YOB",
+            "Conan",
+            "Pillorian"
+          ]
+        },
+        {
+          "date": "2017-05-12",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "North"
+          ]
+        },
+        {
+          "date": "2016-03-24",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Conan",
+            "Serial Hawk",
+            "Usnea",
+            "WILL"
+          ]
+        }
+      ],
+      "earliestYear": 2016,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "h3HzX5rpenGICQ1WrF9N",
+    "headliner": "Slow Crush",
+    "eventDate": "2025-09-24",
+    "eventCity": "Portland",
+    "eventVenue": "Hawthorne Theatre",
+    "supportActs": [
+      "Faetooth"
+    ],
+    "eventNotes": "Faetooth",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  }
+]
