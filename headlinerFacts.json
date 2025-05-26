@@ -328,7 +328,7 @@
     ],
     "eventNotes": "Old Dirty Buzzard",
     "stats": {
-      "totalShowsInOregon": 18,
+      "totalShowsInOregon": 17,
       "allShows": [
         {
           "date": "2025-06-06",
@@ -398,16 +398,6 @@
             "Sandkrawler",
             "Witch Agony",
             "Pulsar"
-          ]
-        },
-        {
-          "date": "2025-02-07",
-          "venue": "Silver Moon Brewing",
-          "city": "Bend",
-          "lineup": [
-            "Sandkrawler",
-            "Doombia",
-            "Vacancy Floor"
           ]
         },
         {
@@ -574,7 +564,7 @@
     ],
     "eventNotes": "Unceremony, Ion, Drouth",
     "stats": {
-      "totalShowsInOregon": 2,
+      "totalShowsInOregon": 1,
       "allShows": [
         {
           "date": "2024-07-19",
@@ -583,16 +573,6 @@
           "lineup": [
             "Barren Altar",
             "Roanoke",
-            "Dark Crucible"
-          ]
-        },
-        {
-          "date": "2024-07-19",
-          "venue": "Twilight Café",
-          "city": "Portland",
-          "lineup": [
-            "Barren Altar",
-            "Roankoke",
             "Dark Crucible"
           ]
         }
@@ -4558,6 +4538,45 @@
       "totalShowsInOregon": 0,
       "allShows": [],
       "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "qivApie3cynr3OiYjUta",
+    "headliner": "Daikaiju",
+    "eventDate": "2025-06-27",
+    "eventCity": "Portland",
+    "eventVenue": "Dante's",
+    "supportActs": [
+      "Nasalrod",
+      "Visions"
+    ],
+    "eventNotes": "Nasalrod & Visions",
+    "stats": {
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2025-06-26",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Daikaiju",
+            "Egotones"
+          ]
+        },
+        {
+          "date": "2016-06-13",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Daikaiju",
+            "Audios Amigos",
+            "Pushy"
+          ]
+        }
+      ],
+      "earliestYear": 2016,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
