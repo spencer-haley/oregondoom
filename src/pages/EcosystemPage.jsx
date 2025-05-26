@@ -56,7 +56,12 @@ export default function EcosystemPage() {
     const filteredBands = Object.keys(appearanceCounts).filter(b => appearanceCounts[b] >= 3);
     setBandList(filteredBands.sort());
 
-    let nodes = filteredBands.map(name => ({ id: name, count: appearanceCounts[name], ...bandYears[name] }));
+    let nodes = filteredBands.map(name => ({
+      id: name,
+      count: appearanceCounts[name],
+      ...bandYears[name]
+    }));
+
     let links = Object.entries(bandLinks)
       .map(([key, value]) => {
         const [source, target] = key.split('---');
@@ -64,17 +69,28 @@ export default function EcosystemPage() {
       })
       .filter(l => filteredBands.includes(l.source) && filteredBands.includes(l.target));
 
+    // ✅ REPLACE NODE COUNTS IF FOCUSED
     if (focusedBand) {
       const relatedBands = new Set();
+      const sharedShowCount = {};
+
       links = links.filter(l => {
         if (l.source === focusedBand || l.target === focusedBand) {
-          relatedBands.add(l.source);
-          relatedBands.add(l.target);
+          const other = l.source === focusedBand ? l.target : l.source;
+          relatedBands.add(focusedBand);
+          relatedBands.add(other);
+          sharedShowCount[other] = l.value;
           return true;
         }
         return false;
       });
-      nodes = nodes.filter(n => relatedBands.has(n.id));
+
+      nodes = nodes
+        .filter(n => relatedBands.has(n.id))
+        .map(n => ({
+          ...n,
+          count: n.id === focusedBand ? appearanceCounts[n.id] : sharedShowCount[n.id] || 1
+        }));
     }
 
     const width = 1000;
@@ -185,7 +201,6 @@ export default function EcosystemPage() {
     <>
       <Navbar />
       <div className="p-6 text-doomGreen max-w-screen-xl mx-auto">
-        {/* Page Header */}
         <div className="text-center mb-8">
           <h1 className="text-6xl font-metal text-doomGrey">Oregon Doom Ecosystem</h1>
           <p className="text-2xl text-doomGreen mt-2">
@@ -194,7 +209,7 @@ export default function EcosystemPage() {
           <p className="text-1xl text-doomGreen mt-2">
             May only be visible on PC or Android (iOS not tested)
           </p>
-          <br></br>
+          <br />
           <div className="mb-4">
             <label htmlFor="band-select" className="mr-2">Focus Band:</label>
             <select
