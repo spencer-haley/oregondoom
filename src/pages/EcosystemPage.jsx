@@ -56,7 +56,12 @@ export default function EcosystemPage() {
     const filteredBands = Object.keys(appearanceCounts).filter(b => appearanceCounts[b] >= 3);
     setBandList(filteredBands.sort());
 
-    let nodes = filteredBands.map(name => ({ id: name, count: appearanceCounts[name], ...bandYears[name] }));
+    let nodes = filteredBands.map(name => ({
+      id: name,
+      count: appearanceCounts[name],
+      ...bandYears[name]
+    }));
+
     let links = Object.entries(bandLinks)
       .map(([key, value]) => {
         const [source, target] = key.split('---');
@@ -64,6 +69,7 @@ export default function EcosystemPage() {
       })
       .filter(l => filteredBands.includes(l.source) && filteredBands.includes(l.target));
 
+    // ✅ REPLACE NODE COUNTS IF FOCUSED
     if (focusedBand) {
       const relatedBands = new Set();
       const sharedShowCount = {};
@@ -110,37 +116,15 @@ export default function EcosystemPage() {
     const tooltip = d3.select("body").append("div")
       .attr("class", "absolute text-sm bg-black text-doomGreen border border-doomGreen px-2 py-1 rounded hidden z-50");
 
-    const linkHover = container.append('g')
-      .selectAll('line')
-      .data(links)
-      .join('line')
-      .attr('stroke', 'transparent')
-      .attr('stroke-width', 15)
-      .on("mouseover", (event, d) => {
-        tooltip.classed("hidden", false)
-          .html(d.shows.join('<br><br>'))
-          .style("left", event.pageX + 10 + "px")
-          .style("top", event.pageY - 28 + "px");
-      })
-      .on("mouseout", () => tooltip.classed("hidden", true));
-
     const link = container.append('g')
       .selectAll('line')
       .data(links)
       .join('line')
       .attr('stroke', '#9acd32')
-      .attr('stroke-opacity', 0.3);
-
-    const nodeHover = container.append('g')
-      .selectAll('circle')
-      .data(nodes)
-      .join('circle')
-      .attr('r', d => Math.sqrt(d.count) * 6)
-      .attr('fill', 'transparent')
-      .attr('stroke', 'transparent')
+      .attr('stroke-opacity', 0.3)
       .on("mouseover", (event, d) => {
         tooltip.classed("hidden", false)
-          .html(`<strong>${d.id}</strong><br/>Shows: ${d.count}<br/>${d.first}–${d.last}`)
+          .html(d.shows.join('<br><br>'))
           .style("left", event.pageX + 10 + "px")
           .style("top", event.pageY - 28 + "px");
       })
@@ -154,7 +138,14 @@ export default function EcosystemPage() {
       .attr('fill', '#9acd32')
       .attr('stroke', '#d0ffb0')
       .attr('stroke-width', 1)
-      .call(drag(simulation));
+      .call(drag(simulation))
+      .on("mouseover", (event, d) => {
+        tooltip.classed("hidden", false)
+          .html(`<strong>${d.id}</strong><br/>Shows: ${d.count}<br/>${d.first}–${d.last}`)
+          .style("left", event.pageX + 10 + "px")
+          .style("top", event.pageY - 28 + "px");
+      })
+      .on("mouseout", () => tooltip.classed("hidden", true));
 
     const label = container.append('g')
       .selectAll('text')
@@ -175,17 +166,7 @@ export default function EcosystemPage() {
         .attr('x2', d => d.target.x)
         .attr('y2', d => d.target.y);
 
-      linkHover
-        .attr('x1', d => d.source.x)
-        .attr('y1', d => d.source.y)
-        .attr('x2', d => d.target.x)
-        .attr('y2', d => d.target.y);
-
       node
-        .attr('cx', d => d.x)
-        .attr('cy', d => d.y);
-
-      nodeHover
         .attr('cx', d => d.x)
         .attr('cy', d => d.y);
 
