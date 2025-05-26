@@ -106,9 +106,20 @@
     ],
     "eventNotes": "Mizmor",
     "stats": {
-      "totalShowsInOregon": 0,
-      "allShows": [],
-      "earliestYear": null,
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2016-07-13",
+          "venue": "The Raven",
+          "city": "Portland",
+          "lineup": [
+            "Dragged Into Sunlight",
+            "Primitive Man",
+            "Cult Leader"
+          ]
+        }
+      ],
+      "earliestYear": 2016,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
@@ -2815,7 +2826,7 @@
     "supportActs": [],
     "eventNotes": "",
     "stats": {
-      "totalShowsInOregon": 52,
+      "totalShowsInOregon": 51,
       "allShows": [
         {
           "date": "2025-06-20",
@@ -3087,16 +3098,6 @@
           "lineup": [
             "Tigers On Opium",
             "Phantom High",
-            "LaGoon"
-          ]
-        },
-        {
-          "date": "2022-07-16",
-          "venue": "Lay Low Tavern",
-          "city": "Portland",
-          "lineup": [
-            "Phantom High",
-            "Tigers On Opium",
             "LaGoon"
           ]
         },
@@ -4627,9 +4628,22 @@
     "supportActs": [],
     "eventNotes": "",
     "stats": {
-      "totalShowsInOregon": 0,
-      "allShows": [],
-      "earliestYear": null,
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2016-09-03",
+          "venue": "Horning's Hideout",
+          "city": "North Plains",
+          "lineup": [
+            "Wardruna",
+            "Faun",
+            "Mbrascatu",
+            "Seastars",
+            "Adam Hurst"
+          ]
+        }
+      ],
+      "earliestYear": 2016,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
@@ -6781,9 +6795,38 @@
     ],
     "eventNotes": "Chelsea Wolfe",
     "stats": {
-      "totalShowsInOregon": 0,
-      "allShows": [],
-      "earliestYear": null,
+      "totalShowsInOregon": 3,
+      "allShows": [
+        {
+          "date": "2022-10-30",
+          "venue": "Elsinore Theatre",
+          "city": "Salem",
+          "lineup": [
+            "Wardruna"
+          ]
+        },
+        {
+          "date": "2018-09-19",
+          "venue": "Revolution Hall",
+          "city": "Portland",
+          "lineup": [
+            "Wardruna"
+          ]
+        },
+        {
+          "date": "2016-09-03",
+          "venue": "Horning's Hideout",
+          "city": "North Plains",
+          "lineup": [
+            "Wardruna",
+            "Faun",
+            "Mbrascatu",
+            "Seastars",
+            "Adam Hurst"
+          ]
+        }
+      ],
+      "earliestYear": 2016,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
@@ -7122,9 +7165,40 @@
     ],
     "eventNotes": "Faetooth",
     "stats": {
-      "totalShowsInOregon": 0,
-      "allShows": [],
-      "earliestYear": null,
+      "totalShowsInOregon": 3,
+      "allShows": [
+        {
+          "date": "2024-05-08",
+          "venue": "",
+          "city": "",
+          "lineup": [
+            "Amenra",
+            "Primitive Man",
+            "Slow Crush"
+          ]
+        },
+        {
+          "date": "2022-05-07",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Slow Crush",
+            "Deserta"
+          ]
+        },
+        {
+          "date": "2019-04-06",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Slow Crush",
+            "Holy Fawn",
+            "Long Hallways",
+            "Amulets"
+          ]
+        }
+      ],
+      "earliestYear": 2019,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
