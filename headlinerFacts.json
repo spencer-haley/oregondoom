@@ -4505,8 +4505,28 @@
     ],
     "eventNotes": "Egotones",
     "stats": {
-      "totalShowsInOregon": 1,
+      "totalShowsInOregon": 3,
       "allShows": [
+        {
+          "date": "2025-06-27",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Daikaiju",
+            "Nasalrod",
+            "Visions"
+          ]
+        },
+        {
+          "date": "2024-07-12",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Daikaiju",
+            "Nasalrod",
+            "Railing"
+          ]
+        },
         {
           "date": "2016-06-13",
           "venue": "Twilight Café",
@@ -4554,7 +4574,7 @@
     ],
     "eventNotes": "Nasalrod & Visions",
     "stats": {
-      "totalShowsInOregon": 2,
+      "totalShowsInOregon": 3,
       "allShows": [
         {
           "date": "2025-06-26",
@@ -4563,6 +4583,16 @@
           "lineup": [
             "Daikaiju",
             "Egotones"
+          ]
+        },
+        {
+          "date": "2024-07-12",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Daikaiju",
+            "Nasalrod",
+            "Railing"
           ]
         },
         {
@@ -4578,7 +4608,14 @@
       ],
       "earliestYear": 2016,
       "mostRecentRelease": null,
-      "sharedShowsWithSupportActs": []
+      "sharedShowsWithSupportActs": [
+        {
+          "supportAct": "Nasalrod",
+          "date": "2024-07-12",
+          "venue": "Dante's",
+          "city": "Portland"
+        }
+      ]
     }
   },
   {
