@@ -191,6 +191,9 @@ export default function EcosystemPage() {
           <p className="text-2xl text-doomGreen mt-2">
             An interactive network of bands who’ve shared shows together — derived from over two decades of Oregon-based doom lineage
           </p>
+          <p className="text-1xl text-doomGreen mt-2">
+            May only be visible on PC or Android (iOS not tested)
+          </p>
           <br></br>
           <div className="mb-4">
             <label htmlFor="band-select" className="mr-2">Focus Band:</label>
