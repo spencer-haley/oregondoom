@@ -110,7 +110,7 @@ export default function EcosystemPage() {
     const tooltip = d3.select("body").append("div")
       .attr("class", "absolute text-sm bg-black text-doomGreen border border-doomGreen px-2 py-1 rounded hidden z-50");
 
-    container.append('g')
+    const linkHover = container.append('g')
       .selectAll('line')
       .data(links)
       .join('line')
@@ -131,7 +131,7 @@ export default function EcosystemPage() {
       .attr('stroke', '#9acd32')
       .attr('stroke-opacity', 0.3);
 
-    container.append('g')
+    const nodeHover = container.append('g')
       .selectAll('circle')
       .data(nodes)
       .join('circle')
@@ -175,7 +175,17 @@ export default function EcosystemPage() {
         .attr('x2', d => d.target.x)
         .attr('y2', d => d.target.y);
 
+      linkHover
+        .attr('x1', d => d.source.x)
+        .attr('y1', d => d.source.y)
+        .attr('x2', d => d.target.x)
+        .attr('y2', d => d.target.y);
+
       node
+        .attr('cx', d => d.x)
+        .attr('cy', d => d.y);
+
+      nodeHover
         .attr('cx', d => d.x)
         .attr('cy', d => d.y);
 
