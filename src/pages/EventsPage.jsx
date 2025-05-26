@@ -7,6 +7,7 @@ export default function EventsPage() {
   const [events, setEvents] = useState([]);
   const [cities, setCities] = useState([]);
   const [selectedCity, setSelectedCity] = useState('All');
+  const [narratives, setNarratives] = useState({});
 
   useEffect(() => {
     async function fetchEvents() {
@@ -35,7 +36,18 @@ export default function EventsPage() {
       ]);
     }
 
+    async function fetchNarratives() {
+      try {
+        const res = await fetch('/narrativeByEventId.json');
+        const data = await res.json();
+        setNarratives(data);
+      } catch (err) {
+        console.error("❌ Error loading narratives:", err);
+      }
+    }
+
     fetchEvents();
+    fetchNarratives();
   }, []);
 
   const filteredEvents =
@@ -48,7 +60,7 @@ export default function EventsPage() {
       <Navbar />
       <div className="p-6 text-doomGreen">
 
-        {/* Doom Page Header */}
+        {/* Header */}
         <div className="text-center mb-8">
           <h1 className="text-6xl font-metal text-doomGrey">Oregon Doom Events</h1>
           <p className="text-2xl text-doomGreen mt-2">
@@ -56,7 +68,7 @@ export default function EventsPage() {
           </p>
         </div>
 
-        {/* City Filters */}
+        {/* Filters */}
         <div className="flex flex-wrap gap-3 mb-6 justify-center">
           {cities.map(city => (
             <button
@@ -73,25 +85,32 @@ export default function EventsPage() {
           ))}
         </div>
 
-        {/* Event Grid */}
+        {/* Event Cards */}
         <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {filteredEvents.map(event => (
-            <div key={event.id} className="bg-black rounded-lg p-4 shadow-md">
+            <div key={event.id} className="relative group bg-black rounded-lg p-4 shadow-md overflow-hidden">
               {event.eventFlyerURL && (
-                <img
-                  src={event.eventFlyerURL}
-                  alt={`Flyer for ${event.eventName}`}
-                  className="w-full h-auto rounded mb-3"
-                />
+                <div className="relative">
+                  <img
+                    src={event.eventFlyerURL}
+                    alt={`Flyer for ${event.eventName}`}
+                    className="w-full h-auto rounded mb-3"
+                  />
+                  {/* Narrative Overlay */}
+                  {narratives[event.id] && (
+                    <div className="absolute inset-0 bg-black bg-opacity-80 text-doomGreen p-4 text-sm overflow-y-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                      <div
+                        className="whitespace-pre-wrap font-sans"
+                        dangerouslySetInnerHTML={{ __html: narratives[event.id] }}
+                      />
+                    </div>
+                  )}
+                </div>
               )}
               <h2 className="text-xl font-bold text-doomGreen">{event.eventName}</h2>
-
-              {/* Supporting Acts */}
               {event.eventNotes && (
                 <p className="text-sm italic text-gray-400 mt-1">{event.eventNotes}</p>
               )}
-
-              {/* Date */}
               <p className="mt-2">
                 {new Date(event.eventDate.seconds * 1000).toLocaleDateString('en-US', {
                   weekday: 'long',
@@ -100,11 +119,7 @@ export default function EventsPage() {
                   year: 'numeric',
                 })}
               </p>
-
-              {/* Venue & City */}
               <p>{event.eventVenue}, {event.eventCity}</p>
-
-              {/* Ticket Link */}
               {event.eventTicketsURL && (
                 <a
                   href={event.eventTicketsURL}
