@@ -69,7 +69,6 @@ export default function EcosystemPage() {
       })
       .filter(l => filteredBands.includes(l.source) && filteredBands.includes(l.target));
 
-    // ✅ REPLACE NODE COUNTS IF FOCUSED
     if (focusedBand) {
       const relatedBands = new Set();
       const sharedShowCount = {};
@@ -109,8 +108,8 @@ export default function EcosystemPage() {
     }));
 
     const simulation = d3.forceSimulation(nodes)
-      .force('link', d3.forceLink(links).id(d => d.id).distance(180).strength(0.6))
-      .force('charge', d3.forceManyBody().strength(-320))
+      .force('link', d3.forceLink(links).id(d => d.id).distance(150).strength(0.7)) // shorter & stronger
+      .force('charge', d3.forceManyBody().strength(-500)) // more repulsion
       .force('center', d3.forceCenter(width / 2, height / 2));
 
     const tooltip = d3.select("body").append("div")
@@ -122,6 +121,7 @@ export default function EcosystemPage() {
       .join('line')
       .attr('stroke', '#9acd32')
       .attr('stroke-opacity', 0.3)
+      .attr('stroke-width', d => Math.sqrt(d.value)) // edge thickness scaled by shared shows
       .on("mouseover", (event, d) => {
         tooltip.classed("hidden", false)
           .html(d.shows.join('<br><br>'))
@@ -134,7 +134,7 @@ export default function EcosystemPage() {
       .selectAll('circle')
       .data(nodes)
       .join('circle')
-      .attr('r', d => Math.sqrt(d.count) * 4)
+      .attr('r', d => Math.sqrt(d.count) * 6) // bigger nodes overall
       .attr('fill', '#9acd32')
       .attr('stroke', '#d0ffb0')
       .attr('stroke-width', 1)
