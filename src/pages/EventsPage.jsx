@@ -96,11 +96,11 @@ export default function EventsPage() {
                     alt={`Flyer for ${event.eventName}`}
                     className="w-full h-auto rounded mb-3"
                   />
-                  {/* Narrative Overlay */}
+                  {/* ✅ Fixed Narrative Overlay */}
                   {narratives[event.id] && (
-                    <div className="absolute inset-0 bg-black bg-opacity-80 text-doomGreen p-4 text-sm overflow-y-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute inset-0 bg-black bg-opacity-80 p-4 text-sm overflow-y-auto opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <div
-                        className="whitespace-pre-wrap font-sans"
+                        className="whitespace-pre-wrap font-sans text-doomGrey"
                         dangerouslySetInnerHTML={{ __html: narratives[event.id] }}
                       />
                     </div>
