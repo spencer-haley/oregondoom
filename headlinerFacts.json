@@ -2427,7 +2427,7 @@
     "eventId": "jusWpz6jOmo6kgmRinUC",
     "headliner": "Fluid Druid ",
     "eventDate": "2025-06-06",
-    "eventCity": "Portland ",
+    "eventCity": "Portland",
     "eventVenue": "Six Below Midnight",
     "supportActs": [
       "Planet of Little Green Men",
@@ -2922,6 +2922,39 @@
           "city": "Portland"
         }
       ]
+    }
+  },
+  {
+    "eventId": "nhSHnREBBLeAr0BKkxkK",
+    "headliner": "Forty Feet Tall",
+    "eventDate": "2025-06-13",
+    "eventCity": "Portland",
+    "eventVenue": "Mississippi Studios",
+    "supportActs": [
+      "Spoonbenders",
+      "Kulululu"
+    ],
+    "eventNotes": "Spoonbenders & Kulululu",
+    "stats": {
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2024-09-14",
+          "venue": "Lollipop Shoppe",
+          "city": "Portland",
+          "lineup": [
+            "Deathchant",
+            "Forty Feet Tall",
+            "The Macks",
+            "Monsterwatch",
+            "Black Shelton",
+            "Exotic Fruitica"
+          ]
+        }
+      ],
+      "earliestYear": 2024,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
     }
   },
   {
@@ -4574,6 +4607,306 @@
     }
   },
   {
+    "eventId": "VBlUnxheG7NSLDnfeVWP",
+    "headliner": "Ravine",
+    "eventDate": "2025-06-20",
+    "eventCity": "Portland",
+    "eventVenue": "Twilight Cafe",
+    "supportActs": [
+      "Sorcia",
+      "Gunk"
+    ],
+    "eventNotes": "Sorcia & Gunk",
+    "stats": {
+      "totalShowsInOregon": 25,
+      "allShows": [
+        {
+          "date": "2025-08-15",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Dozer",
+            "Moon Destroys",
+            "Abrams",
+            "Ravine"
+          ]
+        },
+        {
+          "date": "2025-04-19",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Kvasir",
+            "Supernaut",
+            "Ravine"
+          ]
+        },
+        {
+          "date": "2025-03-29",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Ravine",
+            "Spirits",
+            "Time Rift",
+            "Alamance",
+            "Dear Assassin",
+            "Diseased And Depraved"
+          ]
+        },
+        {
+          "date": "2025-03-21",
+          "venue": "The Midnight",
+          "city": "Portland",
+          "lineup": [
+            "Ravine",
+            "Karen Caskets",
+            "Not Here Anymore"
+          ]
+        },
+        {
+          "date": "2024-11-29",
+          "venue": "Hawthorne Hideaway",
+          "city": "Portland",
+          "lineup": [
+            "Ravine",
+            "Riastrad",
+            "Cabfighter"
+          ]
+        },
+        {
+          "date": "2024-10-10",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Phantom Hound",
+            "Kvasir",
+            "Ravine"
+          ]
+        },
+        {
+          "date": "2024-08-25",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Breath",
+            "Red Mesa",
+            "Ravine"
+          ]
+        },
+        {
+          "date": "2024-08-02",
+          "venue": "Shanghai Tunnel Bar",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Ravine",
+            "Stunt Drummer"
+          ]
+        },
+        {
+          "date": "2024-07-19",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Slow Goat",
+            "Sun Crow",
+            "Ravine",
+            "Rarefaction"
+          ]
+        },
+        {
+          "date": "2024-06-17",
+          "venue": "Swan Dive",
+          "city": "Portland",
+          "lineup": [
+            "Abrams",
+            "Goya",
+            "Ravine"
+          ]
+        },
+        {
+          "date": "2024-03-30",
+          "venue": "Swan Dive",
+          "city": "Portland",
+          "lineup": [
+            "Ravine",
+            "Mystic Visions"
+          ]
+        },
+        {
+          "date": "2024-01-04",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Manthus",
+            "Ravine",
+            "Asteroid Witch"
+          ]
+        },
+        {
+          "date": "2023-08-04",
+          "venue": "The Haunt",
+          "city": "Astoria",
+          "lineup": [
+            "Breath",
+            "Ravine",
+            "Ilusion Dweller"
+          ]
+        },
+        {
+          "date": "2023-06-17",
+          "venue": "No Fun Bar",
+          "city": "Portland",
+          "lineup": [
+            "Gunk",
+            "Ravine"
+          ]
+        },
+        {
+          "date": "2023-03-24",
+          "venue": "The Fixin' To",
+          "city": "Portland",
+          "lineup": [
+            "Die Like Gentlemen",
+            "Sorcia",
+            "Ravine"
+          ]
+        },
+        {
+          "date": "2023-02-10",
+          "venue": "The Midnight",
+          "city": "Portland",
+          "lineup": [
+            "Ravine",
+            "Twin Wizard",
+            "Ape Vermin",
+            "Robots Of The Ancient World"
+          ]
+        },
+        {
+          "date": "2022-10-14",
+          "venue": "The Fixin' To",
+          "city": "Portland",
+          "lineup": [
+            "Ravine",
+            "Slow Goat",
+            "Truth Be Damned"
+          ]
+        },
+        {
+          "date": "2020-03-05",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Sorcia",
+            "Ravine",
+            "Grim Earth",
+            "LaGoon"
+          ]
+        },
+        {
+          "date": "2020-01-10",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Kvasir",
+            "Meterse",
+            "Grim Earth",
+            "Ravine"
+          ]
+        },
+        {
+          "date": "2019-09-14",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Young Hunter",
+            "Kvasir",
+            "Ravine",
+            "Tikiyaki 5-0"
+          ]
+        },
+        {
+          "date": "2019-08-08",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Die Like Gentlemen",
+            "From The Ages",
+            "Ravine"
+          ]
+        },
+        {
+          "date": "2019-07-30",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Ravine",
+            "The Ghoulies"
+          ]
+        },
+        {
+          "date": "2019-06-21",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Freebase Hyperspace",
+            "Ravine",
+            "Kvasir"
+          ]
+        },
+        {
+          "date": "2019-05-21",
+          "venue": "Tonic Lounge",
+          "city": "Portland",
+          "lineup": [
+            "Charley No Face",
+            "Ravine"
+          ]
+        },
+        {
+          "date": "2019-03-23",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Supernaut",
+            "Kvasir",
+            "Old Kingdom",
+            "Ravine",
+            "Robots Of The Ancient World"
+          ]
+        }
+      ],
+      "earliestYear": 2019,
+      "mostRecentRelease": {
+        "title": "Chaos and Catastrophes",
+        "monthYear": "June 2025",
+        "bandcampURL": "https://ravinepdx.bandcamp.com/album/chaos-and-catastrophes"
+      },
+      "sharedShowsWithSupportActs": [
+        {
+          "supportAct": "Sorcia",
+          "date": "2020-03-05",
+          "venue": "High Water Mark",
+          "city": "Portland"
+        },
+        {
+          "supportAct": "Gunk",
+          "date": "2023-06-17",
+          "venue": "No Fun Bar",
+          "city": "Portland"
+        },
+        {
+          "supportAct": "Sorcia",
+          "date": "2023-03-24",
+          "venue": "The Fixin' To",
+          "city": "Portland"
+        }
+      ]
+    }
+  },
+  {
     "eventId": "PtfLKDV8qBQnFQvY6Ham",
     "headliner": "Arkham Sunset",
     "eventDate": "2025-06-20",
@@ -5386,6 +5719,78 @@
           "city": "Bend"
         }
       ]
+    }
+  },
+  {
+    "eventId": "QAA8xsng8z3W1tZPR8cC",
+    "headliner": "Ragana",
+    "eventDate": "2025-08-02",
+    "eventCity": "Portland",
+    "eventVenue": "Mississippi Studios",
+    "supportActs": [
+      "Couch Slut",
+      "Sunrot"
+    ],
+    "eventNotes": "Couch Slut & Sunrot",
+    "stats": {
+      "totalShowsInOregon": 4,
+      "allShows": [
+        {
+          "date": "2025-06-20",
+          "venue": "Red Hawk Avalon",
+          "city": "Chehalis (WA)",
+          "lineup": [
+            "Hulder",
+            "Ragana",
+            "Cinder Well",
+            "The Keening",
+            "Alda",
+            "Aerial Ruin",
+            "Hail",
+            "Sorcia",
+            "Dunava",
+            "Crooked Mouth",
+            "Mendernte",
+            "Liminal Shroud",
+            "Society Of The Silver Cross",
+            "Tchornobog"
+          ]
+        },
+        {
+          "date": "2024-10-13",
+          "venue": "Polaris Hall",
+          "city": "Portland",
+          "lineup": [
+            "Thou",
+            "Slowhole",
+            "Ragana",
+            "Asphalt"
+          ]
+        },
+        {
+          "date": "2024-07-24",
+          "venue": "Old Nick's Pub",
+          "city": "Eugene",
+          "lineup": [
+            "Ragana",
+            "Agriculture",
+            "Rot",
+            "Woven"
+          ]
+        },
+        {
+          "date": "2023-07-30",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Drowse",
+            "Ragana"
+          ]
+        }
+      ],
+      "earliestYear": 2023,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
     }
   },
   {
@@ -7203,9 +7608,10 @@
     "eventCity": "Portland",
     "eventVenue": "Mississippi Studios",
     "supportActs": [
-      "Mares of Thrace"
+      "Mares of Thrace",
+      "Tithe"
     ],
-    "eventNotes": "Mares of Thrace",
+    "eventNotes": "Mares of Thrace & Tithe",
     "stats": {
       "totalShowsInOregon": 10,
       "allShows": [
