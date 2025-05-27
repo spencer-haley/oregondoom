@@ -12,7 +12,8 @@ export default function EcosystemPage() {
   useEffect(() => {
     async function loadCSV() {
       try {
-        const response = await fetch('https://firebasestorage.googleapis.com/v0/b/oregondoom.firebasestorage.app/o/site_assets%2FOregonDoomShowChronicling.csv?alt=media&token=6424c9c5-e701-4535-b282-dedb7eda843a');
+        // Updated fetch URL to load the CSV from the public directory
+        const response = await fetch('/public/OregonDoomShowChronicling.csv');
         const text = await response.text();
         const { data } = Papa.parse(text, { header: true });
         const parsed = data.filter(e => e.Date && e["Band(s)"]);
