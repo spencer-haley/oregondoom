@@ -12,11 +12,13 @@ export default function EcosystemPage() {
   useEffect(() => {
     async function loadCSV() {
       try {
-        // Updated fetch URL to load the CSV from the public directory
-        const response = await fetch('/public/OregonDoomShowChronicling.csv');
+        // ✅ Correct fetch path – public/ is root-mounted
+        const response = await fetch('/OregonDoomShowChronicling.csv');
         const text = await response.text();
         const { data } = Papa.parse(text, { header: true });
         const parsed = data.filter(e => e.Date && e["Band(s)"]);
+        console.log('Parsed rows:', parsed.length);
+        console.log('First few rows:', parsed.slice(0, 3));
         setData(parsed);
       } catch (error) {
         console.error('Failed to load CSV:', error);
@@ -109,8 +111,8 @@ export default function EcosystemPage() {
     }));
 
     const simulation = d3.forceSimulation(nodes)
-      .force('link', d3.forceLink(links).id(d => d.id).distance(150).strength(0.7)) // shorter & stronger
-      .force('charge', d3.forceManyBody().strength(-500)) // more repulsion
+      .force('link', d3.forceLink(links).id(d => d.id).distance(150).strength(0.7))
+      .force('charge', d3.forceManyBody().strength(-500))
       .force('center', d3.forceCenter(width / 2, height / 2));
 
     const tooltip = d3.select("body").append("div")
@@ -122,7 +124,7 @@ export default function EcosystemPage() {
       .join('line')
       .attr('stroke', '#9acd32')
       .attr('stroke-opacity', 0.3)
-      .attr('stroke-width', d => Math.sqrt(d.value)) // edge thickness scaled by shared shows
+      .attr('stroke-width', d => Math.sqrt(d.value))
       .on("mouseover", (event, d) => {
         tooltip.classed("hidden", false)
           .html(d.shows.join('<br><br>'))
@@ -135,7 +137,7 @@ export default function EcosystemPage() {
       .selectAll('circle')
       .data(nodes)
       .join('circle')
-      .attr('r', d => Math.sqrt(d.count) * 6) // bigger nodes overall
+      .attr('r', d => Math.sqrt(d.count) * 6)
       .attr('fill', '#9acd32')
       .attr('stroke', '#d0ffb0')
       .attr('stroke-width', 1)
