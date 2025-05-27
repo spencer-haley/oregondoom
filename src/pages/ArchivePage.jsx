@@ -14,9 +14,8 @@ export default function ArchivePage() {
   useEffect(() => {
     async function loadCSV() {
       try {
-        const response = await fetch(
-          'https://firebasestorage.googleapis.com/v0/b/oregondoom.firebasestorage.app/o/site_assets%2FOregonDoomShowChronicling.csv?alt=media&token=6424c9c5-e701-4535-b282-dedb7eda843a'
-        );
+        // ✅ Updated path — public folder files are served from root
+        const response = await fetch('/OregonDoomShowChronicling.csv');
         const text = await response.text();
         const { data } = Papa.parse(text, { header: true });
         const parsed = data.filter(e => e.Date && e["Band(s)"]);
@@ -50,7 +49,6 @@ export default function ArchivePage() {
     <>
       <Navbar />
       <div className="p-6 text-doomGreen max-w-screen-xl mx-auto">
-        {/* Page Header */}
         <div className="text-center mb-8">
           <h1 className="text-6xl font-metal text-doomGrey">Oregon Doom Archive</h1>
           <p className="text-2xl text-doomGreen mt-2">
@@ -66,7 +64,7 @@ export default function ArchivePage() {
             📊 Toggle Stats
           </button>
           <a
-            href="https://firebasestorage.googleapis.com/v0/b/oregondoom.firebasestorage.app/o/site_assets%2FOregonDoomShowChronicling.csv?alt=media&token=6424c9c5-e701-4535-b282-dedb7eda843a"
+            href="/OregonDoomShowChronicling.csv"
             download
             className="border border-doomGreen px-4 py-1 rounded hover:bg-doomGreen hover:text-black"
           >
