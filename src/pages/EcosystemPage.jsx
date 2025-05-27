@@ -210,7 +210,7 @@ export default function EcosystemPage() {
             An interactive network of bands who’ve shared shows together — derived from over two decades of Oregon-based doom lineage
           </p>
           <p className="text-1xl text-doomGreen mt-2">
-            May only be visible on PC or Android (iOS not tested)
+            Interactivity: Zoom In/Out, Panning, Tooltips on Hover (Bubbles show number of shows & lines show details about shared shows)
           </p>
           <br />
           <div className="mb-4">
