@@ -102,9 +102,10 @@
     "eventCity": "Portland",
     "eventVenue": "Star Theater",
     "supportActs": [
-      "Mizmor"
+      "Mizmor",
+      "Glassing"
     ],
-    "eventNotes": "Mizmor",
+    "eventNotes": "Mizmor & Glassing",
     "stats": {
       "totalShowsInOregon": 1,
       "allShows": [
@@ -590,6 +591,163 @@
       ],
       "earliestYear": 2024,
       "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "uDxR55uzuAniuJau98w4",
+    "headliner": "Doombia",
+    "eventDate": "2025-05-31",
+    "eventCity": "Portland",
+    "eventVenue": "Shanghai Tunnel",
+    "supportActs": [
+      "Beecreeping",
+      "Don Haylee"
+    ],
+    "eventNotes": "Beecreeping & Don Haylee",
+    "stats": {
+      "totalShowsInOregon": 13,
+      "allShows": [
+        {
+          "date": "2025-04-12",
+          "venue": "Azoth",
+          "city": "Portland",
+          "lineup": [
+            "Doombia",
+            "Wet Velvet",
+            "Gravure",
+            "Braindead Puppy"
+          ]
+        },
+        {
+          "date": "2025-03-27",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Doombia",
+            "King Sissy",
+            "Rhea Arachne"
+          ]
+        },
+        {
+          "date": "2025-02-07",
+          "venue": "Silver Moon Brewing",
+          "city": "Bend",
+          "lineup": [
+            "Sandkrawler",
+            "Doombia",
+            "Vacancy Floor"
+          ]
+        },
+        {
+          "date": "2025-01-24",
+          "venue": "The Snug",
+          "city": "Portland",
+          "lineup": [
+            "Universal Monster",
+            "Doombia",
+            "Sonnam"
+          ]
+        },
+        {
+          "date": "2024-10-19",
+          "venue": "Ghost Mountain",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Dysgenia",
+            "1000 Foot Bong",
+            "Doombia"
+          ]
+        },
+        {
+          "date": "2024-10-03",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Sandkrawler",
+            "Doombia",
+            "1000 Foot Bong"
+          ]
+        },
+        {
+          "date": "2024-09-20",
+          "venue": "Firkin Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Doombia",
+            "Glot"
+          ]
+        },
+        {
+          "date": "2024-08-02",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Doombia",
+            "1000 Foot Bong",
+            "Dancing with The Nurse"
+          ]
+        },
+        {
+          "date": "2024-05-30",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Wet Thud",
+            "Doombia",
+            "Miriam Hacksaw"
+          ]
+        },
+        {
+          "date": "2024-05-22",
+          "venue": "Esplanade",
+          "city": "Portland",
+          "lineup": [
+            "Pretending",
+            "Doombia",
+            "Reptile Lovechild",
+            "Asteroid Witch"
+          ]
+        },
+        {
+          "date": "2024-05-03",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Fox Medicine",
+            "Doombia",
+            "The Peculiar Pretzelmen"
+          ]
+        },
+        {
+          "date": "2024-02-21",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Doombia",
+            "Taffy And The Undertones",
+            "The Collaborators",
+            "Hanna Barakat"
+          ]
+        },
+        {
+          "date": "2023-12-15",
+          "venue": "Mano Oculta",
+          "city": "Portland",
+          "lineup": [
+            "Viral Tyrant",
+            "Doombia",
+            "Mystic Visions"
+          ]
+        }
+      ],
+      "earliestYear": 2023,
+      "mostRecentRelease": {
+        "title": "Live at Bridge City Sessions",
+        "monthYear": "November 2024",
+        "bandcampURL": "https://doombia.bandcamp.com/album/live-at-bridge-city-sessions"
+      },
       "sharedShowsWithSupportActs": []
     }
   },
