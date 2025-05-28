@@ -32,6 +32,10 @@ function normalize(arr) {
   return Array.from(new Set(arr)).sort();
 }
 
+function arraysEqual(a, b) {
+  return a.length === b.length && a.every((val, idx) => val === b[idx]);
+}
+
 async function enrichLineupSearch() {
   const snapshot = await collection.get();
   const updates = [];
@@ -53,7 +57,7 @@ async function enrichLineupSearch() {
     );
 
     const existing = normalize(data.lineupSearch || []);
-    const isEqual = JSON.stringify(generated) === JSON.stringify(existing);
+    const isEqual = arraysEqual(generated, existing);
 
     if (!isEqual) {
       updates.push({
@@ -97,7 +101,7 @@ async function enrichLineupSearch() {
     });
 
     await batch.commit();
-    console.log(`🚀 Committed batch ${i / BATCH_SIZE + 1}`);
+    console.log(`🚀 Committed batch ${Math.floor(i / BATCH_SIZE) + 1}`);
   }
 
   console.log("🎉 All lineupSearch fields updated where needed.");

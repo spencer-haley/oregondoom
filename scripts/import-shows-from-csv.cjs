@@ -1,3 +1,22 @@
+/**
+ * ==========================================
+ * Oregon Doom CSV-to-Firestore Sync Script
+ * ==========================================
+ *
+ * Syncs local concert CSV to the Firestore `show-archive` collection.
+ * 
+ * Skips unnecessary writes by comparing existing documents with new data.
+ * Uses `idHash` generated from date, venue, city, and lineup.
+ * 
+ * DRY RUN supported via `--dry` flag.
+ *
+ * ------------------------------------------
+ * ✅ TO RUN:
+ *   node scripts/import-shows-from-csv.cjs
+ *   node scripts/import-shows-from-csv.cjs --dry
+ * ==========================================
+ */
+
 const admin = require("firebase-admin");
 const csv = require("csv-parser");
 const fs = require("fs");
@@ -8,12 +27,10 @@ const crypto = require("crypto");
 const COLLECTION_NAME = "show-archive";
 const BATCH_LIMIT = 500;
 const LOCAL_FILE = path.join(__dirname, "../public/OregonDoomShowChronicling.csv");
+const isDryRun = process.argv.includes("--dry");
 
 // === FIREBASE INIT ===
-admin.initializeApp({
-  credential: admin.credential.applicationDefault(),
-});
-
+admin.initializeApp({ credential: admin.credential.applicationDefault() });
 const db = admin.firestore();
 const shows = new Map();
 
@@ -75,10 +92,7 @@ async function uploadToFirestore() {
   console.log("📡 Fetching existing documents from Firestore...");
   const snapshot = await db.collection(COLLECTION_NAME).get();
   const existingDocs = new Map();
-
-  snapshot.forEach(doc => {
-    existingDocs.set(doc.id, doc.data());
-  });
+  snapshot.forEach(doc => existingDocs.set(doc.id, doc.data()));
 
   const toCreate = [];
   const toUpdate = [];
@@ -89,14 +103,10 @@ async function uploadToFirestore() {
       toCreate.push(newDoc);
     } else {
       const existingDoc = existingDocs.get(id);
-      const { date: _, ...existing } = existingDoc;
-      const { date: __, ...incoming } = newDoc;
-
-      if (JSON.stringify(existing) !== JSON.stringify(incoming)) {
-        toUpdate.push(newDoc);
-      }
-
-      existingDocs.delete(id); // mark as matched
+      const clean = (obj) => JSON.stringify({ ...obj, date: obj.date.toDate().toISOString() });
+      const changed = clean(existingDoc) !== clean(newDoc);
+      if (changed) toUpdate.push(newDoc);
+      existingDocs.delete(id); // mark matched
     }
   }
 
@@ -104,9 +114,20 @@ async function uploadToFirestore() {
     toDelete.push(orphanId);
   }
 
-  const total = toCreate.length + toUpdate.length + toDelete.length;
   console.log(`🧮 Summary — Create: ${toCreate.length}, Update: ${toUpdate.length}, Delete: ${toDelete.length}`);
 
+  if (isDryRun) {
+    if (toCreate.length || toUpdate.length || toDelete.length) {
+      toCreate.forEach(doc => console.log(`🆕 Would create: ${doc.date.toDate().toISOString()} — ${doc.lineup.join(", ")} @ ${doc.venueCity}`));
+      toUpdate.forEach(doc => console.log(`🔁 Would update: ${doc.date.toDate().toISOString()} — ${doc.lineup.join(", ")} @ ${doc.venueCity}`));
+      toDelete.forEach(id => console.log(`❌ Would delete orphan: ${id}`));
+    } else {
+      console.log("✅ Dry run complete. No changes detected.");
+    }
+    return;
+  }
+
+  const total = toCreate.length + toUpdate.length + toDelete.length;
   for (let i = 0; i < total; i += BATCH_LIMIT) {
     const batch = db.batch();
 
