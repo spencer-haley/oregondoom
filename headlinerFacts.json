@@ -328,8 +328,19 @@
     ],
     "eventNotes": "Old Dirty Buzzard",
     "stats": {
-      "totalShowsInOregon": 17,
+      "totalShowsInOregon": 18,
       "allShows": [
+        {
+          "date": "2025-07-12",
+          "venue": "Hawthorne Hideaway",
+          "city": "Portland",
+          "lineup": [
+            "Gasp",
+            "Sandkrawler",
+            "Grimiss",
+            "The Wild Jumps"
+          ]
+        },
         {
           "date": "2025-06-06",
           "venue": "Twilight Café",
@@ -2304,9 +2315,40 @@
     ],
     "eventNotes": "Holy Fawn, Inter Arma, & Glacial Tomb",
     "stats": {
-      "totalShowsInOregon": 0,
-      "allShows": [],
-      "earliestYear": null,
+      "totalShowsInOregon": 3,
+      "allShows": [
+        {
+          "date": "2023-07-12",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Between The Buried And Me",
+            "Rivers of Nihil",
+            "Thank You Scientist"
+          ]
+        },
+        {
+          "date": "2022-09-20",
+          "venue": "Bossanova Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "The Contortionist",
+            "Rivers Of Nihil"
+          ]
+        },
+        {
+          "date": "2022-05-28",
+          "venue": "Star Theater",
+          "city": "Portland",
+          "lineup": [
+            "Rivers Of Nihil",
+            "Fallujah",
+            "Alluvial",
+            "Warforged"
+          ]
+        }
+      ],
+      "earliestYear": 2022,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
@@ -2538,9 +2580,32 @@
     ],
     "eventNotes": "Sandkrawler, Smearing, Slither",
     "stats": {
-      "totalShowsInOregon": 0,
-      "allShows": [],
-      "earliestYear": null,
+      "totalShowsInOregon": 2,
+      "allShows": [
+        {
+          "date": "2025-05-03",
+          "venue": "Hawthorne Hideaway",
+          "city": "Portland",
+          "lineup": [
+            "Four Dead Seasons",
+            "Black Chvrch",
+            "Gored",
+            "Primordial Atrocity"
+          ]
+        },
+        {
+          "date": "2025-02-21",
+          "venue": "Stronger Skatepark",
+          "city": "Milwaukie",
+          "lineup": [
+            "Guilt Tradition",
+            "Four Dead Seasons",
+            "Black Chvrch",
+            "Bench Scraper"
+          ]
+        }
+      ],
+      "earliestYear": 2025,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
@@ -2848,9 +2913,21 @@
     ],
     "eventNotes": "Saidan, Blut Auf Dem Eis, Ember Vale",
     "stats": {
-      "totalShowsInOregon": 0,
-      "allShows": [],
-      "earliestYear": null,
+      "totalShowsInOregon": 1,
+      "allShows": [
+        {
+          "date": "2023-11-07",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Inferi",
+            "First Fragment",
+            "Summoning The Lich",
+            "Tomarum"
+          ]
+        }
+      ],
+      "earliestYear": 2023,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
@@ -5043,6 +5120,25 @@
     }
   },
   {
+    "eventId": "9GcflYqQHbrUimMbhPXz",
+    "headliner": "Ladder Match",
+    "eventDate": "2025-06-21",
+    "eventCity": "Portland",
+    "eventVenue": "Starday Tavern",
+    "supportActs": [
+      "Sang Bleu",
+      "Gasp"
+    ],
+    "eventNotes": "Sang Bleu & Gasp",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
     "eventId": "5BNCKgGwCHQbUudletGW",
     "headliner": "Planning for Burial",
     "eventDate": "2025-06-24",
@@ -5144,9 +5240,60 @@
     ],
     "eventNotes": "A Collective Subconscious & Childspeak",
     "stats": {
-      "totalShowsInOregon": 0,
-      "allShows": [],
-      "earliestYear": null,
+      "totalShowsInOregon": 5,
+      "allShows": [
+        {
+          "date": "2024-12-27",
+          "venue": "Starday Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Violetera",
+            "Like Mang",
+            "Basso Profondo"
+          ]
+        },
+        {
+          "date": "2024-11-23",
+          "venue": "The Fixin' To",
+          "city": "Portland",
+          "lineup": [
+            "No Animal Were Harmed",
+            "Stinkbug",
+            "Like Mang"
+          ]
+        },
+        {
+          "date": "2024-11-13",
+          "venue": "No Fun Bar",
+          "city": "Portland",
+          "lineup": [
+            "That Loathsome Devil",
+            "Ruins",
+            "Like Mang"
+          ]
+        },
+        {
+          "date": "2024-09-06",
+          "venue": "Hawthorne Hideaway",
+          "city": "Portland",
+          "lineup": [
+            "Snack",
+            "Like Mang"
+          ]
+        },
+        {
+          "date": "2024-03-19",
+          "venue": "Mano Oculta",
+          "city": "Portland",
+          "lineup": [
+            "Mong Tong",
+            "Dooley",
+            "Like Mang",
+            "Joey Blind"
+          ]
+        }
+      ],
+      "earliestYear": 2024,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
@@ -5372,6 +5519,83 @@
         }
       ],
       "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "yUPRlEB8UAEo9wmA27wt",
+    "headliner": "Gasp",
+    "eventDate": "2025-07-12",
+    "eventCity": "Portland",
+    "eventVenue": "Hawthorne Hideaway",
+    "supportActs": [
+      "Sandkrawler",
+      "Grimiss",
+      "The Wild Jumps"
+    ],
+    "eventNotes": "Sandkrawler, Grimiss, & The Wild Jumps",
+    "stats": {
+      "totalShowsInOregon": 5,
+      "allShows": [
+        {
+          "date": "2025-06-21",
+          "venue": "Starday Tavern",
+          "city": "Portland",
+          "lineup": [
+            "Ladder Match",
+            "Sang Bleu",
+            "Gasp"
+          ]
+        },
+        {
+          "date": "2024-11-06",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Samvega",
+            "From The Ages",
+            "Gasp"
+          ]
+        },
+        {
+          "date": "2023-06-16",
+          "venue": "Six Below",
+          "city": "Portland",
+          "lineup": [
+            "Gasp",
+            "Woods Witch",
+            "Alum Occulta"
+          ]
+        },
+        {
+          "date": "2022-10-26",
+          "venue": "Rainbow City",
+          "city": "Portland",
+          "lineup": [
+            "It And I",
+            "Fox Medicine",
+            "Gasp",
+            "Veradas"
+          ]
+        },
+        {
+          "date": "2022-07-08",
+          "venue": "Gloomhouse",
+          "city": "Portland",
+          "lineup": [
+            "Gasp",
+            "Palor Hour",
+            "Universal Monster",
+            "Teeth",
+            "Titans Of Industry",
+            "Sunstone",
+            "Gauze",
+            "Inherited Extinction"
+          ]
+        }
+      ],
+      "earliestYear": 2022,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
@@ -7830,8 +8054,8 @@
       "allShows": [
         {
           "date": "2024-05-08",
-          "venue": "",
-          "city": "",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
           "lineup": [
             "Amenra",
             "Primitive Man",
