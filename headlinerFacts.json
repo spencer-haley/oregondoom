@@ -139,7 +139,7 @@
     ],
     "eventNotes": "Blighted Eye, Hard Pill, These Cursed Hands, & Thrash Course",
     "stats": {
-      "totalShowsInOregon": 10,
+      "totalShowsInOregon": 9,
       "allShows": [
         {
           "date": "2025-08-28",
@@ -209,18 +209,6 @@
           "city": "Portland",
           "lineup": [
             "Amaranthe",
-            "Battle Beast",
-            "Seven Spires",
-            "Vintersea",
-            "Anynoymia"
-          ]
-        },
-        {
-          "date": "2021-09-13",
-          "venue": "Hawthorne Theatre",
-          "city": "Portland",
-          "lineup": [
-            "AmaranThe",
             "Battle Beast",
             "Seven Spires",
             "Vintersea",
