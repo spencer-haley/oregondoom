@@ -1626,6 +1626,12 @@
           "date": "2024-02-29",
           "venue": "High Water Mark",
           "city": "Portland"
+        },
+        {
+          "supportAct": "Blade",
+          "date": "2023-09-19",
+          "venue": "Black Water Bar",
+          "city": "Portland"
         }
       ]
     }
@@ -1674,7 +1680,7 @@
     ],
     "eventNotes": "Napalm Death, The Hard-Ons w/ Jerry A & Shane Embury's Dark Sky Burial",
     "stats": {
-      "totalShowsInOregon": 19,
+      "totalShowsInOregon": 21,
       "allShows": [
         {
           "date": "2023-08-31",
@@ -1755,6 +1761,15 @@
           "lineup": [
             "Melvins",
             "Le Butcherettes"
+          ]
+        },
+        {
+          "date": "2012-07-18",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Melvins Lite",
+            "Retox"
           ]
         },
         {
@@ -1850,6 +1865,16 @@
           "lineup": [
             "Melvins",
             "Mudhoney"
+          ]
+        },
+        {
+          "date": "2003-05-06",
+          "venue": "Roseland Theater",
+          "city": "Portland",
+          "lineup": [
+            "Tomahawk",
+            "The Melvins",
+            "Skeleton Key"
           ]
         },
         {
@@ -2998,7 +3023,7 @@
     ],
     "eventNotes": "Glowing Brain and Blade",
     "stats": {
-      "totalShowsInOregon": 8,
+      "totalShowsInOregon": 12,
       "allShows": [
         {
           "date": "2025-04-12",
@@ -3080,9 +3105,51 @@
             "LaGoon",
             "Hog"
           ]
+        },
+        {
+          "date": "2015-04-23",
+          "venue": "Mississippi Studios",
+          "city": "Portland",
+          "lineup": [
+            "Danava",
+            "Lord Dying",
+            "Lecherous Gaze",
+            "Black Pussy",
+            "Sons Of Huns",
+            "Prize Hog"
+          ]
+        },
+        {
+          "date": "2009-07-02",
+          "venue": "The Know",
+          "city": "Portland",
+          "lineup": [
+            "The Better to See You With",
+            "Prize Hog",
+            "Elitist"
+          ]
+        },
+        {
+          "date": "2001-07-25",
+          "venue": "Ash Street Saloon",
+          "city": "Portland",
+          "lineup": [
+            "Hog Molly",
+            "Cabal"
+          ]
+        },
+        {
+          "date": "2001-06-28",
+          "venue": "Berbati's Pan",
+          "city": "Portland",
+          "lineup": [
+            "Hog Molly",
+            "Ruby Doe",
+            "Diesto"
+          ]
         }
       ],
-      "earliestYear": 2022,
+      "earliestYear": 2001,
       "mostRecentRelease": {
         "title": "HÖG",
         "monthYear": "September 2022",
@@ -5363,8 +5430,49 @@
     "supportActs": [],
     "eventNotes": "",
     "stats": {
-      "totalShowsInOregon": 1,
+      "totalShowsInOregon": 7,
       "allShows": [
+        {
+          "date": "2024-07-24",
+          "venue": "Dundee Lodge",
+          "city": "Gaston",
+          "lineup": [
+            "Xashtur",
+            "Bloodmist",
+            "Nox Novacula",
+            "Faun Fables",
+            "Soriah",
+            "Toby Driver",
+            "WILL",
+            "Sun Blood Stories",
+            "Blank",
+            "Die Like Gentlemen",
+            "Peculiar Pretzelmen",
+            "Aerial Ruin",
+            "MoonBladder",
+            "Black Magdalene",
+            "Adrienne Awen",
+            "The Infinity Ring",
+            "Izthmi",
+            "Megaton Leviathan",
+            "Luna Negra",
+            "Sastruga",
+            "Wicking Ground",
+            "Museum Of Light",
+            "John Haughm",
+            "Cata Huyuk",
+            "Twenty Three Suns",
+            "Infinexhuma",
+            "Compactor",
+            "Sleeping with The Earth",
+            "Xiphoid Dementia",
+            "Eneferens",
+            "Solara Obscura",
+            "Orchid Tooth",
+            "Darkmmysticwoods",
+            "Echo Death"
+          ]
+        },
         {
           "date": "2016-09-03",
           "venue": "Horning's Hideout",
@@ -5376,9 +5484,58 @@
             "Seastars",
             "Adam Hurst"
           ]
+        },
+        {
+          "date": "2009-11-13",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Sleepytime Gorilla Museum",
+            "Faun Fables"
+          ]
+        },
+        {
+          "date": "2007-05-28",
+          "venue": "Aladdin Theater",
+          "city": "Portland",
+          "lineup": [
+            "Secret Chiefs 3",
+            "Faun Fables"
+          ]
+        },
+        {
+          "date": "2005-05-13",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Sleepytime Gorilla Museum",
+            "Faun Fables"
+          ]
+        },
+        {
+          "date": "2004-01-01",
+          "venue": "Nocturnal",
+          "city": "Portland",
+          "lineup": [
+            "Sleepytime Gorilla Museum",
+            "Dredg",
+            "Faun Fables",
+            "Malibu Falcon"
+          ]
+        },
+        {
+          "date": "2003-01-22",
+          "venue": "Birdnest",
+          "city": "Portland",
+          "lineup": [
+            "Furnace Mist Traveling Minstrel Candlelight Cabaret feat. Entrance",
+            "Devendra Banhart",
+            "Arrington de Dionyso",
+            "Faun Fables"
+          ]
         }
       ],
-      "earliestYear": 2016,
+      "earliestYear": 2003,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
@@ -6424,7 +6581,7 @@
     ],
     "eventNotes": "Dry Wedding & John Haughm",
     "stats": {
-      "totalShowsInOregon": 14,
+      "totalShowsInOregon": 15,
       "allShows": [
         {
           "date": "2015-06-05",
@@ -6484,6 +6641,16 @@
             "Agalloch",
             "Taurus",
             "Eight Bells"
+          ]
+        },
+        {
+          "date": "2011-10-07",
+          "venue": "Branx",
+          "city": "Portland",
+          "lineup": [
+            "Fall Into Darkness: Agalloch",
+            "Atriarch",
+            "Sedan"
           ]
         },
         {
@@ -7765,7 +7932,7 @@
     ],
     "eventNotes": "Mares of Thrace",
     "stats": {
-      "totalShowsInOregon": 10,
+      "totalShowsInOregon": 12,
       "allShows": [
         {
           "date": "2025-09-18",
@@ -7774,6 +7941,27 @@
           "lineup": [
             "Conan",
             "Mares Of Thrace"
+          ]
+        },
+        {
+          "date": "2025-06-04",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Conan Neutron And The Secret Friends",
+            "Club Deluxe"
+          ]
+        },
+        {
+          "date": "2025-06-02",
+          "venue": "The Capitol",
+          "city": "Bend",
+          "lineup": [
+            "Conan Neutron And The Secret Friends",
+            "The Kronk Men",
+            "Ether",
+            "Vacancy Floor"
           ]
         },
         {
@@ -7934,7 +8122,7 @@
     ],
     "eventNotes": "Mares of Thrace & Tithe",
     "stats": {
-      "totalShowsInOregon": 10,
+      "totalShowsInOregon": 12,
       "allShows": [
         {
           "date": "2025-09-17",
@@ -7943,6 +8131,27 @@
           "lineup": [
             "Conan",
             "Mares Of Thrace"
+          ]
+        },
+        {
+          "date": "2025-06-04",
+          "venue": "World Famous Kenton Club",
+          "city": "Portland",
+          "lineup": [
+            "Gaytheist",
+            "Conan Neutron And The Secret Friends",
+            "Club Deluxe"
+          ]
+        },
+        {
+          "date": "2025-06-02",
+          "venue": "The Capitol",
+          "city": "Bend",
+          "lineup": [
+            "Conan Neutron And The Secret Friends",
+            "The Kronk Men",
+            "Ether",
+            "Vacancy Floor"
           ]
         },
         {

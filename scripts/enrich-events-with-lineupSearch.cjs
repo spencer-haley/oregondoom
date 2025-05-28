@@ -1,83 +1,106 @@
 /**
- * ================================
- * Enrich Events with Lineup Search
- * ================================
+ * ==========================================
+ * Enrich Events with `lineupSearch`
+ * ==========================================
  *
- * This script reads all documents from the "events" collection,
- * extracts artist names from `eventName` and `eventNotes`,
- * and creates a new field `lineupSearch[]` for band-matching.
+ * Updates only `show-archive` documents where the `lineupSearch` field
+ * differs from the generated version.
  *
- * Run:
+ * ✅ Skips already-correct records
+ * ✅ Supports --dry mode
+ * ✅ Outputs JSON diff log to `lineupSearch-diff-log.json`
+ *
+ * TO RUN DRY:
+ *   node scripts/enrich-events-with-lineupSearch.cjs --dry
+ *
+ * TO RUN LIVE:
  *   node scripts/enrich-events-with-lineupSearch.cjs
  */
 
 const admin = require("firebase-admin");
+const fs = require("fs");
+const path = require("path");
 
-admin.initializeApp({
-  credential: admin.credential.applicationDefault()
-});
+const isDry = process.argv.includes("--dry");
 
+admin.initializeApp({ credential: admin.credential.applicationDefault() });
 const db = admin.firestore();
-const BATCH_LIMIT = 500;
+const collection = db.collection("show-archive");
+const BATCH_SIZE = 500;
 
-function tokenize(name) {
-  return name
-    .toLowerCase()
-    .split(/[^a-z0-9]+/)
-    .filter(Boolean);
+function normalize(arr) {
+  return Array.from(new Set(arr)).sort();
 }
 
-function extractActs(eventName = "", eventNotes = "") {
-  const allNames = [eventName.trim()];
+async function enrichLineupSearch() {
+  const snapshot = await collection.get();
+  const updates = [];
 
-  if (eventNotes) {
-    const splitActs = eventNotes
-      .split(/[\+&|\/,]| and /i)        // handles: +, &, |, /, ,, "and"
-      .map(s => s.trim())
-      .filter(Boolean);
-
-    allNames.push(...splitActs);
-  }
-
-  // Remove duplicates and flatten to include both full names + tokenized
-  return Array.from(
-    new Set(
-      allNames.flatMap(name => [
-        name.toLowerCase(),
-        ...tokenize(name)
-      ])
-    )
-  );
-}
-
-async function enrichEvents() {
-  const snapshot = await db.collection("events").get();
   console.log(`📦 Loaded ${snapshot.size} event documents.`);
 
-  const events = snapshot.docs;
-  for (let i = 0; i < events.length; i += BATCH_LIMIT) {
+  snapshot.forEach(doc => {
+    const data = doc.data();
+    const lineup = data.lineup || [];
+
+    const generated = normalize(
+      lineup.flatMap(band =>
+        band
+          .toLowerCase()
+          .split(/[^a-z0-9]+/)
+          .filter(Boolean)
+          .concat(band.toLowerCase())
+      )
+    );
+
+    const existing = normalize(data.lineupSearch || []);
+    const isEqual = JSON.stringify(generated) === JSON.stringify(existing);
+
+    if (!isEqual) {
+      updates.push({
+        id: doc.id,
+        ref: doc.ref,
+        existing,
+        generated
+      });
+    }
+  });
+
+  console.log(`⚙️ Found ${updates.length} document(s) needing lineupSearch update.`);
+
+  const diffLog = updates.map(({ id, existing, generated }) => ({
+    id,
+    existing,
+    generated
+  }));
+  const logPath = path.resolve("lineupSearch-diff-log.json");
+  fs.writeFileSync(logPath, JSON.stringify(diffLog, null, 2));
+  console.log(`📝 Diff log saved to ${logPath}`);
+
+  if (isDry) {
+    updates.slice(0, 20).forEach(({ id, generated }) => {
+      console.log(`🔍 Would update: ${id} → [${generated.join(", ")}]`);
+    });
+    if (updates.length > 20) {
+      console.log(`...and ${updates.length - 20} more.`);
+    }
+    console.log("✅ Dry run complete. No changes committed.");
+    return;
+  }
+
+  for (let i = 0; i < updates.length; i += BATCH_SIZE) {
     const batch = db.batch();
-    const chunk = events.slice(i, i + BATCH_LIMIT);
+    const chunk = updates.slice(i, i + BATCH_SIZE);
 
-    chunk.forEach(doc => {
-      const data = doc.data();
-      const eventName = data.eventName || "";
-      const eventNotes = data.eventNotes || "";
-
-      const lineupSearch = extractActs(eventName, eventNotes);
-      const ref = db.collection("events").doc(doc.id);
-      batch.update(ref, { lineupSearch });
-
-      console.log(`✅ [${doc.id}] → ${lineupSearch.join(", ")}`);
+    chunk.forEach(({ ref, generated }) => {
+      batch.update(ref, { lineupSearch: generated });
+      console.log(`✅ Queued update: ${ref.id} → [${generated.join(", ")}]`);
     });
 
     await batch.commit();
-    console.log(`📝 Committed batch ${i / BATCH_LIMIT + 1}`);
+    console.log(`🚀 Committed batch ${i / BATCH_SIZE + 1}`);
   }
 
-  console.log("🎉 All events updated with corrected lineupSearch.");
+  console.log("🎉 All lineupSearch fields updated where needed.");
 }
 
-enrichEvents().catch((err) => {
-  console.error("❌ Error enriching events:", err);
-});
+enrichLineupSearch().catch(console.error);
