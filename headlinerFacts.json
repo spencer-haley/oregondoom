@@ -2677,7 +2677,7 @@
     ],
     "eventNotes": "Slow Goat",
     "stats": {
-      "totalShowsInOregon": 2,
+      "totalShowsInOregon": 13,
       "allShows": [
         {
           "date": "2025-04-25",
@@ -2686,6 +2686,115 @@
           "lineup": [
             "Blood Star",
             "Time Rift",
+            "Silver Talon"
+          ]
+        },
+        {
+          "date": "2025-04-24",
+          "venue": "John Henry's",
+          "city": "Eugene",
+          "lineup": [
+            "Bloodstar",
+            "Silver Talon",
+            "Cryptic Divination"
+          ]
+        },
+        {
+          "date": "2025-01-02",
+          "venue": "Shanghai Tunnel Bar",
+          "city": "Portland",
+          "lineup": [
+            "Silver Talon",
+            "Saber",
+            "Manthus"
+          ]
+        },
+        {
+          "date": "2024-11-23",
+          "venue": "Bossanova Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Over Kill",
+            "Silver Talon"
+          ]
+        },
+        {
+          "date": "2024-08-18",
+          "venue": "Blackwater",
+          "city": "Portland",
+          "lineup": [
+            "Shadowland",
+            "Silver Talon",
+            "Manthus"
+          ]
+        },
+        {
+          "date": "2024-07-06",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Silver Talon",
+            "Anubis",
+            "Full Metal Jackson"
+          ]
+        },
+        {
+          "date": "2024-05-13",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Striker",
+            "Silver Talon",
+            "Atomic Terror"
+          ]
+        },
+        {
+          "date": "2023-06-19",
+          "venue": "Bossanova Ballroom",
+          "city": "Portland",
+          "lineup": [
+            "Cynic & Atheist",
+            "Silver Talon"
+          ]
+        },
+        {
+          "date": "2023-06-09",
+          "venue": "Coffin Club",
+          "city": "Portland",
+          "lineup": [
+            "Year Of The Cobra",
+            "Silver Talon",
+            "Hoaxed"
+          ]
+        },
+        {
+          "date": "2023-03-17",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Silver Talon",
+            "Soul Grinder",
+            "Headless Pez"
+          ]
+        },
+        {
+          "date": "2022-07-14",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Exmortus",
+            "Hatriot",
+            "Silver Talon"
+          ]
+        },
+        {
+          "date": "2022-04-21",
+          "venue": "Hawthorne Theatre",
+          "city": "Portland",
+          "lineup": [
+            "Powerglove",
+            "Immortal Guardian",
+            "Von Doom",
             "Silver Talon"
           ]
         },
