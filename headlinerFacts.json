@@ -5552,7 +5552,7 @@
     ],
     "eventNotes": "Serpentent & The Keening",
     "stats": {
-      "totalShowsInOregon": 2,
+      "totalShowsInOregon": 1,
       "allShows": [
         {
           "date": "2025-08-04",
@@ -5561,16 +5561,6 @@
           "lineup": [
             "Serpentent",
             "40 Watt Sun",
-            "Maulrat"
-          ]
-        },
-        {
-          "date": "2025-08-04",
-          "venue": "John Henry's",
-          "city": "Eugene",
-          "lineup": [
-            "40 Watt Sun",
-            "Serpentent",
             "Maulrat"
           ]
         }

@@ -23097,22 +23097,6 @@
     ]
   },
   {
-    "id": "4c38c15b64a899031b26fe7dfde7b523",
-    "existing": [
-      "40 watt sun",
-      "maulrat",
-      "serpentent"
-    ],
-    "generated": [
-      "40",
-      "40 watt sun",
-      "maulrat",
-      "serpentent",
-      "sun",
-      "watt"
-    ]
-  },
-  {
     "id": "4c42e88d29c9138ca28b70182f15f3b3",
     "existing": [
       "dark black",
