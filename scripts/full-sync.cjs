@@ -5,8 +5,7 @@
  *
  * This script runs the full workflow:
  *  - backfill_bandsearch.cjs (optimized)
- *  - import-shows-from-csv.cjs
- *  - enrich-events-with-lineupSearch.cjs
+ *  - sync_show_archive_from_flagged_rows.cjs
  *  - generate_headliner_facts.cjs
  *  - generate_headliner_narratives.cjs
  *  - Git commit & Firebase deploy
@@ -57,8 +56,7 @@ async function promptUser(message) {
     console.log("🧪 Starting DRY RUN of Oregon Doom Full Sync...");
 
     run("node scripts/backfill_bandsearch.cjs --dry", "green");
-    run("node scripts/import-shows-from-csv.cjs --dry", "yellow");
-    run("node scripts/enrich-events-with-lineupSearch.cjs --dry", "yellow");
+    run("node scripts/sync_show_archive_from_flagged_rows.cjs --dry", "yellow");
 
     console.log("\n📄 Generating local narrative and fact files...");
     run("node scripts/generate_headliner_facts.cjs");
@@ -76,8 +74,7 @@ async function promptUser(message) {
   console.log("\n🔥 Executing full sync...");
 
   run("node scripts/backfill_bandsearch.cjs", "green");
-  run("node scripts/import-shows-from-csv.cjs", "green");
-  run("node scripts/enrich-events-with-lineupSearch.cjs", "green");
+  run("node scripts/sync_show_archive_from_flagged_rows.cjs", "green");
   run("node scripts/generate_headliner_facts.cjs");
   run("node scripts/generate_headliner_narratives.cjs");
 

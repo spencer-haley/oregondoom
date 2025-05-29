@@ -525,6 +525,26 @@
     }
   },
   {
+    "eventId": "I8EfF2CqAajnyShADWiG",
+    "headliner": "Dropped Out",
+    "eventDate": "2025-05-31",
+    "eventCity": "Portland",
+    "eventVenue": "The Snug",
+    "supportActs": [
+      "Stoner",
+      "Last Romantix",
+      "Woken Dead"
+    ],
+    "eventNotes": "Stoner, Last Romantix, & Woken Dead",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
     "eventId": "Z1z9odDS3md1TDX8EAMD",
     "headliner": "Old Dirty Buzzard",
     "eventDate": "2025-05-31",
@@ -2414,8 +2434,18 @@
     ],
     "eventNotes": "Damien's Dumpster Fire, Power Switch, Dismantled",
     "stats": {
-      "totalShowsInOregon": 5,
+      "totalShowsInOregon": 6,
       "allShows": [
+        {
+          "date": "2025-06-20",
+          "venue": "The Capitol",
+          "city": "Bend",
+          "lineup": [
+            "IIII",
+            "Cue The Sun",
+            "Vacancy Floor"
+          ]
+        },
         {
           "date": "2025-05-24",
           "venue": "Hawthorne Hideaway",
@@ -4848,6 +4878,25 @@
     }
   },
   {
+    "eventId": "CH4B697okkj3GAc2gYCI",
+    "headliner": "IIII",
+    "eventDate": "2025-06-20",
+    "eventCity": "Bend",
+    "eventVenue": "The Capitol",
+    "supportActs": [
+      "Vacancy Floor",
+      "Cue The Sun"
+    ],
+    "eventNotes": "Vacancy Floor & Cue The Sun",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
     "eventId": "VBlUnxheG7NSLDnfeVWP",
     "headliner": "Ravine",
     "eventDate": "2025-06-20",
@@ -5128,6 +5177,12 @@
       "sharedShowsWithSupportActs": [
         {
           "supportAct": "Sorcia",
+          "date": "2023-03-24",
+          "venue": "The Fixin' To",
+          "city": "Portland"
+        },
+        {
+          "supportAct": "Sorcia",
           "date": "2020-03-05",
           "venue": "High Water Mark",
           "city": "Portland"
@@ -5136,12 +5191,6 @@
           "supportAct": "Gunk",
           "date": "2023-06-17",
           "venue": "No Fun Bar",
-          "city": "Portland"
-        },
-        {
-          "supportAct": "Sorcia",
-          "date": "2023-03-24",
-          "venue": "The Fixin' To",
           "city": "Portland"
         }
       ]
@@ -5604,6 +5653,22 @@
       "More"
     ],
     "eventNotes": "The Kronk Men, Gravewitch, & More",
+    "stats": {
+      "totalShowsInOregon": 0,
+      "allShows": [],
+      "earliestYear": null,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "jmsaEBTHYXJ40Xg4FHOp",
+    "headliner": "John Garcia",
+    "eventDate": "2025-07-01",
+    "eventCity": "Portland",
+    "eventVenue": "Dante's ",
+    "supportActs": [],
+    "eventNotes": "",
     "stats": {
       "totalShowsInOregon": 0,
       "allShows": [],
@@ -6494,6 +6559,119 @@
         }
       ],
       "earliestYear": 2025,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "qhEgrzi77sLf5UGhSe7X",
+    "headliner": "Cardiel",
+    "eventDate": "2025-08-05",
+    "eventCity": "Eugene",
+    "eventVenue": "Sam Bond's Garage",
+    "supportActs": [
+      "Creep Creep Jenga"
+    ],
+    "eventNotes": "Creep Creep Jenga",
+    "stats": {
+      "totalShowsInOregon": 4,
+      "allShows": [
+        {
+          "date": "2025-08-06",
+          "venue": "Dante's",
+          "city": "Portland",
+          "lineup": [
+            "Cardiel"
+          ]
+        },
+        {
+          "date": "2024-11-05",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Cardiel",
+            "Luna Negra",
+            "Bottom Blade"
+          ]
+        },
+        {
+          "date": "2023-07-03",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Cardiel",
+            "Ladrones",
+            "Luna Negra"
+          ]
+        },
+        {
+          "date": "2014-12-05",
+          "venue": "Foggy Notion",
+          "city": "Portland",
+          "lineup": [
+            "Cardiel",
+            "Toim",
+            "Disenchanter"
+          ]
+        }
+      ],
+      "earliestYear": 2014,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
+    "eventId": "27LZFPBkQgpjmgWDUAo6",
+    "headliner": "Cardiel",
+    "eventDate": "2025-08-06",
+    "eventCity": "Portland",
+    "eventVenue": "Dante's",
+    "supportActs": [],
+    "eventNotes": "",
+    "stats": {
+      "totalShowsInOregon": 4,
+      "allShows": [
+        {
+          "date": "2025-08-05",
+          "venue": "Sam Bond's",
+          "city": "Eugene",
+          "lineup": [
+            "Cardiel",
+            "Creep Creep Jenga"
+          ]
+        },
+        {
+          "date": "2024-11-05",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Cardiel",
+            "Luna Negra",
+            "Bottom Blade"
+          ]
+        },
+        {
+          "date": "2023-07-03",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Cardiel",
+            "Ladrones",
+            "Luna Negra"
+          ]
+        },
+        {
+          "date": "2014-12-05",
+          "venue": "Foggy Notion",
+          "city": "Portland",
+          "lineup": [
+            "Cardiel",
+            "Toim",
+            "Disenchanter"
+          ]
+        }
+      ],
+      "earliestYear": 2014,
       "mostRecentRelease": null,
       "sharedShowsWithSupportActs": []
     }
