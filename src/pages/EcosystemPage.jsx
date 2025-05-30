@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react'; 
 import Navbar from '../components/Navbar';
 import * as d3 from 'd3';
 import Papa from 'papaparse';
@@ -9,16 +9,14 @@ export default function EcosystemPage() {
   const [bandList, setBandList] = useState([]);
   const [focusedBand, setFocusedBand] = useState('');
 
+  // === Load and parse CSV data on mount ===
   useEffect(() => {
     async function loadCSV() {
       try {
-        // ✅ Correct fetch path – public/ is root-mounted
         const response = await fetch('/OregonDoomShowChronicling.csv');
         const text = await response.text();
         const { data } = Papa.parse(text, { header: true });
         const parsed = data.filter(e => e.Date && e["Band(s)"]);
-        console.log('Parsed rows:', parsed.length);
-        console.log('First few rows:', parsed.slice(0, 3));
         setData(parsed);
       } catch (error) {
         console.error('Failed to load CSV:', error);
@@ -27,6 +25,7 @@ export default function EcosystemPage() {
     loadCSV();
   }, []);
 
+  // === Main rendering logic based on parsed data ===
   useEffect(() => {
     if (!data.length) return;
 
@@ -34,17 +33,21 @@ export default function EcosystemPage() {
     const bandLinks = {};
     const bandYears = {};
 
+    // Process each show row to build node + link data
     data.forEach(row => {
       const bands = row["Band(s)"].split('|').map(b => b.trim()).filter(Boolean);
       const year = row.Date.split('/')[2];
       const date = new Date(row.Date);
       const dateLabel = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
+
       bands.forEach(b => {
         appearanceCounts[b] = (appearanceCounts[b] || 0) + 1;
         bandYears[b] = bandYears[b] || { first: year, last: year };
         if (year < bandYears[b].first) bandYears[b].first = year;
         if (year > bandYears[b].last) bandYears[b].last = year;
       });
+
+      // Build band co-appearance links
       for (let i = 0; i < bands.length; i++) {
         for (let j = i + 1; j < bands.length; j++) {
           const [bandA, bandB] = [bands[i], bands[j]].sort();
@@ -56,15 +59,18 @@ export default function EcosystemPage() {
       }
     });
 
+    // Only include bands that have played at least 3 shows
     const filteredBands = Object.keys(appearanceCounts).filter(b => appearanceCounts[b] >= 3);
     setBandList(filteredBands.sort());
 
+    // Map node structure
     let nodes = filteredBands.map(name => ({
       id: name,
       count: appearanceCounts[name],
       ...bandYears[name]
     }));
 
+    // Map link structure
     let links = Object.entries(bandLinks)
       .map(([key, value]) => {
         const [source, target] = key.split('---');
@@ -72,6 +78,7 @@ export default function EcosystemPage() {
       })
       .filter(l => filteredBands.includes(l.source) && filteredBands.includes(l.target));
 
+    // Filter graph to only show neighbors of focused band
     if (focusedBand) {
       const relatedBands = new Set();
       const sharedShowCount = {};
@@ -97,6 +104,7 @@ export default function EcosystemPage() {
 
     const width = 1000;
     const height = 800;
+    const currentYear = new Date().getFullYear();
 
     d3.select(svgRef.current).selectAll('*').remove();
 
@@ -110,21 +118,29 @@ export default function EcosystemPage() {
       container.attr("transform", event.transform);
     }));
 
+    // === Force simulation with greater spacing ===
     const simulation = d3.forceSimulation(nodes)
-      .force('link', d3.forceLink(links).id(d => d.id).distance(150).strength(0.7))
-      .force('charge', d3.forceManyBody().strength(-500))
+      .force('link', d3.forceLink(links).id(d => d.id).distance(180).strength(0.5))
+      .force('charge', d3.forceManyBody().strength(-800))
       .force('center', d3.forceCenter(width / 2, height / 2));
 
+    // === Tooltip div ===
     const tooltip = d3.select("body").append("div")
       .attr("class", "absolute text-sm bg-black text-doomGreen border border-doomGreen px-2 py-1 rounded hidden z-50");
 
+    // === Color scale for node freshness ===
+    const colorScale = d3.scaleSequential()
+      .domain([2000, currentYear])
+      .interpolator(d3.interpolateGreens);
+
+    // === Link rendering ===
     const link = container.append('g')
       .selectAll('line')
       .data(links)
       .join('line')
       .attr('stroke', '#9acd32')
       .attr('stroke-opacity', 0.3)
-      .attr('stroke-width', d => Math.sqrt(d.value))
+      .attr('stroke-width', d => Math.log2(d.value + 1) * 1.5)
       .on("mouseover", (event, d) => {
         tooltip.classed("hidden", false)
           .html(d.shows.join('<br><br>'))
@@ -133,12 +149,13 @@ export default function EcosystemPage() {
       })
       .on("mouseout", () => tooltip.classed("hidden", true));
 
+    // === Node rendering ===
     const node = container.append('g')
       .selectAll('circle')
       .data(nodes)
       .join('circle')
       .attr('r', d => Math.sqrt(d.count) * 6)
-      .attr('fill', '#9acd32')
+      .attr('fill', d => colorScale(+d.last))
       .attr('stroke', '#d0ffb0')
       .attr('stroke-width', 1)
       .call(drag(simulation))
@@ -150,18 +167,20 @@ export default function EcosystemPage() {
       })
       .on("mouseout", () => tooltip.classed("hidden", true));
 
+    // === Label rendering ===
     const label = container.append('g')
       .selectAll('text')
       .data(nodes)
       .join('text')
       .text(d => d.id)
-      .attr('font-size', 11)
+      .attr('font-size', 10)
       .attr('fill', '#ffffff')
-      .attr('stroke', 'black')
-      .attr('stroke-width', 1.5)
+      .attr('stroke', '#000')
+      .attr('stroke-width', 3)
       .attr('paint-order', 'stroke')
       .attr('text-anchor', 'middle');
 
+    // === Position updates on simulation tick ===
     simulation.on('tick', () => {
       link
         .attr('x1', d => d.source.x)
@@ -178,6 +197,7 @@ export default function EcosystemPage() {
         .attr('y', d => d.y - 10);
     });
 
+    // === Drag behavior helpers ===
     function drag(simulation) {
       function dragstarted(event) {
         if (!event.active) simulation.alphaTarget(0.3).restart();
@@ -200,6 +220,7 @@ export default function EcosystemPage() {
     }
   }, [data, focusedBand]);
 
+  // === Main Page UI ===
   return (
     <>
       <Navbar />
