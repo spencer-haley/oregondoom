@@ -166,7 +166,7 @@ export default function EcosystemPage() {
       .call(drag(simulation))
       .on("mouseover", (event, d) => {
         tooltip.classed("hidden", false)
-          .html(`<strong>${d.id}</strong><br/>Shows: ${d.count}<br/>${d.first}–${d.last}`)
+          .html(`<strong>${d.id}</strong><br/>Oregon Shows: ${d.count}<br/>${d.first}–${d.last}`)
           .style("left", event.pageX + 10 + "px")
           .style("top", event.pageY - 28 + "px");
       })
