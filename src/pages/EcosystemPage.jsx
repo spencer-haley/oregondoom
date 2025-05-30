@@ -71,6 +71,34 @@ export default function EcosystemPage() {
       })
       .filter(l => filteredBands.includes(l.source) && filteredBands.includes(l.target));
 
+    const width = 1000;
+    const height = 800;
+
+    d3.select(svgRef.current).selectAll('*').remove();
+
+    const svg = d3.select(svgRef.current)
+      .attr('viewBox', `0 0 ${width} ${height}`)
+      .style('background', 'black');
+
+    const container = svg.append("g");
+
+    const zoom = d3.zoom().on("zoom", (event) => {
+      container.attr("transform", event.transform);
+    });
+
+    svg.call(zoom);
+
+    const tooltip = d3.select("body").append("div")
+      .attr("class", "absolute text-sm bg-black text-doomGreen border border-doomGreen px-2 py-1 rounded hidden z-50");
+
+    const years = nodes.map(n => +n.last);
+    const minYear = d3.min(years);
+    const maxYear = d3.max(years);
+
+    const colorScale = d3.scaleSequential()
+      .domain([minYear, maxYear])
+      .interpolator(t => d3.interpolateRgb("#222", "#9acd32")(Math.pow(t, 2.5)));
+
     if (focusedBand) {
       const relatedBands = new Set();
       const sharedShowCount = {};
@@ -92,29 +120,10 @@ export default function EcosystemPage() {
           ...n,
           count: n.id === focusedBand ? appearanceCounts[n.id] : sharedShowCount[n.id] || 1
         }));
-    }
 
-    const width = 1000;
-    const height = 800;
-
-    d3.select(svgRef.current).selectAll('*').remove();
-
-    const svg = d3.select(svgRef.current)
-      .attr('viewBox', `0 0 ${width} ${height}`)
-      .style('background', 'black');
-
-    const container = svg.append("g");
-
-    const zoom = d3.zoom().on("zoom", (event) => {
-      container.attr("transform", event.transform);
-    });
-
-    svg.call(zoom);
-
-    if (focusedBand) {
       svg.transition()
         .duration(750)
-        .call(zoom.scaleTo, 1.8); // default zoom for focus
+        .call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2).scale(1.8));
     }
 
     const simulation = d3.forceSimulation(nodes)
@@ -122,31 +131,13 @@ export default function EcosystemPage() {
       .force('charge', d3.forceManyBody().strength(-800))
       .force('center', d3.forceCenter(width / 2, height / 2));
 
-    const tooltip = d3.select("body").append("div")
-      .attr("class", "absolute text-sm bg-black text-doomGreen border border-doomGreen px-2 py-1 rounded hidden z-50");
-
-    const years = nodes.map(n => +n.last);
-    const minYear = d3.min(years);
-    const maxYear = d3.max(years);
-
-    const colorScale = d3.scaleSequential()
-      .domain([minYear, maxYear])
-      .interpolator(t => d3.interpolateRgb("#222", "#9acd32")(Math.pow(t, 2.5)));
-
     const link = container.append('g')
       .selectAll('line')
       .data(links)
       .join('line')
       .attr('stroke', '#666')
       .attr('stroke-opacity', 0.08)
-      .attr('stroke-width', d => Math.log2(d.value + 1) * 1.5)
-      .on("mouseover", (event, d) => {
-        tooltip.classed("hidden", false)
-          .html(d.shows.join('<br><br>'))
-          .style("left", event.pageX + 10 + "px")
-          .style("top", event.pageY - 28 + "px");
-      })
-      .on("mouseout", () => tooltip.classed("hidden", true));
+      .attr('stroke-width', d => Math.log2(d.value + 1) * 1.5);
 
     const node = container.append('g')
       .selectAll('circle')
@@ -193,12 +184,12 @@ export default function EcosystemPage() {
         .attr('y', d => d.y - 10);
     });
 
-    // Improved legend styling and layout
-    const legendWidth = 220;
-    const legendHeight = 12;
+    // Enhanced legend styling in top-left corner
+    const legendWidth = 240;
+    const legendHeight = 14;
     const legendPadding = 10;
     const legendGroup = svg.append("g")
-      .attr("transform", `translate(20, 20)`);
+      .attr("transform", `translate(10, 10)`);
 
     const defs = svg.append("defs");
     const gradientId = "legend-gradient";
@@ -217,39 +208,39 @@ export default function EcosystemPage() {
 
     legendGroup.append("rect")
       .attr("width", legendWidth + legendPadding * 2)
-      .attr("height", 50)
+      .attr("height", 60)
       .attr("fill", "black")
       .attr("stroke", "#9acd32")
       .attr("stroke-width", 1);
 
     legendGroup.append("text")
       .attr("x", (legendWidth + legendPadding * 2) / 2)
-      .attr("y", 14)
+      .attr("y", 18)
       .attr("fill", "#9acd32")
       .attr("text-anchor", "middle")
-      .attr("font-size", 12)
+      .attr("font-size", 14)
       .text("Last show year:");
 
     legendGroup.append("rect")
       .attr("x", legendPadding)
-      .attr("y", 20)
+      .attr("y", 26)
       .attr("width", legendWidth)
       .attr("height", legendHeight)
       .style("fill", `url(#${gradientId})`);
 
     legendGroup.append("text")
       .attr("x", legendPadding)
-      .attr("y", 42)
+      .attr("y", 50)
       .attr("fill", "#9acd32")
-      .attr("font-size", 10)
+      .attr("font-size", 12)
       .attr("text-anchor", "start")
       .text(minYear);
 
     legendGroup.append("text")
       .attr("x", legendPadding + legendWidth)
-      .attr("y", 42)
+      .attr("y", 50)
       .attr("fill", "#9acd32")
-      .attr("font-size", 10)
+      .attr("font-size", 12)
       .attr("text-anchor", "end")
       .text(maxYear);
 
