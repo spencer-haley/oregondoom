@@ -202,88 +202,6 @@ export default function EcosystemPage() {
         .attr('x', d => d.x)
         .attr('y', d => d.y - 10);
     });
-
-    const legendOffsetX = 10;
-    const legendOffsetY = 20;
-    const legendWidth = 240;
-    const legendHeight = 14;
-
-    const defs = svg.append("defs");
-    const gradientId = "legend-gradient";
-    const gradient = defs.append("linearGradient")
-      .attr("id", gradientId)
-      .attr("x1", "0%")
-      .attr("x2", "100%")
-      .attr("y1", "0%")
-      .attr("y2", "0%");
-
-    for (let i = 0; i <= 100; i++) {
-      gradient.append("stop")
-        .attr("offset", `${i}%`)
-        .attr("stop-color", d3.interpolateRgb("#222", "#9acd32")(Math.pow(i / 100, 2.5)));
-    }
-
-    const legendGroup = svg.append("g")
-      .attr("transform", `translate(${legendOffsetX}, ${legendOffsetY})`);
-
-    legendGroup.append("rect")
-      .attr("width", legendWidth + 20)
-      .attr("height", 60)
-      .attr("fill", "black")
-      .attr("stroke", "#9acd32")
-      .attr("stroke-width", 1);
-
-    legendGroup.append("text")
-      .attr("x", (legendWidth + 20) / 2)
-      .attr("y", 18)
-      .attr("fill", "#9acd32")
-      .attr("text-anchor", "middle")
-      .attr("font-size", 14)
-      .text("Year of last show in Oregon:");
-
-    legendGroup.append("rect")
-      .attr("x", 10)
-      .attr("y", 26)
-      .attr("width", legendWidth)
-      .attr("height", legendHeight)
-      .style("fill", `url(#${gradientId})`);
-
-    legendGroup.append("text")
-      .attr("x", 10)
-      .attr("y", 50)
-      .attr("fill", "#9acd32")
-      .attr("font-size", 12)
-      .attr("text-anchor", "start")
-      .text(minYear);
-
-    legendGroup.append("text")
-      .attr("x", 10 + legendWidth)
-      .attr("y", 50)
-      .attr("fill", "#9acd32")
-      .attr("font-size", 12)
-      .attr("text-anchor", "end")
-      .text(maxYear);
-
-    function drag(simulation) {
-      function dragstarted(event) {
-        if (!event.active) simulation.alphaTarget(0.3).restart();
-        event.subject.fx = event.subject.x;
-        event.subject.fy = event.subject.y;
-      }
-      function dragged(event) {
-        event.subject.fx = event.x;
-        event.subject.fy = event.y;
-      }
-      function dragended(event) {
-        if (!event.active) simulation.alphaTarget(0);
-        event.subject.fx = null;
-        event.subject.fy = null;
-      }
-      return d3.drag()
-        .on('start', dragstarted)
-        .on('drag', dragged)
-        .on('end', dragended);
-    }
   }, [data, focusedBand]);
 
   return (
@@ -313,7 +231,17 @@ export default function EcosystemPage() {
               ))}
             </select>
           </div>
+
+          {/* Legend moved here */}
+          <div className="max-w-xs mx-auto bg-black border border-doomGreen rounded p-2 text-center text-sm mb-4">
+            <div className="text-doomGreen font-bold mb-1">Last show year:</div>
+            <div className="relative h-4 bg-gradient-to-r from-[#222] to-[#9acd32] rounded">
+              <div className="absolute left-0 text-doomGreen -top-5 text-xs">2000</div>
+              <div className="absolute right-0 text-doomGreen -top-5 text-xs">2025</div>
+            </div>
+          </div>
         </div>
+
         <svg ref={svgRef} className="w-full h-[800px] border border-doomGreen rounded" />
       </div>
     </>
