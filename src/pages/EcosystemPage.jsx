@@ -9,7 +9,6 @@ export default function EcosystemPage() {
   const [bandList, setBandList] = useState([]);
   const [focusedBand, setFocusedBand] = useState('');
 
-  // === Load and parse CSV data on mount ===
   useEffect(() => {
     async function loadCSV() {
       try {
@@ -25,7 +24,6 @@ export default function EcosystemPage() {
     loadCSV();
   }, []);
 
-  // === Main rendering logic based on parsed data ===
   useEffect(() => {
     if (!data.length) return;
 
@@ -148,8 +146,8 @@ export default function EcosystemPage() {
       .join('circle')
       .attr('r', d => Math.sqrt(d.count) * 6)
       .attr('fill', d => colorScale(+d.last))
-      .attr('stroke', '#d0ffb0')
-      .attr('stroke-width', 1)
+      .attr('stroke', '#333') // Darkened border
+      .attr('stroke-width', 1.5)
       .call(drag(simulation))
       .on("mouseover", (event, d) => {
         tooltip.classed("hidden", false)
@@ -187,11 +185,11 @@ export default function EcosystemPage() {
         .attr('y', d => d.y - 10);
     });
 
-    // === Legend bar for recency color scale ===
+    // === Move color legend to top-left with black background ===
     const legendHeight = 12;
     const legendWidth = 200;
     const legend = svg.append("g")
-      .attr("transform", `translate(${width - legendWidth - 40}, ${height - 40})`);
+      .attr("transform", `translate(20, 20)`);
 
     const gradientId = "legend-gradient";
 
@@ -211,6 +209,13 @@ export default function EcosystemPage() {
 
     legend.append("rect")
       .attr("width", legendWidth)
+      .attr("height", legendHeight + 12)
+      .attr("fill", "black")
+      .attr("x", -5)
+      .attr("y", -20);
+
+    legend.append("rect")
+      .attr("width", legendWidth)
       .attr("height", legendHeight)
       .style("fill", `url(#${gradientId})`)
       .attr("stroke", "#9acd32")
@@ -218,14 +223,14 @@ export default function EcosystemPage() {
 
     legend.append("text")
       .attr("x", 0)
-      .attr("y", -4)
+      .attr("y", -6)
       .attr("fill", "#9acd32")
       .attr("font-size", 10)
       .text(`Last show year: ${minYear}`);
 
     legend.append("text")
       .attr("x", legendWidth)
-      .attr("y", -4)
+      .attr("y", -6)
       .attr("fill", "#9acd32")
       .attr("font-size", 10)
       .attr("text-anchor", "end")
