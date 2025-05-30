@@ -128,17 +128,17 @@ export default function EcosystemPage() {
     const tooltip = d3.select("body").append("div")
       .attr("class", "absolute text-sm bg-black text-doomGreen border border-doomGreen px-2 py-1 rounded hidden z-50");
 
-    // === Color scale for node freshness ===
-    const colorScale = d3.scaleSequential()
+    // === Custom color scale from dark gray (older) to doomGreen (recent) ===
+    const colorScale = d3.scaleLinear()
       .domain([2000, currentYear])
-      .interpolator(d3.interpolateGreens);
+      .range(["#222", "#9acd32"]);
 
-    // === Link rendering ===
+    // === Link rendering with light gray lines ===
     const link = container.append('g')
       .selectAll('line')
       .data(links)
       .join('line')
-      .attr('stroke', '#9acd32')
+      .attr('stroke', '#cccccc')
       .attr('stroke-opacity', 0.3)
       .attr('stroke-width', d => Math.log2(d.value + 1) * 1.5)
       .on("mouseover", (event, d) => {
@@ -149,7 +149,7 @@ export default function EcosystemPage() {
       })
       .on("mouseout", () => tooltip.classed("hidden", true));
 
-    // === Node rendering ===
+    // === Node rendering with color scaling by recency ===
     const node = container.append('g')
       .selectAll('circle')
       .data(nodes)
@@ -228,9 +228,11 @@ export default function EcosystemPage() {
         <div className="text-center mb-8">
           <h1 className="text-6xl font-metal text-doomGrey">Oregon Doom Ecosystem</h1>
           <p className="text-2xl text-doomGreen mt-2">
-            An interactive network of bands who’ve shared shows together — derived from over two decades of Oregon-based doom lineage
+            An interactive network of bands who’ve shared shows together — derived from over two decades of Oregon-based doom lineage. 
           </p>
           <p className="text-1xl text-doomGreen mt-2">
+            Bubble size scales with number of shows in Oregon & bubble color gets more green with recent performances
+            Line size scales with number of shared shows
             Interactivity: Zoom In/Out, Panning, Tooltips on Hover (Bubbles show number of shows & lines show details about shared shows)
           </p>
           <br />
