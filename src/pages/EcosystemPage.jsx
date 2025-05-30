@@ -149,7 +149,14 @@ export default function EcosystemPage() {
       .join('line')
       .attr('stroke', '#666')
       .attr('stroke-opacity', 0.08)
-      .attr('stroke-width', d => Math.log2(d.value + 1) * 1.5);
+      .attr('stroke-width', d => Math.log2(d.value + 1) * 1.5)
+      .on("mouseover", (event, d) => {
+        tooltip.classed("hidden", false)
+          .html(d.shows.join('<br><br>'))
+          .style("left", event.pageX + 10 + "px")
+          .style("top", event.pageY - 28 + "px");
+      })
+      .on("mouseout", () => tooltip.classed("hidden", true));
 
     const node = container.append('g')
       .selectAll('circle')
@@ -196,9 +203,11 @@ export default function EcosystemPage() {
         .attr('y', d => d.y - 10);
     });
 
-    // Pinned top-left legend
+    const legendOffsetX = 10;
+    const legendOffsetY = 20;
     const legendWidth = 240;
     const legendHeight = 14;
+
     const defs = svg.append("defs");
     const gradientId = "legend-gradient";
     const gradient = defs.append("linearGradient")
@@ -215,7 +224,7 @@ export default function EcosystemPage() {
     }
 
     const legendGroup = svg.append("g")
-      .attr("transform", `translate(0, 0)`);
+      .attr("transform", `translate(${legendOffsetX}, ${legendOffsetY})`);
 
     legendGroup.append("rect")
       .attr("width", legendWidth + 20)
