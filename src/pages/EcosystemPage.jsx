@@ -233,11 +233,14 @@ export default function EcosystemPage() {
           </div>
 
           {/* Legend moved here */}
-          <div className="max-w-xs mx-auto bg-black border border-doomGreen rounded p-2 text-center text-sm mb-4">
-            <div className="text-doomGreen font-bold mb-1">Last show year:</div>
-            <div className="relative h-4 bg-gradient-to-r from-[#222] to-[#9acd32] rounded">
-              <div className="absolute left-0 text-doomGreen -top-5 text-xs">2000</div>
-              <div className="absolute right-0 text-doomGreen -top-5 text-xs">2025</div>
+          <div className="max-w-xs mx-auto bg-black border border-doomGreen rounded p-3 text-center text-sm mb-4">
+            <div className="text-doomGreen font-bold mb-2 text-base">Last show year:</div>
+            <div
+              className="relative h-4 rounded"
+              style={{ background: 'linear-gradient(to right, #222, #9acd32)' }}
+            >
+              <div className="absolute left-0 -top-5 text-doomGreen text-xs">2000</div>
+              <div className="absolute right-0 -top-5 text-doomGreen text-xs">2025</div>
             </div>
           </div>
         </div>
