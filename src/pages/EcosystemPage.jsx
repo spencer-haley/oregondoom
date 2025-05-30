@@ -120,16 +120,28 @@ export default function EcosystemPage() {
           ...n,
           count: n.id === focusedBand ? appearanceCounts[n.id] : sharedShowCount[n.id] || 1
         }));
-
-      svg.transition()
-        .duration(750)
-        .call(zoom.transform, d3.zoomIdentity.translate(width / 2, height / 2).scale(1.8));
     }
 
     const simulation = d3.forceSimulation(nodes)
       .force('link', d3.forceLink(links).id(d => d.id).distance(180).strength(0.5))
       .force('charge', d3.forceManyBody().strength(-800))
-      .force('center', d3.forceCenter(width / 2, height / 2));
+      .force('center', d3.forceCenter(width / 2, height / 2))
+      .on('end', () => {
+        if (focusedBand) {
+          const focusNode = nodes.find(n => n.id === focusedBand);
+          if (focusNode) {
+            svg.transition()
+              .duration(750)
+              .call(
+                zoom.transform,
+                d3.zoomIdentity
+                  .translate(width / 2, height / 2)
+                  .scale(1.8)
+                  .translate(-focusNode.x, -focusNode.y)
+              );
+          }
+        }
+      });
 
     const link = container.append('g')
       .selectAll('line')
@@ -184,13 +196,9 @@ export default function EcosystemPage() {
         .attr('y', d => d.y - 10);
     });
 
-    // Enhanced legend styling in top-left corner
+    // Pinned top-left legend
     const legendWidth = 240;
     const legendHeight = 14;
-    const legendPadding = 10;
-    const legendGroup = svg.append("g")
-      .attr("transform", `translate(10, 10)`);
-
     const defs = svg.append("defs");
     const gradientId = "legend-gradient";
     const gradient = defs.append("linearGradient")
@@ -206,15 +214,18 @@ export default function EcosystemPage() {
         .attr("stop-color", d3.interpolateRgb("#222", "#9acd32")(Math.pow(i / 100, 2.5)));
     }
 
+    const legendGroup = svg.append("g")
+      .attr("transform", `translate(0, 0)`);
+
     legendGroup.append("rect")
-      .attr("width", legendWidth + legendPadding * 2)
+      .attr("width", legendWidth + 20)
       .attr("height", 60)
       .attr("fill", "black")
       .attr("stroke", "#9acd32")
       .attr("stroke-width", 1);
 
     legendGroup.append("text")
-      .attr("x", (legendWidth + legendPadding * 2) / 2)
+      .attr("x", (legendWidth + 20) / 2)
       .attr("y", 18)
       .attr("fill", "#9acd32")
       .attr("text-anchor", "middle")
@@ -222,14 +233,14 @@ export default function EcosystemPage() {
       .text("Last show year:");
 
     legendGroup.append("rect")
-      .attr("x", legendPadding)
+      .attr("x", 10)
       .attr("y", 26)
       .attr("width", legendWidth)
       .attr("height", legendHeight)
       .style("fill", `url(#${gradientId})`);
 
     legendGroup.append("text")
-      .attr("x", legendPadding)
+      .attr("x", 10)
       .attr("y", 50)
       .attr("fill", "#9acd32")
       .attr("font-size", 12)
@@ -237,7 +248,7 @@ export default function EcosystemPage() {
       .text(minYear);
 
     legendGroup.append("text")
-      .attr("x", legendPadding + legendWidth)
+      .attr("x", 10 + legendWidth)
       .attr("y", 50)
       .attr("fill", "#9acd32")
       .attr("font-size", 12)
