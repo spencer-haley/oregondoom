@@ -101,14 +101,11 @@ export default function EcosystemPage() {
 
     if (focusedBand) {
       const relatedBands = new Set();
-      const sharedShowCount = {};
-
       links = links.filter(l => {
         if (l.source === focusedBand || l.target === focusedBand) {
           const other = l.source === focusedBand ? l.target : l.source;
           relatedBands.add(focusedBand);
           relatedBands.add(other);
-          sharedShowCount[other] = l.value;
           return true;
         }
         return false;
@@ -118,7 +115,7 @@ export default function EcosystemPage() {
         .filter(n => relatedBands.has(n.id))
         .map(n => ({
           ...n,
-          count: n.id === focusedBand ? appearanceCounts[n.id] : sharedShowCount[n.id] || 1
+          count: appearanceCounts[n.id] // Maintain total Oregon show count for node size
         }));
     }
 
@@ -203,6 +200,11 @@ export default function EcosystemPage() {
         .attr('y', d => d.y - 10);
     });
 
+    const legendOffsetX = (width - 260) / 2;
+    const legendOffsetY = 10;
+    const legendWidth = 240;
+    const legendHeight = 14;
+
     const defs = svg.append("defs");
     const gradientId = "legend-gradient";
     const gradient = defs.append("linearGradient")
@@ -218,10 +220,8 @@ export default function EcosystemPage() {
         .attr("stop-color", d3.interpolateRgb("#222", "#9acd32")(Math.pow(i / 100, 2.5)));
     }
 
-    const legendWidth = 240;
-    const legendHeight = 14;
     const legendGroup = svg.append("g")
-      .attr("transform", `translate(${(width - (legendWidth + 20)) / 2}, 10)`);
+      .attr("transform", `translate(${legendOffsetX}, ${legendOffsetY})`);
 
     legendGroup.append("rect")
       .attr("width", legendWidth + 20)
