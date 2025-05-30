@@ -203,11 +203,6 @@ export default function EcosystemPage() {
         .attr('y', d => d.y - 10);
     });
 
-    const legendOffsetX = 10;
-    const legendOffsetY = 20;
-    const legendWidth = 240;
-    const legendHeight = 14;
-
     const defs = svg.append("defs");
     const gradientId = "legend-gradient";
     const gradient = defs.append("linearGradient")
@@ -223,8 +218,10 @@ export default function EcosystemPage() {
         .attr("stop-color", d3.interpolateRgb("#222", "#9acd32")(Math.pow(i / 100, 2.5)));
     }
 
+    const legendWidth = 240;
+    const legendHeight = 14;
     const legendGroup = svg.append("g")
-      .attr("transform", `translate(${legendOffsetX}, ${legendOffsetY})`);
+      .attr("transform", `translate(${(width - (legendWidth + 20)) / 2}, 10)`);
 
     legendGroup.append("rect")
       .attr("width", legendWidth + 20)
