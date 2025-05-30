@@ -33,10 +33,9 @@ export default function EcosystemPage() {
     const bandLinks = {};
     const bandYears = {};
 
-    // Process each show row to build node + link data
     data.forEach(row => {
       const bands = row["Band(s)"].split('|').map(b => b.trim()).filter(Boolean);
-      const year = row.Date.split('/')[2];
+      const year = parseInt(row.Date.split('/')[2]);
       const date = new Date(row.Date);
       const dateLabel = date.toLocaleDateString('en-US', { year: 'numeric', month: 'long' });
 
@@ -47,7 +46,6 @@ export default function EcosystemPage() {
         if (year > bandYears[b].last) bandYears[b].last = year;
       });
 
-      // Build band co-appearance links
       for (let i = 0; i < bands.length; i++) {
         for (let j = i + 1; j < bands.length; j++) {
           const [bandA, bandB] = [bands[i], bands[j]].sort();
@@ -59,18 +57,15 @@ export default function EcosystemPage() {
       }
     });
 
-    // Only include bands that have played at least 3 shows
     const filteredBands = Object.keys(appearanceCounts).filter(b => appearanceCounts[b] >= 3);
     setBandList(filteredBands.sort());
 
-    // Map node structure
     let nodes = filteredBands.map(name => ({
       id: name,
       count: appearanceCounts[name],
       ...bandYears[name]
     }));
 
-    // Map link structure
     let links = Object.entries(bandLinks)
       .map(([key, value]) => {
         const [source, target] = key.split('---');
@@ -78,7 +73,6 @@ export default function EcosystemPage() {
       })
       .filter(l => filteredBands.includes(l.source) && filteredBands.includes(l.target));
 
-    // Filter graph to only show neighbors of focused band
     if (focusedBand) {
       const relatedBands = new Set();
       const sharedShowCount = {};
@@ -104,7 +98,6 @@ export default function EcosystemPage() {
 
     const width = 1000;
     const height = 800;
-    const currentYear = new Date().getFullYear();
 
     d3.select(svgRef.current).selectAll('*').remove();
 
@@ -118,28 +111,28 @@ export default function EcosystemPage() {
       container.attr("transform", event.transform);
     }));
 
-    // === Force simulation with greater spacing ===
     const simulation = d3.forceSimulation(nodes)
       .force('link', d3.forceLink(links).id(d => d.id).distance(180).strength(0.5))
       .force('charge', d3.forceManyBody().strength(-800))
       .force('center', d3.forceCenter(width / 2, height / 2));
 
-    // === Tooltip div ===
     const tooltip = d3.select("body").append("div")
       .attr("class", "absolute text-sm bg-black text-doomGreen border border-doomGreen px-2 py-1 rounded hidden z-50");
 
-    // === Custom color scale from dark gray (older) to doomGreen (recent) ===
-    const colorScale = d3.scaleLinear()
-      .domain([2000, currentYear])
-      .range(["#222", "#9acd32"]);
+    const years = nodes.map(n => +n.last);
+    const minYear = d3.min(years);
+    const maxYear = d3.max(years);
 
-    // === Link rendering with light gray lines ===
+    const colorScale = d3.scaleSequential()
+      .domain([minYear, maxYear])
+      .interpolator(t => d3.interpolateRgb("#222", "#9acd32")(Math.pow(t, 2.5)));
+
     const link = container.append('g')
       .selectAll('line')
       .data(links)
       .join('line')
-      .attr('stroke', '#cccccc')
-      .attr('stroke-opacity', 0.3)
+      .attr('stroke', '#666')
+      .attr('stroke-opacity', 0.08)
       .attr('stroke-width', d => Math.log2(d.value + 1) * 1.5)
       .on("mouseover", (event, d) => {
         tooltip.classed("hidden", false)
@@ -149,7 +142,6 @@ export default function EcosystemPage() {
       })
       .on("mouseout", () => tooltip.classed("hidden", true));
 
-    // === Node rendering with color scaling by recency ===
     const node = container.append('g')
       .selectAll('circle')
       .data(nodes)
@@ -167,7 +159,6 @@ export default function EcosystemPage() {
       })
       .on("mouseout", () => tooltip.classed("hidden", true));
 
-    // === Label rendering ===
     const label = container.append('g')
       .selectAll('text')
       .data(nodes)
@@ -180,7 +171,6 @@ export default function EcosystemPage() {
       .attr('paint-order', 'stroke')
       .attr('text-anchor', 'middle');
 
-    // === Position updates on simulation tick ===
     simulation.on('tick', () => {
       link
         .attr('x1', d => d.source.x)
@@ -197,7 +187,50 @@ export default function EcosystemPage() {
         .attr('y', d => d.y - 10);
     });
 
-    // === Drag behavior helpers ===
+    // === Legend bar for recency color scale ===
+    const legendHeight = 12;
+    const legendWidth = 200;
+    const legend = svg.append("g")
+      .attr("transform", `translate(${width - legendWidth - 40}, ${height - 40})`);
+
+    const gradientId = "legend-gradient";
+
+    const defs = svg.append("defs");
+    const gradient = defs.append("linearGradient")
+      .attr("id", gradientId)
+      .attr("x1", "0%")
+      .attr("x2", "100%")
+      .attr("y1", "0%")
+      .attr("y2", "0%");
+
+    for (let i = 0; i <= 100; i++) {
+      gradient.append("stop")
+        .attr("offset", `${i}%`)
+        .attr("stop-color", d3.interpolateRgb("#222", "#9acd32")(Math.pow(i / 100, 2.5)));
+    }
+
+    legend.append("rect")
+      .attr("width", legendWidth)
+      .attr("height", legendHeight)
+      .style("fill", `url(#${gradientId})`)
+      .attr("stroke", "#9acd32")
+      .attr("stroke-width", 1);
+
+    legend.append("text")
+      .attr("x", 0)
+      .attr("y", -4)
+      .attr("fill", "#9acd32")
+      .attr("font-size", 10)
+      .text(`Last show year: ${minYear}`);
+
+    legend.append("text")
+      .attr("x", legendWidth)
+      .attr("y", -4)
+      .attr("fill", "#9acd32")
+      .attr("font-size", 10)
+      .attr("text-anchor", "end")
+      .text(`${maxYear}`);
+
     function drag(simulation) {
       function dragstarted(event) {
         if (!event.active) simulation.alphaTarget(0.3).restart();
@@ -220,7 +253,6 @@ export default function EcosystemPage() {
     }
   }, [data, focusedBand]);
 
-  // === Main Page UI ===
   return (
     <>
       <Navbar />
@@ -228,11 +260,9 @@ export default function EcosystemPage() {
         <div className="text-center mb-8">
           <h1 className="text-6xl font-metal text-doomGrey">Oregon Doom Ecosystem</h1>
           <p className="text-2xl text-doomGreen mt-2">
-            An interactive network of bands who’ve shared shows together — derived from over two decades of Oregon-based doom lineage. 
+            An interactive network of bands who’ve shared shows together — derived from over two decades of Oregon-based doom lineage
           </p>
           <p className="text-1xl text-doomGreen mt-2">
-            Bubble size scales with number of shows in Oregon & bubble color gets more green with recent performances
-            Line size scales with number of shared shows
             Interactivity: Zoom In/Out, Panning, Tooltips on Hover (Bubbles show number of shows & lines show details about shared shows)
           </p>
           <br />
