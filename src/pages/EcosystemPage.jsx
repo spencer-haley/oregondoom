@@ -105,9 +105,17 @@ export default function EcosystemPage() {
 
     const container = svg.append("g");
 
-    svg.call(d3.zoom().on("zoom", (event) => {
+    const zoom = d3.zoom().on("zoom", (event) => {
       container.attr("transform", event.transform);
-    }));
+    });
+
+    svg.call(zoom);
+
+    if (focusedBand) {
+      svg.transition()
+        .duration(750)
+        .call(zoom.scaleTo, 1.8); // default zoom for focus
+    }
 
     const simulation = d3.forceSimulation(nodes)
       .force('link', d3.forceLink(links).id(d => d.id).distance(180).strength(0.5))
@@ -146,7 +154,7 @@ export default function EcosystemPage() {
       .join('circle')
       .attr('r', d => Math.sqrt(d.count) * 6)
       .attr('fill', d => colorScale(+d.last))
-      .attr('stroke', '#333') // Darkened border
+      .attr('stroke', '#333')
       .attr('stroke-width', 1.5)
       .call(drag(simulation))
       .on("mouseover", (event, d) => {
@@ -185,15 +193,15 @@ export default function EcosystemPage() {
         .attr('y', d => d.y - 10);
     });
 
-    // === Move color legend to top-left with black background ===
+    // Improved legend styling and layout
+    const legendWidth = 220;
     const legendHeight = 12;
-    const legendWidth = 200;
-    const legend = svg.append("g")
+    const legendPadding = 10;
+    const legendGroup = svg.append("g")
       .attr("transform", `translate(20, 20)`);
 
-    const gradientId = "legend-gradient";
-
     const defs = svg.append("defs");
+    const gradientId = "legend-gradient";
     const gradient = defs.append("linearGradient")
       .attr("id", gradientId)
       .attr("x1", "0%")
@@ -207,34 +215,43 @@ export default function EcosystemPage() {
         .attr("stop-color", d3.interpolateRgb("#222", "#9acd32")(Math.pow(i / 100, 2.5)));
     }
 
-    legend.append("rect")
-      .attr("width", legendWidth)
-      .attr("height", legendHeight + 12)
+    legendGroup.append("rect")
+      .attr("width", legendWidth + legendPadding * 2)
+      .attr("height", 50)
       .attr("fill", "black")
-      .attr("x", -5)
-      .attr("y", -20);
-
-    legend.append("rect")
-      .attr("width", legendWidth)
-      .attr("height", legendHeight)
-      .style("fill", `url(#${gradientId})`)
       .attr("stroke", "#9acd32")
       .attr("stroke-width", 1);
 
-    legend.append("text")
-      .attr("x", 0)
-      .attr("y", -6)
+    legendGroup.append("text")
+      .attr("x", (legendWidth + legendPadding * 2) / 2)
+      .attr("y", 14)
+      .attr("fill", "#9acd32")
+      .attr("text-anchor", "middle")
+      .attr("font-size", 12)
+      .text("Last show year:");
+
+    legendGroup.append("rect")
+      .attr("x", legendPadding)
+      .attr("y", 20)
+      .attr("width", legendWidth)
+      .attr("height", legendHeight)
+      .style("fill", `url(#${gradientId})`);
+
+    legendGroup.append("text")
+      .attr("x", legendPadding)
+      .attr("y", 42)
       .attr("fill", "#9acd32")
       .attr("font-size", 10)
-      .text(`Last show year: ${minYear}`);
+      .attr("text-anchor", "start")
+      .text(minYear);
 
-    legend.append("text")
-      .attr("x", legendWidth)
-      .attr("y", -6)
+    legendGroup.append("text")
+      .attr("x", legendPadding + legendWidth)
+      .attr("y", 42)
       .attr("fill", "#9acd32")
       .attr("font-size", 10)
       .attr("text-anchor", "end")
-      .text(`${maxYear}`);
+      .text(maxYear);
 
     function drag(simulation) {
       function dragstarted(event) {
