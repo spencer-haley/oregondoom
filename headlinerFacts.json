@@ -2787,6 +2787,123 @@
     }
   },
   {
+    "eventId": "4vijlJwrUCNLM3UWQ8vN",
+    "headliner": "Museum Of Light",
+    "eventDate": "2025-06-07",
+    "eventCity": "Medford",
+    "eventVenue": "Rockafairy",
+    "supportActs": [
+      "Elk Witch",
+      "Jennifer",
+      "the Flying Vs"
+    ],
+    "eventNotes": "Elk Witch, Jennifer and the Flying Vs",
+    "stats": {
+      "totalShowsInOregon": 6,
+      "allShows": [
+        {
+          "date": "2025-06-06",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Kinghorn",
+            "Yellfire",
+            "Museum Of Light",
+            "Year Of The Coyote"
+          ]
+        },
+        {
+          "date": "2025-04-12",
+          "venue": "High Water Mark",
+          "city": "Portland",
+          "lineup": [
+            "Spares",
+            "Dug",
+            "Museum Of Light",
+            "Hiss"
+          ]
+        },
+        {
+          "date": "2024-07-24",
+          "venue": "Dundee Lodge",
+          "city": "Gaston",
+          "lineup": [
+            "Xashtur",
+            "Bloodmist",
+            "Nox Novacula",
+            "Faun Fables",
+            "Soriah",
+            "Toby Driver",
+            "WILL",
+            "Sun Blood Stories",
+            "Blank",
+            "Die Like Gentlemen",
+            "Peculiar Pretzelmen",
+            "Aerial Ruin",
+            "MoonBladder",
+            "Black Magdalene",
+            "Adrienne Awen",
+            "The Infinity Ring",
+            "Izthmi",
+            "Megaton Leviathan",
+            "Luna Negra",
+            "Sastruga",
+            "Wicking Ground",
+            "Museum Of Light",
+            "John Haughm",
+            "Cata Huyuk",
+            "Twenty Three Suns",
+            "Infinexhuma",
+            "Compactor",
+            "Sleeping with The Earth",
+            "Xiphoid Dementia",
+            "Eneferens",
+            "Solara Obscura",
+            "Orchid Tooth",
+            "Darkmmysticwoods",
+            "Echo Death"
+          ]
+        },
+        {
+          "date": "2024-07-12",
+          "venue": "Twilight Café",
+          "city": "Portland",
+          "lineup": [
+            "Eight Bells",
+            "Dust Moth",
+            "Nine Forty: PM",
+            "Museum Of Light",
+            "A Collective Subconscious"
+          ]
+        },
+        {
+          "date": "2024-06-01",
+          "venue": "Six Below",
+          "city": "Portland",
+          "lineup": [
+            "Museum Of Light",
+            "Belonging",
+            "Fox Medicine"
+          ]
+        },
+        {
+          "date": "2023-07-22",
+          "venue": "Azoth",
+          "city": "Portland",
+          "lineup": [
+            "Stoner",
+            "Children Of Atom",
+            "Museum Of Light",
+            "Die Like Gentlemen"
+          ]
+        }
+      ],
+      "earliestYear": 2023,
+      "mostRecentRelease": null,
+      "sharedShowsWithSupportActs": []
+    }
+  },
+  {
     "eventId": "kKiPh74sXMRKH7ohPfUl",
     "headliner": "Silver Talon",
     "eventDate": "2025-06-07",

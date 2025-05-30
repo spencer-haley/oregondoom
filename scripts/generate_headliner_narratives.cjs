@@ -1,12 +1,18 @@
+// === Node.js core modules ===
 const fs = require("fs");
 const path = require("path");
 
-const INPUT_FILE = "headlinerFacts.json";
-const PUBLIC_OUTPUT = "public/narrativeByEventId.json";
+// === Constants for input/output ===
+const INPUT_FILE = "headlinerFacts.json"; // Input JSON with headliner data
+const PUBLIC_OUTPUT = "public/narrativeByEventId.json"; // Output path for the generated overlay narrative map
 
+/**
+ * Formats a date string (YYYY-MM-DD) into readable long-form
+ * like "May 29th, 2025", with correct ordinal suffixes.
+ */
 function formatDate(dateStr) {
   const [year, month, day] = dateStr.split("-").map(Number);
-  const date = new Date(Date.UTC(year, month - 1, day, 12));
+  const date = new Date(Date.UTC(year, month - 1, day, 12)); // Force to UTC noon to avoid TZ shift
   const formatter = new Intl.DateTimeFormat("en-US", {
     timeZone: "America/Los_Angeles",
     year: "numeric",
@@ -23,14 +29,23 @@ function formatDate(dateStr) {
   return `${monthName} ${dayNum}${suffix}, ${yearNum}`;
 }
 
+/**
+ * Capitalizes each word in a string (title-case).
+ */
 function capitalizeWords(str) {
   return str.replace(/\b\w+/g, w => w[0].toUpperCase() + w.slice(1));
 }
 
+/**
+ * Wraps a string in <em> for italic formatting in HTML.
+ */
 function italicize(str) {
   return `<em>${str}</em>`;
 }
 
+/**
+ * Main narrative-building logic for a single headliner entry.
+ */
 function buildNarrative(entry) {
   const {
     headliner,
@@ -52,11 +67,11 @@ function buildNarrative(entry) {
 
   const parts = [];
 
+  // === Build Openers or Notes line ===
   let formattedOpeners = "";
   const validSupportActs = supportActs.filter(
     s => s.toLowerCase().trim() !== headliner.toLowerCase().trim()
   );
-
   const hasValidEventNotes = eventNotes && eventNotes.trim().length > 0;
   const hasValidSupportActs = validSupportActs.length > 0;
 
@@ -74,8 +89,10 @@ function buildNarrative(entry) {
     }
   }
 
+  // === Opening event line ===
   parts.push(`🔥 ${italicize(headliner)}${formattedOpeners} at ${italicize(eventVenue)} in ${eventCity} on ${formatDate(eventDate)}`);
 
+  // === Oregon performance summary ===
   if (totalShowsInOregon === 0) {
     parts.push(`This marks their first documented performance in Oregon.`);
   } else {
@@ -84,6 +101,7 @@ function buildNarrative(entry) {
     parts.push(`${headliner} has ${totalShowsInOregon} documented Oregon show${totalShowsInOregon > 1 ? 's' : ''}${spanNote}.`);
   }
 
+  // === Most recent release (if available) ===
   if (mostRecentRelease) {
     parts.push(
       `Their most recent release is ${italicize(mostRecentRelease.title)} (${mostRecentRelease.monthYear}): ` +
@@ -91,6 +109,18 @@ function buildNarrative(entry) {
     );
   }
 
+  // === Shared bills with support acts  ===
+  const shared = sharedShowsWithSupportActs
+    .filter(show => new Date(show.date) < new Date()) // Only past shows
+    .map(show =>
+      `They’ve also shared a bill with ${italicize(capitalizeWords(show.supportAct))} on ${formatDate(show.date)} at ${italicize(show.venue)} in ${show.city}.`
+    );
+
+  if (shared.length > 0) {
+    parts.push(...shared);
+  }
+
+  // === Chronological list of past Oregon shows ===
   if (allShows.length > 0) {
     const lines = allShows.map(show => {
       const support = show.lineup
@@ -101,22 +131,15 @@ function buildNarrative(entry) {
       if (support) base += ` w/ ${support}`;
       return base;
     }).join("\n");
-    parts.push(`Documented Oregon Shows:\n${lines}`);
+    parts.push(`Documented Shows on Oregon Doom:\n${lines}`);
   }
 
-  const shared = sharedShowsWithSupportActs
-    .filter(show => new Date(show.date) < new Date())
-    .map(show =>
-      `They’ve also shared a bill with ${italicize(capitalizeWords(show.supportAct))} on ${formatDate(show.date)} at ${italicize(show.venue)} in ${show.city}.`
-    );
-
-  if (shared.length > 0) {
-    parts.push(...shared);
-  }
-
-  return parts.join("\n\n");
+  return parts.join("\n\n"); // Separate blocks with spacing
 }
 
+/**
+ * Main runner: reads headliner facts, generates narratives, and writes to output file.
+ */
 async function generateNarratives() {
   const raw = fs.readFileSync(INPUT_FILE, "utf-8");
   const entries = JSON.parse(raw);
@@ -125,12 +148,16 @@ async function generateNarratives() {
   for (const entry of entries) {
     const narrative = buildNarrative(entry);
     if (!narrative.includes("first documented performance in Oregon")) {
+      // Exclude first-time-only narratives from publishing
       narrativeMap[entry.eventId] = narrative;
     }
   }
 
+  // Write output to public narrative map
   fs.writeFileSync(PUBLIC_OUTPUT, JSON.stringify(narrativeMap, null, 2));
   console.log(`✅ narrativeByEventId.json written to /public`);
 }
 
+// Run the script and catch any errors
 generateNarratives().catch(console.error);
+
