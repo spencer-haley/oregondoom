@@ -239,7 +239,7 @@ export default function EcosystemPage() {
       .attr("fill", "#9acd32")
       .attr("text-anchor", "middle")
       .attr("font-size", 14)
-      .text("Last show year:");
+      .text("Year of last show in Oregon:");
 
     legendGroup.append("rect")
       .attr("x", 10)
